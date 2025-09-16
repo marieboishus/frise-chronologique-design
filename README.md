@@ -1,10 +1,10 @@
 # frise-chronologique-design
-Frise chronologique du design
+Frise chronologique du design :
 
 
-Un document CSV contenant toutes les données de la frise
-Un document CSS contenant les couleurs personnalisées et quelques options (full / trois, transp, rec13, bulle, carre, ouvert)
-un document js contenant les tailles de colonnes (de dates) personnalisées
+- Un document CSV contenant toutes les données de la frise
+- Un document CSS contenant les couleurs personnalisées et quelques options (full / trois, transp, rec13, bulle, carre, ouvert)
+- un document js contenant les tailles de colonnes (de dates) personnalisées
 
 
 
