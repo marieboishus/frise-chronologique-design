@@ -1,0 +1,515 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background: #e8e8e8;
+}
+
+/* Conteneur principal : grille */
+.timeline-grid {
+  display: grid;
+/*  grid-auto-flow:column; */
+  grid-template-rows:
+    [rowticks] 30px
+    [row23] 23px
+    [row22] 23px
+    [row21] 23px
+    [row20] 23px
+    [row19] 23px
+    [row18] 23px
+    [row17] 23px
+    [row16] 23px
+    [row15] 23px
+    [row14] 23px
+    [row13] 23px
+    [row12] 23px
+    [row11] 23px
+    [row10] 23px
+    [row9] 23px
+    [row8] 23px
+    [row7] 23px
+    [row6] 23px
+    [row5] 23px
+    [row4] 23px
+    [row3] 23px
+    [row2] 23px
+    [row1] 23px
+    [rowhist2] 35px
+    [rowhist1] 35px
+    [rowP5] 18px
+    [rowP4] 18px
+    [rowP3] 23px
+    [rowP2] 18px
+    [rowP1] 18px
+    [end] 0;
+  gap: 0;
+/*  position: relative; */
+  overflow-x: auto;
+  padding-bottom: 2rem;
+  padding-left: 10px;
+}
+
+.technique {
+  background-color: transparent;
+  color: #ff811d;
+}
+
+em {
+  font-style: none;
+  text-decoration: underline;
+}
+
+.expo {
+  background-color: transparent;
+  color: rgb(0,0,203);
+  font-weight: 1000;
+}
+
+/* Ligne des repères-dates
+ticks : l'écriture de la date
+ticks before : la ligne
+tick after : le fond du texte de date */
+.tick {
+  grid-row: rowticks / end;
+  justify-self: center;
+  position: relative;
+  color: rgb(255,0,255);
+  font-weight: 700;
+  font-size: 11px;
+  z-index:1;
+/*  pointer-events: auto; autorise le survol, même quand un autre élément est en z-index devant */
+}
+
+.tick::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 3px;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+}
+
+.tick::after { /* le fond du texte uniquement*/
+content: attr(date-label); /*récupère le texte depuis le data label*/
+position: relative; /*reste au flux, pas de recouvrement de la ligne*/
+background: white;
+border-radius: 4px;
+padding: 0 2px;
+font-size:11px;
+}
+
+/* la ligne highlightée */
+.tick.highlight::before{
+  background: rgba(0,0,0,1);
+  width:1px;
+}
+
+/* l'écriture highlightée */
+.tick.highlight::after{
+  font-weight:700;
+  font-size: 18px;
+  background:#fff3c4;
+}
+
+/* Périodes (occupent plusieurs colonnes) */
+.period {
+  display: flex;
+  align-self: center;
+  max-height: 70%;
+  align-items: center; /* centre verticalement */
+  background-color: rgba(var(--r),var(--g),var(--b),0.7);
+  color: black;
+  text-align: left;
+  padding: 4px;
+  border-radius: 15px;
+  font-size: 9px;
+  position: relative;
+  cursor: pointer;
+/*  transition: background 0.3s; */
+  z-index: 2;
+  overflow: visible; /* pour le sticky des titres de périodes */
+  box-sizing: border-box; /* évite le chevauchement */
+  box-shadow: -2px 2px 2px rgba(51,51,51,0.1)
+}
+
+.period:hover {
+  align-items: center;
+  background: rgba(var(--r),var(--g),var(--b),1);
+  font-size: 15px;
+  z-index: 4;
+  box-sizing: none;
+}
+
+/* périodes sans date de fin */
+.period.ouvert {
+  position: relative;
+  /* Safari/WebKit */
+  -webkit-mask-image: linear-gradient(to right, black 0%, black 60%, transparent 100%);
+  /* Firefox/Chromium */
+  mask-image: linear-gradient(to right, black 0%, black 60%, transparent 100%);
+}
+
+/* le titre sticky de période */
+.period-label {
+  position: sticky;
+  left: 0; /* se collera au bord gauche du contenant */
+  display: inline-block;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.period.full {
+  max-height: none;   /* annule la limite */
+  height: auto;       /* laisse la grille gérer la hauteur */
+  align-self: stretch; /* colle en haut et bas */
+  width: 100%;        /* garde le plein */
+}
+
+
+/* pour les périodes qui en recouvrent d'autres */
+.period.rec13 {
+  z-index: 13;
+}
+
+/* pour les périodes carrées */
+.period.carre {
+  border-radius: 4px;
+}
+
+/* Événements */
+.event {
+  justify-self: center;
+  align-self: center;
+  max-width: 90%;
+  max-height: 70%;
+  box-sizing: border-box;
+/*  transform:translateY(-50%); */
+  transform: scale(1);
+  background-color: rgba(255,255,255,1);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 9px;
+/*  color: black; */
+  text-align: center;
+  z-index: 14;
+  transition: background 0.3s,
+  transform 0.3s;
+  cursor: pointer;
+  box-sizing: border-box; /* évite le chevauchement */
+}
+.event.trois {
+  max-height: 85%;
+  height: auto;
+  align-self: stretch;
+  width: 100%;
+}
+
+.event.full {
+  max-height: none;
+  height: auto;
+  align-self: stretch;
+  width: 100%;
+}
+
+.event:hover{
+  background-color:rgb(255, 243, 196);
+/*  transform: translateY(-50%); */
+  transform: scale(1.6);
+  z-index: 15;
+  box-shadow: -2px 2px 2px rgba(51,51,51,0.1)
+}
+
+/* pour les events liés à des périodes que j'ai disposés dessus */
+.event.transp {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.event.transp:hover {
+  background-color:#fff3c4;
+}
+
+/* Pour voir quels events ont un tooltip */
+.event.bulle {
+  box-shadow: -4px 4px 4px rgba(51,51,51,0.4)
+}
+
+.event.bulle:hover {
+  box-shadow: -2px 2px 2px rgba(51,51,51,0.1)
+}
+
+/* Conteneur unique pour tous les tooltips */
+.tooltip {
+  position: absolute;
+  pointer-events: none;       /* la souris « traverse » */
+  background: rgb(51, 51, 51);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  max-width: 250px;
+  white-space: normal; /* permet le retour à la ligne */
+  word-wrap: break-word; /* casse si besoin */
+  text-align: left;
+  opacity: 0;
+  transform: translate(-50%, -100%); /* centré, au-dessus */
+  transition: opacity 0.2s;
+  z-index: 9999;              /* au-dessus de tout */
+}
+
+.tooltip.visible {
+  opacity: 1;
+}
+
+.tooltip img {
+  display: block;
+  margin-top: 4px;
+  max-width: 150px;           /* sécurité */
+}
+
+/* couleurs spéciales */
+.periode1 { --r: 158; --g: 153; --b: 188; }
+
+.periode2 { --r: 157; --g: 157; --b: 156; }
+
+.epoque1 { --r: 198; --g: 198; --b: 198; }
+
+.epoque2 { --r: 252; --g: 247; --b: 197; }
+
+.epoquefond {
+  background-color: rgba(252,247,197,0.7);
+  z-index: 0;
+}
+
+.gmfond {
+  background-color: rgb(225,240,234);
+  z-index: 0;
+}
+
+.age1 { --r: 255; --g: 216; --b: 16; }
+
+.age2 { --r: 251; --g: 231; --b: 133; }
+
+.royfrance1 { --r: 158; --g: 51; --b: 40; }
+
+.royfrance2 { --r: 158; --g: 85; --b: 74; }
+
+.feodal { --r: 127; --g: 92; --b: 163; }
+
+.croisades { --r: 157; --g: 159; --b: 207; }
+
+.guerrecent { --r: 158; --g: 95; --b: 46; }
+
+.empire { --r: 54; --g: 88; --b: 164; }
+
+.rep1 { --r: 140; --g: 208; --b: 224; }
+
+.rep2 { --r: 141; --g: 163; --b: 212; }
+
+.humanisme { --r: 233; --g: 201; --b: 139; }
+
+.lumieres { --r: 255; --g: 255; --b: 0; }
+
+.salons { --r: 178; --g: 28; --b: 23; }
+
+.refuses { --r: 224; --g: 55; --b: 97; }
+
+.academie { background-color: rgba(178,28,23,0.7); }
+
+.crise { --r: 193; --g: 205; --b: 205; }
+
+.courantofficiel1 { --r: 255; --g: 216; --b: 16; }
+
+.courantofficiel2 { --r: 251; --g: 231; --b: 133; }
+
+.lascaux { --r: 157; --g: 114; --b: 36; }
+
+.magdalenien { --r: 155; --g: 152; --b: 202; }
+
+.dolmens { --r: 157; --g: 117; --b: 134; }
+
+.chine1 { --r: 158; --g: 85; --b: 74; }
+
+.chine2 { --r: 158; --g: 51; --b: 40; }
+
+.zhangqian { --r: 195; --g: 197; --b: 228; }
+
+.rome1 { --r: 158; --g: 85; --b: 74; }
+
+.rome2 { --r: 158; --g: 51; --b: 40; }
+
+.ordre { --r: 218; --g: 221; --b: 102; }
+
+.gothique { --r: 157; --g: 157; --b: 156; }
+
+.utopiste { --r: 255; --g: 255; --b: 0; }
+
+.shaker { --r: 206; --g: 255; --b: 167; }
+
+.impressionnisme { --r: 246; --g: 178; --b: 15; }
+
+.postimpressionnisme { --r: 247; --g: 198; --b: 0; }
+
+.pointillisme { --r: 193; --g: 182; --b: 219; }
+
+.fauvisme { --r: 237; --g: 108; --b: 165; }
+
+.vitruve { background-color: rgba(76,149,181,0.7); }
+
+.renaissance { --r: 118; --g: 76; --b: 153; }
+
+.rennordique { --r: 186; --g: 218; --b: 244; }
+
+.quattrocento { --r: 158; --g: 51; --b: 40; }
+
+.egypte { --r: 235; --g: 148; --b: 48; }
+
+.hellenistique { --r: 235; --g: 181; --b: 204; }
+
+.baroque { --r: 158; --g: 51; --b: 40; }
+
+.nef { --r: 231; --g: 201; --b: 226; }
+
+.neoroman { --r: 157; --g: 157; --b: 156; }
+
+.geddes { --r: 234; --g: 221; --b: 229; }
+
+.werkbund { --r: 106; --g: 79; --b: 155; }
+
+.concret { --r: 152; --g: 136; --b: 192; }
+
+.brutalism {
+  --r: 215; --g: 237; --b: 244;
+/*  box-shadow: -2px 2px 2px rgba(51,51,51,0.1); */
+}
+
+.streetart { --r: 91; --g: 72; --b: 151; }
+
+.hyperrealisme { --r: 161; --g: 124; --b: 182; }
+
+.conceptuel { --r: 157; --g: 157; --b: 156; }
+
+.opart { --r: 183; --g: 88; --b: 157; }
+
+.video { --r: 131; --g: 187; --b: 38; }
+
+.brut { --r: 247; --g: 164; --b: 39; }
+
+.cubisme { --r: 241; --g: 202; --b: 225; }
+
+.tubisme { --r: 242; --g: 172; --b: 101; }
+
+.preraphaelisme { --r: 255; --g: 203; --b: 114; }
+
+.barbizon { --r: 73; --g: 173; --b: 51; }
+
+.japonisme { --r: 173; --g: 210; --b: 146; }
+
+.artsdeco { --r: 29; --g: 134; --b: 54; }
+
+.ethno { --r: 140; --g: 117; --b: 34; }
+
+.rationalisme { --r: 76; --g: 149; --b: 181; }
+
+.labrouste { --r: 116; --g: 159; --b: 169; }
+
+.expressionnisme { --r: 80; --g: 106; --b: 176; }
+
+.nouvelleobj { --r: 164; --g: 215; --b: 245; }
+
+.bauhaus {
+  --r: 39; --g: 47; --b: 103;
+  color: white;
+}
+
+.bauhau {
+  --r: 39; --g: 47; --b: 103;
+  color: white;
+}
+
+.bauha {
+  background-color: none;
+  color: white;
+}
+
+.neuesbauen { --r: 0; --g: 80; --b: 159; }
+
+.geometrique { --r: 77; --g: 163; --b: 207; }
+
+.futurisme { --r: 173; --g: 198; --b: 255; }
+
+.neoacademique { --r: 207; --g: 229; --b: 201; }
+
+.organique { --r: 163; --g: 202; --b: 104; }
+
+.combet { background-color: rgba(163,202,104,0.7); }
+
+.ulm { --r: 45; --g: 70; --b: 151; }
+
+.streamline { --r: 189; --g: 215; --b: 238; }
+
+.ciam { --r: 157; --g: 157; --b: 156; }
+
+.teamten { --r: 157; --g: 157; --b: 156; }
+
+.abstrait {
+  --r: 39; --g: 47; --b: 103;
+  color: white;
+}
+
+.suprematisme { --r: 221; --g: 11; --b: 20; }
+
+.constructivisme { --r: 221; --g: 11; --b: 20; }
+
+.destijl { --r: 222; --g: 240; --b: 246; }
+
+.exprabstrait { --r: 80; --g: 106; --b: 176; }
+
+.minimalisme { --r: 170; --g: 221; --b: 249; }
+
+.dada { --r: 181; --g: 159; --b: 173; } 
+
+.surrealisme { --r: 197; --g: 186; --b: 220; }
+
+.fluxus { background-color: rgba(181,159,173,0.9); }
+.fluxus:hover { background-color: rgba(181,159,173,1); }
+
+.uam { --r: 221; --g: 11; --b: 20; }
+
+.formesutiles { --r: 221; --g: 120; --b: 110; }
+
+.surface { --r: 167; --g: 205; --b: 125; }
+
+.povera { --r: 193; --g: 190; --b: 155; }
+
+.popart { --r: 212; --g: 142; --b: 189; }
+
+.designpop { --r: 211; --g: 82; --b: 99; }
+
+.colombo { background-color: rgba(211,82,99,0.3);}
+
+.mibi { --r: 233; --g: 113; --b: 136; }
+
+.intsituationiste { --r: 232; --g: 76; --b: 110; }
+
+.gooddesign { --r: 101; --g: 197; --b: 221; }
+
+.expogooddesign { --r: 136; --g: 196; --b: 220; }
+
+.attelle { background-color: rgba(101,197,221,0.7) }
+
+.radical { --r: 221; --g: 11; --b: 20; }
+
+.antidesign { background-color: rgba(255,200,196,0.9); }
+.antidesign:hover { background-color: rgba(255,200,196,1);  }
+
+.memphis { --r: 255; --g: 153; --b: 0; }
+
+.globaltools { --r: 221; --g: 177; --b: 0; }
+
+.speculatif { --r: 89; --g: 215; --b: 131; }
+
+.designfiction { --r: 89; --g: 255; --b: 209; }
+
+.zoepolis { --r: 167; --g: 205; --b: 125; }
