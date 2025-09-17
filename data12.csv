@@ -463,7 +463,7 @@ Louis-Philippe 1er;period;1830;1848;rowP3;;royfrance1 carre full
 ;;;;;;
 ;;;;;;
 ;;;;;;
-Premières traces de la route de la soie;event;-2000;;row18;de Chang'an (Xi'an, Chine) à Constantinople (Istanbul, Turquie);bulle
+Premières traces de la route de la soie;event;-2000;;row18;de Chang'an (Xi'an, Chine) à Constantinople (Istanbul, Turquie);bulle full
 Période des Printemps et automnes;period;-771;-481;row18;-771 => -481</br>Chine;chine1 carre full
 Royaumes combattants;period;-481;-221;row18;-481 => -221</br>Chine;chine2 carre full
 Dynastie Qin;period;-221;-206;row18;-221 => -206</br>Chine;chine1 carre full
@@ -479,9 +479,9 @@ Dynastie Chen;period;557;589;row19;557 => 589;chine1 carre full
 Dynastie Sui;period;581;618;row18;581 => 618;chine2 carre full
 Dynastie Lang;period;618;690;row18;618 => 690;chine1 carre full
 Dynsatie Tang;period;705;907;row18;705 => 907;chine2 carre full
-Cao Pi fonde le royaume de Wei;event;220;;row19;Il dépose l'empereur Xiandi</br>Il met ainsi fin à la dynastie Han;bulle
-Sima Yan mène un coup d'État;event;265;;row20;Le fondateur de la dynastie Jin</br>Coup d'État contre le royaume de Wei;bulle
-Annexion du royaume de Wu;event;280;;row17;Par Sima Yan, fondateur de la dynastie Jin</br>Il met ainsi fin aux 3 royaumes;bulle
+Cao Pi fonde le royaume de Wei;event;220;;row19;Il dépose l'empereur Xiandi</br>Il met ainsi fin à la dynastie Han;bulle full
+Sima Yan mène un coup d'État;event;265;;row20;Le fondateur de la dynastie Jin</br>Coup d'État contre le royaume de Wei;bulle full
+Annexion du royaume de Wu;event;280;;row17;Par Sima Yan, fondateur de la dynastie Jin</br>Il met ainsi fin aux 3 royaumes;bulle full
 ;;;;;;
 Royauté;period;-753;-509;row3 / span 2;-753 => -509</br>Rome;rome1 carre full
 République romaine;period;-509;-27;row3 / span 2;-509 => -27;rome2 carre full
@@ -489,29 +489,29 @@ Guerre civile romaine;period;-127;-27;row1;-127 => -27;rome1
 Jules César;period;-63;-44;row3;-63 => -44</br>Pontifex maximus adoré du peuple;rome1 rec13
 Empire romain d'occident;period;-27;476;row3 / span 2;-27 => 476;rome1 carre full
 Empire romain;period;476;1453;row2;-27 => 476 => 1453;rome2 carre full
-Fondation de Rome;event;-753;;row4;Par Romulus et Remus,bulle;
-Tarquin le Superbe est chassé;event;-509;;row4;Il était le dernier roi;bulle
-Jules César devient consul;event;-59;;row4;Pour la première fois;bulle
-Conquête de la Gaule;event;-52;;row4;Par Jules César;
-Jules César devient dictateur;event;-49;;row4;Pour la première fois;bulle
-Jules César est assassiné;event;-44;;row4;Par Brutus et Cassius;bulle
-Octave est proclamé Auguste;event;-27;;row4;Descendant testamentaire de Jules César;bulle
-<strong>Pline l'ancien</strong></br><em>Historia Naturalia</em>;event;77;;row4;;
-Erruption du Vésuve;event;79;;row4;Pompéi;bulle
-L'empire romain comprend maintenant l'orient;event;286;;row4;;
+Fondation de Rome;event;-753;;row4;Par Romulus et Remus,bulle;full
+Tarquin le Superbe est chassé;event;-509;;row4;Il était le dernier roi;bulle full
+Jules César devient consul;event;-59;;row4;Pour la première fois;bulle full
+Conquête de la Gaule;event;-52;;row4;Par Jules César;full
+Jules César devient dictateur;event;-49;;row4;Pour la première fois;bulle full
+Jules César est assassiné;event;-44;;row4;Par Brutus et Cassius;bulle full
+Octave est proclamé Auguste;event;-27;;row4;Descendant testamentaire de Jules César;bulle full
+<strong>Pline l'ancien</strong></br><em>Historia Naturalia</em>;event;77;;row4;;full
+Erruption du Vésuve;event;79;;row4;Pompéi;bulle full
+L'empire romain comprend maintenant l'orient;event;286;;row5 / span 2;;trois
 Chute de l'empire romain d'occident;event;476;;rowhist1;; 
-Chute de l'empire romain d'orient;event;1453;;row1;;
+Chute de l'empire romain d'orient;event;1453;;row1;;full
 ;;;;;;
 Démocratie athénienne;period;-510;-221;row14;-510 => ?;rome2 carre full ouvert
 Ordre dorique;period;-650;-348;row13;-650 => ?</br>Grèce</br>Sans décor;ordre ouvert
 Ordre ionique;period;-500;-323;row12;-500 => ?</br>Grèce;ordre ouvert
 Style corinthien;period;-380;-206;row11;-380 => ?;ordre ouvert
-La cité d'Athènes renverse ses tyrans;event;-510;;row15;;
-Platon meurt;event;-348;;row15;Athènes</br>Philosophe;bulle
+La cité d'Athènes renverse ses tyrans;event;-510;;row15;;full
+Platon meurt;event;-348;;row15;Athènes</br>Philosophe;bulle full
 ;;;;;;
 Art hellénistique;period;-323;-31;row5;-323 => -31;hellenistique
-Mort d'Alexandre le Grand;event;-323;;row6;Roi de Macédoine;bulle
-Défaite de Cléopâtre VII;event;-31;;row6;À la bataille d'Actium, en Grèce;bulle
+Mort d'Alexandre le Grand;event;-323;;row6;Roi de Macédoine;bulle full
+Défaite de Cléopâtre VII;event;-31;;row6;À la bataille d'Actium, en Grèce;bulle full
 ;;;;;;
 Art Roman, normand, bizantin, lombard, saxon;period;768;1100;row6;768 => 1100;gothique
 Gothique;period;1100;1300;row6;1100 => 1300;gothique
@@ -531,15 +531,15 @@ Pointillisme;period;1884;1900;row21;1884 => 1900</br>France, Belgique</br><stron
 Deux expositions de cette nouvelle touche;event;1886;;row20;Une critique emploie pour la première fois le terme pointillisme;bulle
 Fauvisme;period;1903;1910;row21;1903 => 1910</br>Europe</br>Couleurs et lumières > dessin;fauvisme rec13
 ;;;;;;
-<strong>Vitruve</strong></br><em>De architectura</em>;event;-15;;row7;Traité à l'origine du rationalisme : l'architecture est une science qui peut être appréhendée rationnellement;vitruve bulle
+<strong>Vitruve</strong></br><em>De architectura</em>;event;-15;;row7;Traité à l'origine du rationalisme : l'architecture est une science qui peut être appréhendée rationnellement;vitruve bulle full
 Renaissance;period;1300;1700;row7 / span 4;1300 => 1700</br>On arrête avec le médiéval et on s'inspire de l'art de l'antiquité gréco-romaine, plus seulement art religieux, entrée dans la sphère privée.</br>Et on fait plein de découvertes scientifiques et techniques.</br>Séparation art / technique : art / artisanats;renaissance full
 Traités architecturaux;period;1300;1700;row7;1300 => 1700</br>Écrits pendant la Renaissance, ils annoncent les prémices du rationnalisme architectural;rationalisme rec13
 Renaissance nordique;period;1430;1580;row6;1430 => 1580</br>Pays-Bas, Flandre, Hollande, Allemagne;rennordique rec13
 Quattrocento;period;1400;1500;row4;"1400 => 1500</br>Italie</br>De ""millequattrocento""";quattrocento rec13
-Arrivée massive de scientifiques, artistes, intellectuels en Europe;event;1300;;row8;En provenance de l'Empire byzantin;bulle
-"<strong>Brunelesci</strong></br><mark class=""technique"">Perspective</mark>";event;1409;;row4;;transp
-"<strong>Jan Van Eyck</strong></br><em>Les Époux Arnolfini</em></br><mark class=""technique"">Peinture à l'huile</mark>";event;1434;;row6;La peinture à l'huile vient remplacer la peinture aux blancs d'œufs</br><img src='https://www.museumtv.art/wp-content/uploads/2019/03/EPOUX1.jpg' width='160'>;transp bulle
-"<strong>Piero Della Francesca</strong></br><mark class=""technique"">Perspective</mark>";event;1473;;row4;;transp
+Arrivée massive de scientifiques, artistes, intellectuels en Europe;event;1300;;row9 / span 2;En provenance de l'Empire byzantin;bulle full
+"<strong>Brunelesci</strong></br><mark class=""technique"">Perspective</mark>";event;1409;;row4;;transp full
+"<strong>Jan Van Eyck</strong></br><em>Les Époux Arnolfini</em></br><mark class=""technique"">Peinture à l'huile</mark>";event;1434;;row6 / span 2;La peinture à l'huile vient remplacer la peinture aux blancs d'œufs</br><img src='https://www.museumtv.art/wp-content/uploads/2019/03/EPOUX1.jpg' width='160'>;transp bulle trois
+"<strong>Piero Della Francesca</strong></br><mark class=""technique"">Perspective</mark>";event;1473;;row5 / span 2;;transp trois
 <strong>Léonard de Vinci</strong></br><em>La Joconde</em>;event;1503;;row4;;transp
 "<mark class=""technique"">Perspective</mark></br><strong>Alberti</strong></br><em>Traité de la pictura</em>";event;1540;;row4;;transp
 <strong>Galilée</strong> meurt;event;1642;;row4;Fondateur de la physique, astronomie moderne</br>Il a amélioré la lunette astronomique</br>Il se heurte à Aristote et l'Église;transp bulle
@@ -731,10 +731,10 @@ Fin de la dernière période glacière;event;-11700;;rowhist1;;
 ;;;;;;
 ;;;;;;
 ;;;;;;
-Le pape <strong>Grégoire 1er</strong> meurt;event;604;;row12;En simplifiant la représentation dans l'art religieux, il le remet au goût du jour;bulle
+Le pape <strong>Grégoire 1er</strong> meurt;event;604;;row12;En simplifiant la représentation dans l'art religieux, il le remet au goût du jour;bulle full
 Fondation de l'Empire Ottoman;event;1299;;rowhist1;Par l'empereur Osman</br>Conquête du pourtour méditerrannéen</br>Nord Turquie;bulle
 Domination de la royauté;event;1400;;rowhist2;Domination juridique et politique;bulle
-"<strong>Guttemberg</strong></br><mark class=""technique"">Invention de l'imprimerie</mark>";event;1440;;row12;;
+"<strong>Guttemberg</strong></br><mark class=""technique"">Invention de l'imprimerie</mark>";event;1440;;row12 / span 2;;trois
 "<mark class=""technique"">Grandes découvertes</mark>";event;1492;;rowhist2;;
 'Découverte' de l'Amérique;event;1492;;rowhist1;;
 Enclosures;event;1500;;rowhist1;Le mouvement des enclosures prend de l'ampleur à partir de ce siècle;transp bulle
