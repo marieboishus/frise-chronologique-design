@@ -258,6 +258,10 @@ font-size:11px;
   z-index: 9999;              /* au-dessus de tout */
 }
 
+.tooltip.tooltip-below {
+  transform: translate(-50%, 0%); /* passe en-dessous */
+}
+
 .tooltip.visible {
   opacity: 1;
 }
