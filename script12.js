@@ -305,18 +305,22 @@ document.addEventListener("DOMContentLoaded", () => {
             ?.replace(/=>/g, "⟶"); // remplace les => par une flèche
           tooltip.classList.add("visible");
         });
-        el.addEventListener("mousemove", e => {
-          const rect = el.getBoundingClientRect();
-          const pageY = window.scrollY + rect.top;
-          tooltip.style.left = `${e.pageX}px`;
-          tooltip.style.top = `${pageY - 10}px`;
-          if (tooltip.offsetTop < window.scrollY) {
-            tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
-          }
-        });
-        el.addEventListener("mouseleave", () => {
-          tooltip.classList.remove("visible");
-        });
+el.addEventListener("mousemove", e => {
+  const rect = el.getBoundingClientRect();
+  const tooltipHeight = tooltip.offsetHeight;
+  const pageY = window.scrollY + rect.top;
+
+  // Par défaut → au-dessus
+  tooltip.style.left = `${e.pageX}px`;
+  tooltip.style.top = `${pageY - 10}px`;
+  tooltip.classList.remove("tooltip-below");
+
+  // Vérifie si ça dépasse en haut
+  if (tooltip.offsetTop < window.scrollY) {
+    tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
+    tooltip.classList.add("tooltip-below");
+  }
+});
       });
 
       // --- Highlight ticks ---
