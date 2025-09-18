@@ -258,7 +258,7 @@ font-size:11px;
   z-index: 9999;              /* au-dessus de tout */
 }
 
-.tooltip.tooltip-below {
+.tooltip.below {
   transform: translate(-50%, 0%); /* passe en-dessous */
 }
 
@@ -367,11 +367,14 @@ font-size:11px;
 
 .quattrocento { --r: 158; --g: 51; --b: 40; }
 
+/* .manierisme { background-color: rgb(180, 75, 0);} */
+.manierisme { --r: 180; --g: 75; --b: 0}
+
+.baroque { --r: 158; --g: 51; --b: 40; }
+
 .egypte { --r: 235; --g: 148; --b: 48; }
 
 .hellenistique { --r: 235; --g: 181; --b: 204; }
-
-.baroque { --r: 158; --g: 51; --b: 40; }
 
 .nef { --r: 231; --g: 201; --b: 226; }
 
