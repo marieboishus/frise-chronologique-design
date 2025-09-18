@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "604": 50,
         "1299": 50,
         "1300": 55,
-        "1400": 45,
+        "1400": 60,
         "1434": 55,
         "1440": 40,
         "1453": 50,
@@ -132,8 +132,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "1893": 75,
         "1894": 40,
         "1897": 55,
-        "1899": 15,
-        "1900": 15,
+        "1899": 20,
+        "1900": 20,
         "1901": 60,
         "1903": 60,
         "1904": 70,
@@ -145,12 +145,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "1910": 55,
         "1911": 55,
         "1912": 85,
-        "1914": 10,
+        "1913": 20,
+        "1914": 20,
         "1915": 55,
         "1916": 60,
         "1917": 50,
-        "1918": 15,
-        "1919": 15,
+        "1918": 20,
+        "1919": 20,
         "1920": 65,
         "1924": 70,
         "1925": 70,
@@ -181,6 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "1952": 60,
         "1953": 45,
         "1954": 60,
+        "1955": 10,
         "1956": 60,
         "1957": 50,
         "1958": 60,
@@ -209,6 +211,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "1991": 50,
         "1993": 50,
         "1994": 50,
+        "1995": 10,
         "1998": 55,
         "2000": 45,
         "2001": 65,
@@ -307,20 +310,29 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 el.addEventListener("mousemove", e => {
   const rect = el.getBoundingClientRect();
-  const tooltipHeight = tooltip.offsetHeight;
   const pageY = window.scrollY + rect.top;
 
-  // Par défaut → au-dessus
   tooltip.style.left = `${e.pageX}px`;
-  tooltip.style.top = `${pageY - 10}px`;
-  tooltip.classList.remove("tooltip-below");
 
-  // Vérifie si ça dépasse en haut
-  if (tooltip.offsetTop < window.scrollY) {
+  if (el.classList.contains("below")) {
+    // Cas manuel : tooltip en dessous
+    tooltip.classList.add("below");
     tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
-    tooltip.classList.add("tooltip-below");
+  } else {
+    // Cas normal : tooltip au-dessus
+    tooltip.classList.remove("below");
+    tooltip.style.top = `${pageY - 10}px`;
+
+    // Sécurité si ça sort de l'écran en haut
+    if (tooltip.offsetTop < window.scrollY) {
+      tooltip.classList.add("below");
+      tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
+    }
   }
 });
+        el.addEventListener("mouseleave", () => {
+          tooltip.classList.remove("visible");
+        });
       });
 
       // --- Highlight ticks ---
