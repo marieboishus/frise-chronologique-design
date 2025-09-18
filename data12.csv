@@ -103,6 +103,7 @@ title;type;start;end;row;tooltip;class
 877;date;877;;;;
 879;date;879;;;;
 884;date;884;;;;
+888;date;888;;;;
 898;date;898;;;;
 907;date;907;;;;
 922;date;922;;;;
@@ -155,6 +156,7 @@ title;type;start;end;row;tooltip;class
 1515;date;1515;;;;
 1516;date;1516;;;;
 1517;date;1517;;;;
+1520;date;1520;;;;
 1529;date;1529;;;;
 1540;date;1540;;;;
 1547;date;1547;;;;
@@ -186,6 +188,7 @@ title;type;start;end;row;tooltip;class
 1756;date;1756;;;;
 1774;date;1774;;;;
 1777;date;1777;;;;
+1785;date;1785;;;;
 1789;date;1789;;;;
 1792;date;1792;;;;
 1793;date;1793;;;;
@@ -233,12 +236,15 @@ title;type;start;end;row;tooltip;class
 1870;date;1870;;;;
 1871;date;1871;;;;
 1872;date;1872;;;;
+1873;date;1873;;;;
 1875;date;1875;;;;
+1879;date;1879;;;;
 1880;date;1880;;;;
 1881;date;1881;;;;
 1884;date;1884;;;;
 1885;date;1885;;;;
 1886;date;1886;;;;
+1887;date;1887;;;;
 1888;date;1888;;;;
 1889;date;1889;;;;
 1890;date;1890;;;;
@@ -259,6 +265,7 @@ title;type;start;end;row;tooltip;class
 1910;date;1910;;;;
 1911;date;1911;;;;
 1912;date;1912;;;;
+1913;date;1913;;;;
 1914;date;1914;;;;
 1915;date;1915;;;;
 1916;date;1916;;;;
@@ -328,6 +335,7 @@ title;type;start;end;row;tooltip;class
 1991;date;1991;;;;
 1993;date;1993;;;;
 1994;date;1994;;;;
+1995;date;1995;;;;
 1998;date;1998;;;;
 2000;date;2000;;;;
 2001;date;2001;;;;
@@ -335,8 +343,10 @@ title;type;start;end;row;tooltip;class
 2003;date;2003;;;;
 2005;date;2005;;;;
 2006;date;2006;;;;
+2007;date;2007;;;;
 2008;date;2008;;;;
 2011;date;2011;;;;
+2012;date;2012;;;;
 2015;date;2015;;;;
 2016;date;2016;;;;
 2017;date;2017;;;;
@@ -372,7 +382,7 @@ Les croisades;period;1095;1291;rowhist1;"1095 => 1291</br>9 croisades sur cette 
 Guerre de cent ans;period;1337;1453;rowhist1;1337 => 1453</br>Valois (royaume de France) contre Plantagenêts (royaume d'Angleterre);guerrecent full carre
 1ère République;period;1792;1804;rowP5;1792 => 1804;rep1 full carre
 1er Empire;period;1804;1814;rowP5;1804 => 1814;empire full carre
-Cent-jours;event;1815;;rowP4;
+Cent-jours;event;1815;;rowP5;;full
 Napoléon Ier;period;1804;1814;rowP4;1804 => 1814;empire full carre
 2e République;period;1848;1852;rowP5;1848 => 1852;rep1 full carre
 Napoléon III;period;1848;1851;rowP4;1848 => 1851;rep1 full carre
@@ -545,19 +555,19 @@ Défaite de Cléopâtre VII;event;-31;;row9;À la bataille d'Actium, en Grèce;b
 ;;;;;;
 Art Roman, normand, bizantin, lombard, saxon;period;768;1100;row6;768 => 1100</br><img src='https://www.romanes.com/media/thumb/thb-FR-Autun-Saint_Lazare-2778-0023.jpg' width='160'>;gothique
 Gothique;period;1100;1300;row6;1100 => 1300</br><img src='https://www.romanes.com/media/thumb/thb-FR-Bayeux-Notre_Dame-T011-0014.jpg' width='160'>;gothique
-Gothique flamboyant;period;1350;1500;row10;1350 => 1500</br>Ornement à outrance, flammes</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Capilla_de_los_Condestables_(Catedral_de_Burgos)._Exterior.jpg/180px-Capilla_de_los_Condestables_(Catedral_de_Burgos)._Exterior.jpg' width='160'>;gothique
-Gothique international;period;1380;1420;row10 / span 2;1380 => 1420</br>Flandre, Italie</br>Tons vifs, précision des étoffes / drapés</br><img src='https://www.rivagedeboheme.fr/medias/images/colart-de-laon-priere-dans-le-jardin-avec-le-donateur-louis-ier-d-orleans-1408.jpg?fx=c_120_120' width='160'>;gothique rec13
+Gothique flamboyant;period;1350;1500;row14;1350 => 1500</br>Ornement à outrance, flammes</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Capilla_de_los_Condestables_(Catedral_de_Burgos)._Exterior.jpg/180px-Capilla_de_los_Condestables_(Catedral_de_Burgos)._Exterior.jpg' width='160'>;gothique
+Gothique international;period;1380;1420;row14 / span 2;1380 => 1420</br>Flandre, Italie</br>Tons vifs, précision des étoffes / drapés</br><img src='https://www.rivagedeboheme.fr/medias/images/colart-de-laon-priere-dans-le-jardin-avec-le-donateur-louis-ier-d-orleans-1408.jpg?fx=c_120_120' width='160'>;gothique rec13
 Rupture;event;1100;;row5;;
 ;;;;;;
 Socialisme utopiste;period;1800;1850;row19;1800 => 1850</br><strong>Fourier, Proudon</strong></br>Philosophie esthétique de la machine;utopiste
 <strong>Saint-Simon</strong>;event;1848;;row19;Penseur de la société industrielle française;transp bulle
 Âge d'or des Shakers;period;1820;1860;row20;1820 => 1860</br>Angleterre puis États-Unis</br>Les shakers : 1747 => 1996;shaker
 ;;;;;;
-Impressionnisme;period;1841;1926;row22;1841 => 1926</br>International</br>Représenter la lumière, s'oppose à l'académisme;impressionnisme
+Impressionnisme;period;1841;1926;row22;1841 => 1926</br>International</br>Représenter la lumière, s'oppose à l'académisme;impressionnisme below
 "<mark class=""technique"">Peinture en tube</mark>";event;1841;;row21;Inventée par <strong>John Goffe Rand</strong>;bulle
-<strong>Claude Monet</strong> Impression soleil levant</em>;event;1872;;row22;<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_xgiDFF6jUzztxYR1Rd0qMuT4L5h5xXKpA&s' width='160'>;transp bulle full
+<strong>Claude Monet</strong> Impression soleil levant</em>;event;1872;;row22;<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_xgiDFF6jUzztxYR1Rd0qMuT4L5h5xXKpA&s' width='160'>;transp bulle full below
 Postimpressionnisme;period;1880;1910;row22 / span 2;1880 => 1910;postimpressionnisme
-Pointillisme;period;1884;1900;row21;1884 => 1900</br>France, Belgique</br><strong>George Seurat, Paul Signac, Camille Pissaro, Maximilien Luce, Théo va Rysselberghe;pointillisme rec13
+Pointillisme;period;1884;1900;row21;1884 => 1900</br>France, Belgique</br><strong>George Seurat, Paul Signac, Camille Pissaro, Maximilien Luce, Théo va Rysselberghe;pointillisme rec13 below
 Deux expositions de cette nouvelle touche;event;1886;;row20;Une critique emploie pour la première fois le terme pointillisme;bulle full
 Fauvisme;period;1903;1910;row21;1903 => 1910</br>Europe</br>Couleurs et lumières > dessin;fauvisme rec13
 ;;;;;;
@@ -567,7 +577,7 @@ Traités architecturaux;period;1400;1700;row7;1400 => 1700</br>Écrits pendant l
 Renaissance nordique;period;1430;1580;row6;1430 => 1580</br>Pays-Bas, Flandre, Hollande, Allemagne</br>Influence de l'humanisme</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/116px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg' width='160'></br>Hans Holbein Le Jeune, The Ambassadors, 1533;rennordique rec13
 <strong>Jérôme Bosch</strong> <em>Le jardin des délices</em>;event;1500;;row6;<img src='https://fr.muzeo.com/sites/default/files/styles/image_oeuvre_slider/public/oeuvres/peinture/renaissance/le_jardin_des_deelices_panneau137619.jpg?itok=8KaylQY4' width='160'>;transp bulle full
 Quattrocento;period;1400;1500;row4;"1400 => 1500</br>Italie</br>De ""millequattrocento""</br><img src='https://i.pinimg.com/736x/6c/c1/b3/6cc1b349a342126fc17b097d0a883aa4--italian-renaissance-renaissance-art.jpg' width='160'>";quattrocento rec13
-Arrivée massive de scientifiques, artistes, intellectuels en Europe;event;1400;;row9 / span 2;En provenance de l'Empire byzantin;bulle full
+Arrivée massive de scientifiques, artistes, intellectuels en Europe;event;1400;;row9 / span 2;En provenance de l'Empire byzantin;bulle trois
 "<strong>Brunelesci</strong></br><mark class=""technique"">Perspective</mark>";event;1409;;row4;<img src='https://nelson-atkins.org/gates/images/Brunelleschi.jpg' width='160'>;transp full bulle
 "<strong>Jan Van Eyck</strong></br><em>Les Époux Arnolfini</em></br><mark class=""technique"">Peinture à l'huile</mark>";event;1434;;row6 / span 2;La peinture à l'huile vient remplacer la peinture aux blancs d'œufs</br><img src='https://www.museumtv.art/wp-content/uploads/2019/03/EPOUX1.jpg' width='160'>;transp bulle trois
 "<strong>Piero Della Francesca</strong></br><mark class=""technique"">Perspective</mark>";event;1473;;row5 / span 2;<img src='https://www.artchive.com/wp-content/uploads/2023/04/The-Flagellation-Piero-della-Francesca-c.-1469-4-150x150.jpg' width='160'></br>La flagellation du Christ, 1460;transp trois bulle
@@ -577,8 +587,11 @@ Arrivée massive de scientifiques, artistes, intellectuels en Europe;event;1400;
 <strong>Galilée</strong> meurt;event;1642;;row4;Fondateur de la physique, astronomie moderne</br>Il a amélioré la lunette astronomique</br>Il se heurte à Aristote et l'Église;transp bulle full
 Blaise Pascal meurt;event;1662;;row4;Probabilités, philosophie religieuse</br>Entre le pessimisme de Saint Augustin et le Scepticisme de Montaigne;transp bulle full
 ;;;;;;
-Art de l'Égypte antique;period;-3800;-500;row8;-3800 => ?</br><img src='https://i.pinimg.com/200x150/2a/ef/49/2aef493bb16679bd4f0f04ab8edcb987.jpg' width='160'>;egypte ouvert
+Maniérisme;period;1520;1630;row18;1520 => 1630</br>Italie puis Europe;manierisme
 Baroque;period;1550;1750;row19;1550 => 1750</br>Commence en Italie (Rome, Mantoue, Venise, Florence);baroque
+<strong>Raphaël</strong> meurt;event;1520;;row19;;full
+;;;;;;
+Art de l'Égypte antique;period;-3800;-500;row8;-3800 => ?</br><img src='https://i.pinimg.com/200x150/2a/ef/49/2aef493bb16679bd4f0f04ab8edcb987.jpg' width='160'>;egypte ouvert
 <strong>John Nef</strong>;period;1849;1852;row13;1849 => 1852</br>Naissance de la civilisation industrielle;nef
 Style néo-roman;period;1850;1900;row8;1850 => 1900</br>Architecture;neoroman
 <strong>Pattrick Geddes</strong>;period;1900;1920;row12;1900 => 1920</br>Premiers ouvrages théorie sociologique de l'urbanisme, apôtre de la cité-jardin;geddes
@@ -589,7 +602,7 @@ Hyperréalisme;period;1960;2025;row19;1960 => à nos jours;hyperrealisme
 Art Conceptuel;period;1960;2025;row18;1960 => ?;conceptuel ouvert
 Op Art;period;1960;2025;row17;1960 => ?;opart ouvert
 Art Vidéo;period;1960;2025;row11;1960 => ?;video ouvert
-Art brut;period;1945;1953;row22;1945 => ?</br>Jean Dubuffet emploie pour la première fois l'expression pour qualifier les productions venant de personnes n'ayant pas de culture artistique mais on s'intéresse déjà à l'art des fous depuis 1900;brut ouvert
+Art brut;period;1945;1953;row22;1945 => ?</br>Jean Dubuffet emploie pour la première fois l'expression pour qualifier les productions venant de personnes n'ayant pas de culture artistique mais on s'intéresse déjà à l'art des fous depuis 1900;brut ouvert below
 ;;;;;;
 New Brutalism;period;1957;1980;row12;<strong>New brutalism</strong></br>1957 => années 1970</br>Répétition de motifs comme les fenêtres, pas d'ornements, béton brut;brutalism
 <strong>Alison et Peter Smithson</strong> fondent le new brutalism;event;1957;;row12 / span 2;;trois transp
@@ -600,10 +613,10 @@ Tubisme;period;1909;1919;row10;1909 => 1919</br><strong>Fernand Léger</strong>;
 Art Nouveau;period;1890;1914;row14;1890 => 1914</br>France et Belgique</br>Lignes courbes et motifs floraux, inspiration de la nature;artsdeco
 <strong>Henri Van de Velde</strong>;event;1897;;row14;Du design et du mobilier moderne. Il aime les arts et crafts, l'industrie.</br>Il est pour un style rationnel et fonctionnel</br>Son engagement dans les arts appliqués influence</br>1 Weimar avec Gropius</br>2 Gestaltum, Ulm</br>La Cambre, Bruxelles;transp bulle
 <strong>Émile Gallé</strong> Fondation de l'école de Nancy;event;1901;;row14;Style Gallé</br>Promouvoir l'artisanat d'art régional et s'impose rapidement comme creuset d'art nouveau</br><img src='https://cdn-s-www.vosgesmatin.fr/images/F12F0A15-4311-4F72-B99B-2C5AEEDDC4EE/NW_raw/emile-galle-vase-passiflore-1900-musee-de-l-ecole-de-nancy-photo-philippe-caron-1621344836.jpg' width='160'>;transp bulle full
-Préraphaélisme;period;1848;1855;row16;"1848 => 1855</br>Né en Angleterre</br><strong>John Everett Millais, William Holman Hunt, Dante Gabriel Rossetti, James Collinson, Thomas Woolner, William Michael Rossetti, Frederic George Stephens, Walter Deverell, Arthur Hughes, Charles Allston Collins</strong></br>Réinspiration par les peintres italiens des années 1400 jusqu'à Raphaël ""ce gros nul"", œuvres morales, pour compenser la perte de morale depuis la Révolution industrielle (soutenu par <strong>John Ruksin</strong>)";preraphaelisme
+Préraphaélisme;period;1848;1855;row16;"1848 => 1855</br>Né en Angleterre</br><strong>John Everett Millais, William Holman Hunt, Dante Gabriel Rossetti, James Collinson, Thomas Woolner, William Michael Rossetti, Frederic George Stephens, Walter Deverell, Arthur Hughes, Charles Allston Collins</strong></br>Réinspiration par les peintres italiens des années 1400 jusqu'à Raphaël ""ce gros nul"", œuvres morales, pour compenser la perte de morale depuis la Révolution industrielle (soutenu par <strong>John Ruksin</strong>)";preraphaelisme below
 École de Barbizon;period;1820;1875;row15;1820 => 1875</br>À Barbizon</br>Peintres plein air, forêt de Fontainebleau;barbizon
 Japonisme;period;1860;1900;row18;1860 => 1900</br>Influence de l'art japonais sur les artistes et écrivains;japonisme
-Arts and crafts;period;1860;1910;row17;1860 => 1910</br>Angleterre</br><strong>William Morris</strong> inspiré par <strong>John Ruskin</strong></br>Architecture, arts décoratifs, peinture, sculpture</br>Le travail doit fournir au travailleur de la satisfaction + questionne la qualité des premiers objets industriels / parallèle à l'art nouveau en France;artsdeco
+Arts and crafts;period;1860;1910;row17;1860 => 1910</br>Angleterre</br><strong>William Morris</strong> inspiré par <strong>John Ruskin</strong></br>Architecture, arts décoratifs, peinture, sculpture</br>Le travail doit fournir au travailleur de la satisfaction + questionne la qualité des premiers objets industriels / parallèle à l'art nouveau en France;artsdeco below
 <strong>William Morris</strong></br><em>Les arts mineurs</em>;event;1885;;row17;L'art est nécessairement utile (au pire il satisfait l'esprit, il distrait);bulle transp full
 <strong>Charles Robert Ashbee</strong> Guild and school of Handicraft;event;1888;;row17;Londres</br>Il fonde la guilde</br>Post arts and crafts, accueille la machine au lieu de la rejeter;transp bulle full
 Naturalisme;period;1863;1920;row16;1863 => 1920</br>Proche du réalisme, en opposition avec le romantisme, réalisme appliqué à la peinture : pas de fioritures;artsdeco
@@ -691,11 +704,11 @@ Team X (ten);period;1960;1968;row10;1960 => ?</br>Nouveaux congrès d'architectu
 Charte d'Athène;event;1933;;row10;Décidée suite à un congrès : les grands principes de l'architecture moderne;bulle transp full
 ;;;;;;
 Art abstrait;period;1910;1945;row20 / span 3;1910 => 1945;abstrait full
-<strong>Vassily Kandinsky</strong> 1er tableau abstrait;event;1910;;row20;Sans titre, aquarelle</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg/1200px-Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg' width='160'>;bulle full
+<strong>Vassily Kandinsky</strong> 1er tableau abstrait;event;1910;;row20;Sans titre, aquarelle</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg/1200px-Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg' width='160'>;bulle full below
 Suprématisme;period;1915;1918;row20 / span 2;1915 => 1918</br>Russie</br><strong>Kasimir Malévitch</strong></br>Abstraction absolue;suprematisme rec13
 <strong>Kasimir Malévitch</strong> 39 tableaux;event;1915;;row19 / span 2;Pétrograd</br>Dernière exposition futuriste</br>Malévitch présente 39 tableaux suprématistes;bulle transp
 Constructivisme architectural soviétique;period;1920;1932;row20;constructivisme;constructivisme rec13
-De Stijl, néoplasticisme;period;1917;1932;row18;1917 => 1932</br>Pays-Bas</br><strong>Theo van Doesburg, Piet Mondrian</strong>Peinture, architecture, sculpture, poésie</br>Esthétique abstraite à partir de lignes et de couleurs primaires;destijl rec13
+De Stijl, néoplasticisme;period;1917;1932;row18;1917 => 1932</br>Pays-Bas</br><strong>Theo van Doesburg, Piet Mondrian</strong>Peinture, architecture, sculpture, poésie</br>Esthétique abstraite à partir de lignes et de couleurs primaires;destijl rec13 below
 Expressionnisme abstrait;period;1945;1970;row20;1945 => 1970</br>États-Unis</br>Jackson Pollock, M. Rothko</br>Place au hasard;exprabstrait
 Minimalisme;period;1960;2025;row21 / span 2;1960 => ?</br>États-Unis</br>Contre l'expressionnisme abstrait;minimalisme ouvert rec13
 ;;;;;;
@@ -706,7 +719,7 @@ Surréalisme;period;1924;1969;row14;1924 => 1969</br>Dali</br>Proche du dadaïsm
 Fluxus;period;1960;1980;row15 / span 2;1960 => 1980</br>George Maciunas, Robert Filiou</br>Rôle de l'artiste, place de l'art dans la société;fluxus rec13
 <strong>René Magritte</strong> <em>La trahison des images</em>;event;1929;;row14;;transp full
 """N'allez pas à l'exposition coloniale""";event;1931;;row14;"Manifeste surréaliste</br>""le tour du monde en 1 jour""";bulle transp full
-<strong>André Breton</strong> meurt;event;1969;;row13;Fin du mouvement surréaliste;bulle
+<strong>André Breton</strong> meurt;event;1969;;row14 / span 2;Fin du mouvement surréaliste;bulle
 ;;;;;;
 Union des Artistes Modernes;period;1929;1954;row13 / span 2;1929 => 1954</br>Association d'artistes, architectes, décorateurs et peintres français qui font scission avec l'académisme et rejoingnent les rangs des modernes;uam
 Formes Utiles;period;1949;1987;row13;1949 => 1987</br>Née de l'UAM, l'association Formes Utiles encourage le design industriel;formesutiles rec13
@@ -785,7 +798,7 @@ Décrêt de Berlin, blocus contre le Royaume-Uni;event;1806;;row3 / span 2;Napol
 Échec de la campagne de Russie;event;1812;;row3 / span 2;;trois
 Échec de la campagne d'Allemagne;event;1813;;row3 / span 2;;trois
 Échec de la campagne de France;event;1814;;row3 / span 2;Invasion de la France</br>Napoléon Ier s'exile sur l'île d'Elbe;bulle trois
-Mobilier Bivouac, Napoléon;event;1815;;row12;;full
+Mobilier Bivouac, Napoléon;event;1815;;row12;<img src='https://i.pinimg.com/originals/a7/3f/a6/a73fa64c257991b2d7135f4a8779dcd1.png' width='160'>;full bulle
 Autre invasion de la France;event;1815;;rowhist1;;
 Mesures douanières;event;1816;;rowhist1;Pour protéger les industriels de la concurrence;bulle
 2ème Révolution française;event;1830;;rowhist1;Fin de la seconde restauration et début de la monarchie de juillet;bulle
@@ -837,7 +850,7 @@ Jeux Olympiques de Berlin;event;1936;;rowhist2;;
 Premiers congés payés;event;1936;;rowhist1;;
 <strong>Sir Herbert Read</strong></br><em>Art and Society</em>;event;1937;;row8;Histoire de l'art;bulle full
 "<mark class=""expo"">Les femmes artistes d'Europe exposent au Jeu de Paume</mark>";event;1937;;row16 / span 2;Paris;bulle trois
-"<mark class=""expo"">""Art dégénéré""</mark></br>Munich";event;1937;;row21;700 œuvres décrochées des musées allemands et montrées comme des symptômes d'un art malade, par les nazis;bulle full
+"<mark class=""expo"">""Art dégénéré""</mark></br>Munich";event;1937;;row21;700 œuvres décrochées des musées allemands et montrées comme des symptômes d'un art malade, par les nazis;bulle full below
 "<mark class=""expo"">Exposition universelle</mark></br>Paris";event;1937;;row3;Plus de femmes sont exposées;bulle full
 <strong>Asplund</strong> Affranchissement de la couleur;event;1938;;row8;Suédois</br>1er à intégrer, dans une composition monuentale, l'affranchissement de la couleur consommée par les peintres;bulle full
 "<mark class=""expo"">Exposition universelle</mark> New York";event;1939;;row3;Fluidité formelle et métaphorique du design</br><em>Futurama</em>, General Motors, <strong>Norman Bel Geddes</strong</br>Pavillon Ford, <strong>Walter Teague</strong></br>Piste de lancement de fusée, <strong>Raymond Loewy</strong></br>chrystler <em>Democracity</em>, <strong>Dreyfuss</strong>;bulle full
@@ -897,10 +910,13 @@ Passage à l'euro;event;2002;;rowhist1;Première monnaie unique en Europe;bulle
 Seconde guerre du Golf;event;2003;;rowhist1;;
 "<mark class=""expo"">D-Day</mark>";event;2005;;row3;Exposition Pompidou sur l'émergence de nouveaux courants de design responsables;bulle
 "<mark class=""technique"">Vélo'V JCDecaux</mark>";event;2005;;row1;"<mark class=""technique"">Juste avant le vélib'</mark>";bulle full
+International Association of Societies of Design Research;event;2005;;row2;Fondation de l'IASDR pour regrouper les sociétés savantes de design du monde entier;bulle
+Ateliers de la Recherche en Design;event;2006;;row2;Nîmes</br>Fondation de l'ARD, réseau international de chercheurs francophones</br>À l'initiative d'<strong>Alain Findeli, Brigitte Borja de Mozota et Georges Schambach</strong>;bulle
 Crise des subprimes;event;2008;;rowhist1;Récession économique mondiale;bulle
 <strong>John Thackara</strong> <em>In the bubble</em>;event;2008;;row2;<em>In the bubble : de la complexité au design durable</em>;bulle full
 Accident nucléaire de Fukushima;event;2011;;rowhist1;;
 "<mark class=""technique"">MaKerbot</mark><em> Replicator</em></br><mark class=""technique"">imprimante 3D</mark>";event;2011;;row2 / span 2;"<mark class=""technique"">Troisième imprimante 3D et dernier modèle en Open Source</mark>";bulle trois
+ARD devient PROJEKT;event;2014;;row2;Le groupe des Ateliers de la Recherche en Design devient le laboratoire PROJEKT
 Accords de Paris sur le climat;event;2015;;rowhist1;;
 Trump;event;2016;;rowhist1;;
 metoo;event;2017;;rowhist1;;
