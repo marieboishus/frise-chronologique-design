@@ -42,36 +42,16 @@ title;type;start;end;row;tooltip;class
 77;date;77;;;;
 79;date;79;;;;
 81;date;81;;;;
-96;date;96;;;;
-98;date;98;;;;
-117;date;117;;;;
-138;date;138;;;;
 161;date;161;;;;
 169;date;169;;;;
 180;date;180;;;;
-192;date;192;;;;
-193;date;193;;;;
 211;date;211;;;;
 217;date;217;;;;
-218;date;218;;;;
 220;date;220;;;;
-222;date;222;;;;
 235;date;235;;;;
 238;date;238;;;;
-244;date;244;;;;
-249;date;249;;;;
-251;date;251;;;;
-253;date;253;;;;
-260;date;260;;;;
 265;date;265;;;;
-268;date;268;;;;
-270;date;270;;;;
-275;date;275;;;;
-276;date;276;;;;
 280;date;280;;;;
-282;date;282;;;;
-283;date;283;;;;
-284;date;284;;;;
 285;date;285;;;;
 286;date;286;;;;
 305;date;305;;;;
@@ -347,6 +327,7 @@ title;type;start;end;row;tooltip;class
 2008;date;2008;;;;
 2011;date;2011;;;;
 2012;date;2012;;;;
+2014;date;2014;;;;
 2015;date;2015;;;;
 2016;date;2016;;;;
 2017;date;2017;;;;
@@ -524,10 +505,22 @@ Sima Yan mène un coup d'État;event;265;;row20;Le fondateur de la dynastie Jin<
 Annexion du royaume de Wu;event;280;;row17;Par Sima Yan, fondateur de la dynastie Jin</br>Il met ainsi fin aux 3 royaumes;bulle full
 ;;;;;;
 Royauté;period;-753;-509;row3 / span 2;-753 => -509</br>Rome;rome1 carre full
-République romaine;period;-509;-27;row3 / span 2;-509 => -27;rome2 carre full
+République romaine;period;-509;-27;row2;-509 => -27;rome2 carre full
 Guerre civile romaine;period;-127;-27;row1;-127 => -27;rome1
-Jules César;period;-63;-44;row3;-63 => -44</br>Pontifex maximus adoré du peuple;rome1 rec13
-Empire romain d'occident;period;-27;476;row3 / span 2;-27 => 476;rome1 carre full
+Jules César;period;-63;-44;row3;-63 => -44</br>Pontifex maximus adoré du peuple;rome1 full
+Empire romain d'occident;period;-27;476;row2;-27 => 476;rome1 carre full
+Octave Auguste;period;-27;14;row3;-27 => 14</br>Princeps civitatis (premier de la cité);rome1 full
+Tibère;period;14;37;row3;14 => 37</br>Empereur;rome2 full
+Caligula;period;37;41;row3;37 => 41;rome1 full
+Claude;period;41;54;row3;41 => 54;rome2 full
+Néron;period;54;68;row3;54 => 68;rome1 full
+Vespasien;period;69;79;row3;69 => 79;rome2 full
+Titus;period;79;81;row3;79 => 81;rome1 full
+Lucius Aurelius Verus</br>et Marc Aurèle;period;161;169;row3;161 => 169;rome2 full
+Marc Aurèle;period;169;180;row3;169 => 180;rome1 full
+Caracalla;period;211;217;row3;211 => 217;rome2 full
+Maximin 1er</br>le Thrace;period;235;238;row3;235 => 238;rome1 full
+Dioclétien;period;285;305;row3;285 => 305;rome2 full
 Empire romain;period;476;1453;row2;-27 => 476 => 1453;rome2 carre full
 Fondation de Rome;event;-753;;row4;Par Romulus et Remus</br><img src='https://aegidius.elis-management.com/-753.Romulus.Remus.jpg' width='160'>;bulle full
 Tarquin le Superbe est chassé;event;-509;;row4;Il était le dernier roi;bulle full
@@ -672,8 +665,8 @@ Design global;event;1907;;row6;Début du mode de conception totale en design ind
 <strong>Adolf Loos</strong></br><em>Ornement et crime</em>;event;1908;;row6;Raciste et très très très fan de la modernité;transp bulle full
 <strong>Adolf Loos</strong> <em>La suppression des meubles</em>;event;1924;;row5;;transp full
 <strong>Le Corbusier</strong> <em>Le lait de chaux : la loi du Ripolin</em>;event;1925;;row5;Dans <em>L'art décoratif aujourd'hui</em>;transp bulle full
-Cuisine de Francfort, <strong>Margarete Schûtte-Lihotzky</strong>;event;1926;;row5;;transp full
-"<strong>Philip Johnson</strong> <mark class=""expo"">Machine Art</mark>";event;1934;;row5;(1906-2005), architecte, figure du style international</br>MoMA, New York</br><strong>Alfred Barr</strong>, directeur du musée</br>Exposition d'objets, ustensiles industriels, scientifiques, utilitaires, domestiques, beauté des fonctionnements, précision de l'usinage, monomatériaux, peu de plastique.</br>S'oppose au streamline considéré comme une esthétique vide et qui oublie les fonctionnements.;bulle transp full
+Cuisine de Francfort, <strong>Margarete Schûtte-Lihotzky</strong>;event;1926;;row5;<img src='https://www.grapheine.com/wp-content/uploads/2016/07/Francfort-cuisine-134x134.jpg' width='160'>;transp full bulle
+"<strong>Philip Johnson</strong> <mark class=""expo"">Machine Art</mark>";event;1934;;row5;(1906-2005), architecte, figure du style international</br>MoMA, New York</br><strong>Alfred Barr</strong>, directeur du musée</br>Exposition d'objets, ustensiles industriels, scientifiques, utilitaires, domestiques, beauté des fonctionnements, précision de l'usinage, monomatériaux, peu de plastique.</br>S'oppose au streamline considéré comme une esthétique vide et qui oublie les fonctionnements.</br><img src='https://tse2.mm.bing.net/th/id/OIP.bB9FTN7k5EFcLWbNXj2UfQAAAA?pid=Api' width='160'>;bulle transp full
 <strong>Lewis Mumford</strong></br><em>Technics and civilization</em>;event;1934;;row7 / span 2;Historien fonctionnaliste assumé;transp bulle trois
 <strong>Nikolaus Bernhard Léon Pevsner</strong> <em>Pioneers of Modern Movement</em>;event;1936;;row7 / span 2;Un père de l'histoire du design</br>Il étudie la mécanisation dans l'architecture, il est très centré fonctionnalisme;transp bulle trois
 <strong>Lewis Mumford</strong></br><em>The culture of the cities</em>;event;1938;;row6;;transp full
@@ -714,10 +707,10 @@ Minimalisme;period;1960;2025;row21 / span 2;1960 => ?</br>États-Unis</br>Contre
 ;;;;;;
 Dadaïsme, dada;period;1916;1925;row14 / span 2;1916 => 1925</br>Suisse => international</br><strong>Tristan Tzara, Hugo Ball, ou Hanz Harp ou Marcel Janco</strong>;dada
 1ère exposition dada;event;1916;;row13;exposition de <strong>Marcel Janco</strong> dans le Cabaret Voltaire d'Hugo Ball, Zurich;bulle
-<strong>Marcel Duchamp</strong></br><em>La fontaine</em>;event;1917;;row14;;transp full
+<strong>Marcel Duchamp</strong></br><em>La fontaine</em>;event;1917;;row14;<img src='https://cdn.britannica.com/s:500x150/43/19343-004-CFD4C383.jpg' width='160'>;transp full bulle
 Surréalisme;period;1924;1969;row14;1924 => 1969</br>Dali</br>Proche du dadaïsme mais avec d'autres valeurs;surrealisme
 Fluxus;period;1960;1980;row15 / span 2;1960 => 1980</br>George Maciunas, Robert Filiou</br>Rôle de l'artiste, place de l'art dans la société;fluxus rec13
-<strong>René Magritte</strong> <em>La trahison des images</em>;event;1929;;row14;;transp full
+<strong>René Magritte</strong> <em>La trahison des images</em>;event;1929;;row14;<img src='https://szeifertjudit.com/wp-content/uploads/2015/12/magritte-pipe.jpg?w=150&h=112' width='160'>;transp full bulle
 """N'allez pas à l'exposition coloniale""";event;1931;;row14;"Manifeste surréaliste</br>""le tour du monde en 1 jour""";bulle transp full
 <strong>André Breton</strong> meurt;event;1969;;row14 / span 2;Fin du mouvement surréaliste;bulle
 ;;;;;;
@@ -728,13 +721,13 @@ Première exposition au musée d'art moderne de Paris;event;1969;;row9 / span 2;
 Suport surface;period;1969;1972;row10;1969 => 1972</br>Pratique de peinture qui met l'accent sur ses composantes élémentaires;surface
 ;;;;;;
 Arte Povera;period;1960;2025;row4;1960 => ?</br>Italie</br>Giuseppe Penone</br>Pas sophistiqué;povera ouvert
-<strong>Michelangelo Pistoletto</strong></br><em>Metrocubo d'infinito</em>;event;1966;;row4;;transp
+<strong>Michelangelo Pistoletto</strong></br><em>Metrocubo d'infinito</em>;event;1966;;row4;<img src='https://tse1.mm.bing.net/th/id/OIP.4gZdPoIgLX4k-vr3y3c03QAAAA?pid=Api' width='160'>;transp bulle
 ;;;;;;
 Pop Art;period;1950;1968;row3;"1950 => ?</br>Def de Leslie Fiedler : (dans un essai sur la BD) ""la culture populaire contemporaine, qui est le fruit de la société industrialisée, se distingue des autres arts populaires par son refus d'être considérée comme minable ou de seconde zone, ou d'être enfermée dans une case. Cependant, les ouvrages issus de la culture populaire ne sont pas faits pour être soigneusement conservés mais plutôt pour être jetés""";popart ouvert
 Design pop;period;1966;1973;row3 / span 2;1966 => 1973</br>L'arrivée du plastique ouvre la voie à un design organique et anticonformiste;designpop rec13
-"<strong>Joe Colombo</strong></br><mark class=""technique"">Universale</mark>";event;1965;;row3 / span 2;"<mark class=""technique"">1ère chaise moulée entièrement en plastique ABS et empilable, édition Kartell, typique pop</mark>";colombo bulle
-"<mark class=""technique"">Chaise </mark><strong>Panton</strong>";event;1967;;row3 / span 2;"<mark class=""technique"">Première chaise en plastique entièrement moulée</mark>";transp bulle
-<em>Pouf Sacco</em>;event;1968;;row3 / span 2;<strong>Piero Gatti, Cesare Paolini, Franco Teodoro</strong> édition Zanotta;transp bulle
+"<strong>Joe Colombo</strong></br><mark class=""technique"">Universale</mark>";event;1965;;row3 / span 2;"<mark class=""technique"">1ère chaise moulée entièrement en plastique ABS et empilable, édition Kartell, typique pop</mark></br><img src='https://framemark.vam.ac.uk/collections/2021NB1582/full/110,/0/default.jpg' width='160'>";colombo bulle
+"<mark class=""technique"">Chaise </mark><strong>Panton</strong>";event;1967;;row3 / span 2;"<mark class=""technique"">Première chaise en plastique entièrement moulée</mark></br><img src='https://www.ecosia.org/images?addon=opensearch&size=small&q=chaise+panton#id=34E76236408D6D344CB72228420B2DF9FF73EFB2' width='160'>";transp bulle
+<em>Pouf Sacco</em>;event;1968;;row3 / span 2;<strong>Piero Gatti, Cesare Paolini, Franco Teodoro</strong> édition Zanotta</br><img src='https://mediation.centrepompidou.fr/education/ressources/ENS-Art-contemporain/photos/38-piero-gatti-cesare-paolini-franco-teodoro-pouf-sacco-1968-1969-150x190.jpg' width='160'>;transp bulle
 ;;;;;;
 MIBI;period;1954;1957;row16;1954 => 1957</br>Mouvement International pour le Bauhaus Imaginiste</br><strong>Asger Jorn, Guy Debord, Max Bill</strong></br>Critique des valeurs du design moderne, et notamment le fonctionnalisme, contre le néo-bauhaus purement technique, sans peinture, sans recherche, orga internationale dans le domaine de la fiction et des images;mibi
 Internationale Situationiste;period;1957;1972;row16 / span 2;"1957 => 1972</br>Théoriciens activistes révolutionnaires opérant dans les domaines culturels, artistiques, politiques, sociaux et désireux d'en finir avec la société de classes et la ""dictature de la marchandise""";intsituationiste full
@@ -743,16 +736,16 @@ MIBI fusionne avec d'autres;event;1957;;row17;Et devient l'internationale situat
 ;;;;;;
 Good Design, modernisme;period;1945;1966;row7 / span 2;1945 => 1966</br>États-Unis</br><strong>Charles et Ray Eames, Laszlo Moholy-Nagy, Hans Wegner, Gloag, Herman Lebus, Gordon Russel, (Edgar Kaufmann Jr</strong> au MoMA NY de 1946 à 1965)</br>Fusion forme / fonction, beauté simple et pratique, ingénieuse, utilisation de méthodes et matériaux de leur temps, coûts abordables;gooddesign
 Expositions good design;period;1950;1955;row7;1950 => 1955</br>Expositions initiées par Kaufmann Jr (avec le Merchandise Mart Chicago et le MoMA);expogooddesign rec13
-Attelle des <strong>Eames</strong>;event;1942;;row7;Typique du good design;attelle bulle full
+Attelle des <strong>Eames</strong>;event;1942;;row7;Typique du good design</br><img src='https://i.pinimg.com/originals/eb/df/46/ebdf46498e5fbe00590bcc21d9a225c7.jpg' width='160'>;attelle bulle full
 <strong>Eames</strong> <em>Storage Unit</em>;event;1949;;row6;Produite par <strong>Herman Miller</strong></br>Kit démontable</br><img src='https://www.silvera.fr/media/cache/small_thumbnail_image/product_3659_18976_eames-storage-unit-bookcase.jpg' width='160'>; bulle
 Design radical;period;1966;1978;row7 / span 2;1966 => 1978</br>Italie</br>Superstudio, Archizoom, Archigram, Ettore Sottsass;radical full
 Antidesign;period;1969;1981;row8 / span 2;1969 => ?</br>Joe Colombo, Ettore Sottsass, Archigram, Superstudio</br>Pour la disparition de tous les objets (contre le modernisme / good design capitaliste) car porteurs de symbolique de classe, et pour mettre à la place un antidesign constitué d'éléments anonymes, production de masse, aux prix abordables, personnalisés au moment de leur assemblage;antidesign ouvert rec13
 Groupe de Memphis;period;1981;1987;row7;1981 => 1987</br>Italie</br>Ettore Sottsass, Andrea Branzi</br>S'oppose au style international, au post-modernisme, au design post Bauhaus;memphis full
 Global Tools;period;1973;1985;row6;1973 => 1985</br>Alessandro Mendini, Ettore Sottsass</br>Prémices du designparticipatif;globaltools rec13
 """Superarchittetura""";event;1966;;row8;Exposition à Pistoia; bulle
-<strong>Ettore Sottsass</strong></br><em>Valentine</em>;event;1969;;row6;"<mark class=""technique"">machine à écrire</mark>";transp bulle full
-"""Italy : the New Domestic Landscape""";event;1972;;row6;New York</br>Exposition au MoMA;transp bulle full
-<strong>Ant Farm</strong></br><em>Dolphin Embassy</em>;event;1974;;row5;;full
+<strong>Ettore Sottsass</strong></br><em>Valentine</em>;event;1969;;row6;"<mark class=""technique"">machine à écrire</mark>"</br><img src='https://www.ecosia.org/images?size=small&q=sottsass+valentine#id=EFDA337CE47A484A84623AC5D24716F76172BFA3' width='160'>;transp bulle full
+"""Italy : the New Domestic Landscape""";event;1972;;row6;New York</br>Exposition au MoMA</br><img src='https://tse4.mm.bing.net/th/id/OIP.C1MOwqKD7n9MGTRhj4I0TAAAAA?pid=Api' width='160'>;transp bulle full
+<strong>Ant Farm</strong></br><em>Dolphin Embassy</em>;event;1974;;row5;<img src='https://hiddenarchitecture.net/wp-content/uploads/2016/02/antfarm_dolphin-embassy_01-150x150.jpg' width='160'>;full bulle
 <strong>Enzo Mari</strong></br><em>Autoprojettazione</em>;event;1974;;row6;;transp full
 Superstudio se sépare;event;1978;;row5;;full
 1ère exposition à la galerie Arc 74;event;1981;;row8;À Milan</br>Groupe Memphis;bulle full
@@ -831,10 +824,10 @@ Ouverture du Prix de Rome aux femmes;event;1903;;rowhist2;Les artistes femmes pe
 Séparation de l'Église et de l'État;event;1905;;rowhist1;;
 Fin de la censure théâtrale;event;1906;;rowhist1;;
 <strong>Minkowski</strong> <em>Space and time</em>;event;1908;;row19;;
-"<strong>Henry Ford</strong> <mark class=""technique"">Modèle T</mark>";event;1908;;row9;"<mark class=""technique"">1ère automobile fabriquée en grande série</mark>";bulle
+"<strong>Henry Ford</strong> <mark class=""technique"">Modèle T</mark>";event;1908;;row9;"<mark class=""technique"">1ère automobile fabriquée en grande série</mark></br><img src='https://tse2.mm.bing.net/th/id/OIP.g8Ue2kwICCfdfRbRZppttQAAAA?pid=Api' width='160'>";bulle
 "<mark class=""technique"">1er film tourné à Hollywood</mark>";event;1910;;row1;;full
 "<mark class=""technique"">1er film en couleurs kinemacolor</mark>";event;1911;;row1;;full
-Le <strong>facteur cheval</strong> achève son palais idéal;event;1912;;row9;;full
+Le <strong>facteur cheval</strong> achève son palais idéal;event;1912;;row9;<img src='https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2021/04/cda-gac-palais-facteur-cheval-main-2-tt-width-192-height-108-fill-1-crop-1-bgcolor-ffffff.jpg' width='160'>;full bulle
 <strong>Frederic W. Taylor</strong> <em>Les principes d'organisation des usines</em>;event;1912;;row3;;full
 <strong>Franck B. et Lillian M. Gilbreth</strong> <em>Ce qu'est un musée de la fatigue</em>;event;1916;;row1 / span 2;;
 Révolution russe;event;1917;;rowhist1;;
@@ -844,7 +837,7 @@ Société des Nations;event;1920;;rowhist1;SDN</br>Désarmement, règlement des 
 <em>Bois ou métal</em>;event;1929;;row1;<strong>John Gloag, Charlotte Perriand</strong>;bulle
 "<mark class=""expo"">Exposition universelle</mark>";event;1929;;row3;;full
 Krach boursier New York;event;1929;;rowhist1;Suivi d'une crise économique mondiale;bulle
-<strong>Albert Renger-Patzsh</strong>;event;1931;;row3;Photos de paysages, photo industrielle, rend beau l'industriel;bulle
+<strong>Albert Renger-Patzsh</strong>;event;1931;;row3;Photos de paysages, photo industrielle, rend beau l'industriel</br><img src='https://artblart.com/wp-content/uploads/2018/01/renger-patzsch-zeche-heinrich-robert.jpg?w=110&h=150' width='160'>;bulle
 Régime nazi;event;1933;;rowhist1;;
 Jeux Olympiques de Berlin;event;1936;;rowhist2;;
 Premiers congés payés;event;1936;;rowhist1;;
@@ -857,7 +850,7 @@ Premiers congés payés;event;1936;;rowhist1;;
 <strong>Henri Focillon</strong></br><em>Vie des formes</em>;event;1943;;row9;;full
 Droit de vote des femmes en France;event;1944;;rowhist1;;
 Début de la guerre froide;event;1947;;rowhist1;;
-"<strong>Marcel Bich</strong></br><mark class=""technique"">Stylo bic crystal</mark>";event;1950;;row4;;full
+"<strong>Marcel Bich</strong></br><mark class=""technique"">Stylo bic crystal</mark>";event;1950;;row4;<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/02-BICcristal2008-03-26.jpg/180px-02-BICcristal2008-03-26.jpg' width='160'>;full bulle
 Conférence Internationale de design d'Aspen;event;1951;;row16 / span 2;Colorado</br>Fondée par l'entrepreneur <strong>Walter Paepcke</strong>;bulle trois
 <strong>Pevsner</strong> découvre le design à Aspen;event;1953;;row16 / span 2;Dans le Colorado</br>À l'occasion d'un colloque;bulle trois
 <em>Manifesto per il disegno industriale</em>;event;1952;;row9;"1er manifeste du design italien, dans domus 296</br>Exposition ""arte e l'estetica industriale"" à la foire Campanionaria de Milan";bulle full
