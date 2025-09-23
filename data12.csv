@@ -564,7 +564,7 @@ Socialisme utopiste;period;1800;1850;row19;1800 => 1850</br><strong>Fourier, Pro
 Âge d'or des Shakers;period;1820;1860;row20;1820 => 1860</br>Angleterre puis États-Unis</br>Les shakers : 1747 => 1996;shaker
 ;;;;;;
 Impressionnisme;period;1841;1926;row22;1841 => 1926</br>International</br>Représenter la lumière, s'oppose à l'académisme;impressionnisme below
-<mark class=&quot;technique&quot;>Peinture en tube</mark>;event;1841;;row21;Inventée par <strong>John Goffe Rand</strong>;bulle
+<mark class="technique">Peinture en tube</mark>;event;1841;;row21;Inventée par <strong>John Goffe Rand</strong>;bulle
 <strong>Claude Monet</strong> Impression soleil levant</em>;event;1872;;row22;<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_xgiDFF6jUzztxYR1Rd0qMuT4L5h5xXKpA&s' width='160'>;transp bulle full below
 Postimpressionnisme;period;1880;1910;row22 / span 2;1880 => 1910;postimpressionnisme
 Pointillisme;period;1884;1900;row21;1884 => 1900</br>France, Belgique</br><strong>George Seurat, Paul Signac, Camille Pissaro, Maximilien Luce, Théo va Rysselberghe;pointillisme rec13 below
@@ -578,12 +578,12 @@ Renaissance nordique;period;1430;1580;row6;1430 => 1580</br>Pays-Bas, Flandre, H
 <strong>Jérôme Bosch</strong> <em>Le jardin des délices</em>;event;1500;;row6;<img src='https://fr.muzeo.com/sites/default/files/styles/image_oeuvre_slider/public/oeuvres/peinture/renaissance/le_jardin_des_deelices_panneau137619.jpg?itok=8KaylQY4' width='160'>;transp bulle full
 Quattrocento;period;1400;1500;row4;1400 => 1500</br>Italie</br>De 'millequattrocento'</br><img src='https://i.pinimg.com/736x/6c/c1/b3/6cc1b349a342126fc17b097d0a883aa4--italian-renaissance-renaissance-art.jpg' width='160'>;quattrocento rec13
 Arrivée massive de scientifiques, artistes, intellectuels en Europe;event;1400;;row9 / span 2;En provenance de l'Empire byzantin;bulle trois
-<strong>Brunelesci</strong></br><mark class=&quot;technique&quot;>Perspective</mark>;event;1409;;row4;<img src='https://nelson-atkins.org/gates/images/Brunelleschi.jpg' width='160'>;transp full bulle
-<strong>Jan Van Eyck</strong></br><em>Les Époux Arnolfini</em></br><mark class=&quot;technique&quot;>Peinture à l'huile</mark>;event;1434;;row6 / span 2;La peinture à l'huile vient remplacer la peinture aux blancs d'œufs</br><img src='https://www.museumtv.art/wp-content/uploads/2019/03/EPOUX1.jpg' width='160'>;transp bulle trois
-<strong>Piero Della Francesca</strong></br><mark class=&quot;technique&quot;>Perspective</mark>;event;1473;;row5 / span 2;<img src='https://www.artchive.com/wp-content/uploads/2023/04/The-Flagellation-Piero-della-Francesca-c.-1469-4-150x150.jpg' width='160'></br>La flagellation du Christ, 1460;transp trois bulle
+<strong>Brunelesci</strong></br><mark class="technique">Perspective</mark>;event;1409;;row4;<img src='https://nelson-atkins.org/gates/images/Brunelleschi.jpg' width='160'>;transp full bulle
+<strong>Jan Van Eyck</strong></br><em>Les Époux Arnolfini</em></br><mark class="technique">Peinture à l'huile</mark>;event;1434;;row6 / span 2;La peinture à l'huile vient remplacer la peinture aux blancs d'œufs</br><img src='https://www.museumtv.art/wp-content/uploads/2019/03/EPOUX1.jpg' width='160'>;transp bulle trois
+<strong>Piero Della Francesca</strong></br><mark class="technique">Perspective</mark>;event;1473;;row5 / span 2;<img src='https://www.artchive.com/wp-content/uploads/2023/04/The-Flagellation-Piero-della-Francesca-c.-1469-4-150x150.jpg' width='160'></br>La flagellation du Christ, 1460;transp trois bulle
 <strong>Léonard de Vinci</strong></br><em>La Joconde</em>;event;1503;;row4;<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Leonardo_di_ser_Piero_da_Vinci_-_Portrait_de_Mona_Lisa_(dite_La_Joconde)_-_Louvre_779.jpg/122px-Leonardo_di_ser_Piero_da_Vinci_-_Portrait_de_Mona_Lisa_(dite_La_Joconde)_-_Louvre_779.jpg' width='160'>;transp full bulle
 <strong>Michel-Ange</strong> <em>La création d'Adam</em>;event;1512;;row4;<img src='https://bohemegalante.com/wp-content/uploads/2020/08/michel-ange-crecc81ation-dadam.jpg?w=150' width='160'>;transp bulle full
-<mark class=&quot;technique&quot;>Perspective</mark> <strong>Alberti</strong></br><em>Traité de la pictura</em>;event;1540;;row4;;transp full
+<mark class="technique">Perspective</mark> <strong>Alberti</strong></br><em>Traité de la pictura</em>;event;1540;;row4;;transp full
 <strong>Galilée</strong> meurt;event;1642;;row4;Fondateur de la physique, astronomie moderne</br>Il a amélioré la lunette astronomique</br>Il se heurte à Aristote et l'Église;transp bulle full
 Blaise Pascal meurt;event;1662;;row4;Probabilités, philosophie religieuse</br>Entre le pessimisme de Saint Augustin et le Scepticisme de Montaigne;transp bulle full
 ;;;;;;
@@ -633,26 +633,26 @@ Arts Décoratifs;period;1910;1940;row17;1910 => 1940</br>Mouvement international
 ;;;;;;
 Rationalisme architectural;period;1700;1886;row7 / span 3;1700 => ?;rationalisme ouvert full
 <strong>Francesco Algarotti</strong></br><em>Saggio sopra l'architettura</em>;event;1756;;row5;(1712-1764)</br>Traité sur l'architecture, sur <strong>Carlo Lodoli</strong> à contre-courant du rococo et du néoclassicisme, il pense que l'architecture doit montrer ses propriétés organiques et celles des matériaux;transp bulle full
-<mark class=&quot;expo&quot;>1ère exposition industrielle</mark>;event;1798;;row5;Paris, Champ de Mars</br>Cérémonie révolutionnaire annuelle</br>Encourager l'industrie + compétition avec l'Angleterre;transp bulle full
-<mark class=&quot;expo&quot;>2e exposition industrielle</mark>;event;1801;;row5;Paris, palais national (Louvre)</br>On fête la République;transp bulle full
-<mark class=&quot;expo&quot;>3e exposition industrielle</mark>;event;1802;;row5;Paris, Louvre</br>On fête la République;transp bulle full
-<mark class=&quot;expo&quot;>Exposition industrielle</mark> à Gand;event;1803;;row5;Première exposition industrielle en province;transp bulle full
-<mark class=&quot;expo&quot;>4e exposition industrielle</mark>;event;1806;;row5;Paris, Invalides</br>Grande ampleur + focus sur des objets commercialisés et bon-marché + on ne célèbre plus la République mais les hauts faits d'armes de la France;transp bulle full
-<mark class=&quot;expo&quot;>Exposition industrielle</mark> à Stuttgart;event;1816;;row5;Stuttgart, dans le Wurtemberg (États allemands confédérés)</br>Première exposition industrielle à l'étranger;transp bulle full
-<mark class=&quot;expo&quot;>5e exposition industrielle</mark>;event;1819;;row5;Paris, Louvre;transp bulle full
-<mark class=&quot;expo&quot;>Expositions industrielles</mark> en province;event;1820;;row5;Essor des expositions universelles en province française dans les années 1820;transp bulle full
-<mark class=&quot;expo&quot;>6e exposition industrielle</mark>;event;1827;;row5;Paris, Louvre;transp bulle full
-<mark class=&quot;expo&quot;>7e exposition industrielle</mark>;event;1834;;row5;Paris, bâtiments provisoires à Concorde;transp bulle full
-<mark class=&quot;expo&quot;>8e exposition industrielle</mark>;event;1839;;row5;Paris;transp bulle full
-<mark class=&quot;expo&quot;>9e exposition industrielle</mark>;event;1844;;row5;Paris;transp bulle full
-<mark class=&quot;expo&quot;>Exposition industrielle</mark> Belgique;event;1847;;row5;+ section produits agricoles + médaille pour les ouvriers;transp bulle full
-<mark class=&quot;expo&quot;>10e exposition industrielle</mark>;event;1849;;row5;Paris</br>+ produits agricoles + la colonie algérienne expose aussi;transp bulle full
+<mark class="expo">1ère exposition industrielle</mark>;event;1798;;row5;Paris, Champ de Mars</br>Cérémonie révolutionnaire annuelle</br>Encourager l'industrie + compétition avec l'Angleterre;transp bulle full
+<mark class="expo">2e exposition industrielle</mark>;event;1801;;row5;Paris, palais national (Louvre)</br>On fête la République;transp bulle full
+<mark class="expo">3e exposition industrielle</mark>;event;1802;;row5;Paris, Louvre</br>On fête la République;transp bulle full
+<mark class="expo">Exposition industrielle</mark> à Gand;event;1803;;row5;Première exposition industrielle en province;transp bulle full
+<mark class="expo">4e exposition industrielle</mark>;event;1806;;row5;Paris, Invalides</br>Grande ampleur + focus sur des objets commercialisés et bon-marché + on ne célèbre plus la République mais les hauts faits d'armes de la France;transp bulle full
+<mark class="expo">Exposition industrielle</mark> à Stuttgart;event;1816;;row5;Stuttgart, dans le Wurtemberg (États allemands confédérés)</br>Première exposition industrielle à l'étranger;transp bulle full
+<mark class="expo">5e exposition industrielle</mark>;event;1819;;row5;Paris, Louvre;transp bulle full
+<mark class="expo">Expositions industrielles</mark> en province;event;1820;;row5;Essor des expositions universelles en province française dans les années 1820;transp bulle full
+<mark class="expo">6e exposition industrielle</mark>;event;1827;;row5;Paris, Louvre;transp bulle full
+<mark class="expo">7e exposition industrielle</mark>;event;1834;;row5;Paris, bâtiments provisoires à Concorde;transp bulle full
+<mark class="expo">8e exposition industrielle</mark>;event;1839;;row5;Paris;transp bulle full
+<mark class="expo">9e exposition industrielle</mark>;event;1844;;row5;Paris;transp bulle full
+<mark class="expo">Exposition industrielle</mark> Belgique;event;1847;;row5;+ section produits agricoles + médaille pour les ouvriers;transp bulle full
+<mark class="expo">10e exposition industrielle</mark>;event;1849;;row5;Paris</br>+ produits agricoles + la colonie algérienne expose aussi;transp bulle full
 <strong>Sir Henry Cole</strong></br><em>Journal of Design and Manufacture</em>;event;1849;;row7 / span 2;Titre de revue</br>Considéré comme le premier usage du terme design pour qualifier une nouvelle discipline;transp bulle trois
-<mark class=&quot;expo&quot;>1ère exposition universelle</mark>;event;1851;;row5;Londres, Crystal Palace (dessiné par <strong>Joseph Paxton</strong>)</br>Alors que beaucoup de pays avaient commencé les expositions industrielles, celle-ci est la première pour Londres</br>Le <strong>comte Laborde</strong> écrit un rapport dessus</br><strong>Henry Cole</strong> organise l'exposition, il est rédacteur du <em>journal of design and manufactures</em>. À sa mort ses notes sont publiées <em>Fifty years of public work</em></br>Ils veulent réconcilier art et industrie;transp bulle full
-<mark class=&quot;expo&quot;>2e exposition universelle</mark>;event;1855;;row5;Paris, Palais de l'industrie</br>+section Beaux-Arts + section économie domestique;transp bulle full
-<mark class=&quot;expo&quot;>3e exposition universelle</mark>;event;1862;;row5;Londres</br>+ section pédagogie + exposition d'objets d'art prêtés (influencé par Manchester);transp bulle full
+<mark class="expo">1ère exposition universelle</mark>;event;1851;;row5;Londres, Crystal Palace (dessiné par <strong>Joseph Paxton</strong>)</br>Alors que beaucoup de pays avaient commencé les expositions industrielles, celle-ci est la première pour Londres</br>Le <strong>comte Laborde</strong> écrit un rapport dessus</br><strong>Henry Cole</strong> organise l'exposition, il est rédacteur du <em>journal of design and manufactures</em>. À sa mort ses notes sont publiées <em>Fifty years of public work</em></br>Ils veulent réconcilier art et industrie;transp bulle full
+<mark class="expo">2e exposition universelle</mark>;event;1855;;row5;Paris, Palais de l'industrie</br>+section Beaux-Arts + section économie domestique;transp bulle full
+<mark class="expo">3e exposition universelle</mark>;event;1862;;row5;Londres</br>+ section pédagogie + exposition d'objets d'art prêtés (influencé par Manchester);transp bulle full
 <strong>Viollet-le-Duc</strong></br><em>Entretiens sur l'architecture</em>;event;1863;;row6 / span 2;Néogothique</br>Invente la notion de rationalisme constructif</br>Pose les bases de ce qui sera le fonctionnalisme, il dépasse Cole et Laborde car il renonce à la réconciliation art - industrie et aussi l'artisanat représentatif des vraies valeurs humaines;transp bulle trois
-<mark class=&quot;expo&quot;>4e exposition universelle</mark>;event;1867;;row6;Paris</br>L'empereur cherche à se mettre les ouvriers dans la poche, maison hygiéniste;transp bulle full
+<mark class="expo">4e exposition universelle</mark>;event;1867;;row6;Paris</br>L'empereur cherche à se mettre les ouvriers dans la poche, maison hygiéniste;transp bulle full
 <strong>Henri Labrouste</strong>;period;1801;1875;row7;1801 => 1875</br>Centre de formation rationaliste, il saisit l'importance du fer en architecture;rec13 labrouste
 Expressionnisme;period;1905;1930;row8;1905 => 1930</br>Allemagne, Europe du nord</br><strong>Munch</strong></br>Peinture, architecture, littérature, théâtre, cinéma, musique, danse</br>Essor de l'expérience personnelle, intensité dramatique des couleurs, mots, mouvements;expressionnisme
 Die Brücke;event;1905;;row9;Formation du groupe Die Brücke;
@@ -668,7 +668,7 @@ Déménagement;event;1925;;row7;De Weimar à Dessau;transp bulle
 Neues Bauen;period;1910;1930;row6;1910 => 1930</br>Architecture;neuesbauen rec13
 <strong>Ernst May</strong> plan d'urbanisme de Francfort;event;1920;;row6;Logements de masse, fonctionnaliste et staliniste;transp full bulle
 Fonctionnalisme géométrique;period;1867;1949;row6 / span 3;? => ?</br>Retour à la simplicité révélée par la machine, les formes modernes et fonctionnelles doivent refléter la vérité et créer au-delà des identités stylistiques;geometrique ouvert full
-<mark class=&quot;expo&quot;>10e exposition universelle;event;1889;;row6;Paris</br>Impressionnisme, tour Eiffel, triomphe de la machine centenaire de la Révolution française;transp bulle full
+<mark class="expo">10e exposition universelle;event;1889;;row6;Paris</br>Impressionnisme, tour Eiffel, triomphe de la machine centenaire de la Révolution française;transp bulle full
 <strong>Louis Henri Sullivan</strong> commence les gratte ciels à cette époque;event;1890;;row6 / span 2;Architecte américain spécialiste du béton armé, papa des gratte-ciels, fonctionnaliste</br>En 1896 dans son article <em>Le gratte-ciel de bureaux considéré dans une perspective artistique</em> il écrit son célèbre : 'form follows function';transp bulle trois
 <strong>Hendrik Petrus Berlage</strong> <em>La bourse d'Amsterdam</em>;event;1903;;row6 / span 2;Architecture style rationnel, plans géométriques, pas d'ornementation</br><img src='https://www.vanupied.com/wp-content/uploads/amsterdam-bourse-berlage-carte-postale.jpeg' width='160'>;transp bulle trois
 <strong>Paul Souriau</strong></br><em>La beauté rationnelle</em;event;1904;;row5;Esthéticien;transp bulle full
@@ -678,7 +678,7 @@ Design global;event;1907;;row6;Début du mode de conception totale en design ind
 <strong>Adolf Loos</strong> <em>La suppression des meubles</em>;event;1924;;row5;;transp full
 <strong>Le Corbusier</strong> <em>Le lait de chaux : la loi du Ripolin</em>;event;1925;;row5;Dans <em>L'art décoratif aujourd'hui</em>;transp bulle full
 Cuisine de Francfort, <strong>Margarete Schûtte-Lihotzky</strong>;event;1926;;row5;<img src='https://www.grapheine.com/wp-content/uploads/2016/07/Francfort-cuisine-134x134.jpg' width='160'>;transp full bulle
-<strong>Philip Johnson</strong> <mark class=&quot;expo&quot;>Machine Art</mark>;event;1934;;row5;(1906-2005), architecte, figure du style international</br>MoMA, New York</br><strong>Alfred Barr</strong>, directeur du musée</br>Exposition d'objets, ustensiles industriels, scientifiques, utilitaires, domestiques, beauté des fonctionnements, précision de l'usinage, monomatériaux, peu de plastique.</br>S'oppose au streamline considéré comme une esthétique vide et qui oublie les fonctionnements.</br><img src='https://tse2.mm.bing.net/th/id/OIP.bB9FTN7k5EFcLWbNXj2UfQAAAA?pid=Api' width='160'>;bulle transp full
+<strong>Philip Johnson</strong> <mark class="expo">Machine Art</mark>;event;1934;;row5;(1906-2005), architecte, figure du style international</br>MoMA, New York</br><strong>Alfred Barr</strong>, directeur du musée</br>Exposition d'objets, ustensiles industriels, scientifiques, utilitaires, domestiques, beauté des fonctionnements, précision de l'usinage, monomatériaux, peu de plastique.</br>S'oppose au streamline considéré comme une esthétique vide et qui oublie les fonctionnements.</br><img src='https://tse2.mm.bing.net/th/id/OIP.bB9FTN7k5EFcLWbNXj2UfQAAAA?pid=Api' width='160'>;bulle transp full
 <strong>Lewis Mumford</strong></br><em>Technics and civilization</em>;event;1934;;row7 / span 2;Historien fonctionnaliste assumé;transp bulle trois
 <strong>Nikolaus Bernhard Léon Pevsner</strong> <em>Pioneers of Modern Movement</em>;event;1936;;row7 / span 2;Un père de l'histoire du design</br>Il étudie la mécanisation dans l'architecture, il est très centré fonctionnalisme;transp bulle trois
 <strong>Lewis Mumford</strong></br><em>The culture of the cities</em>;event;1938;;row6;;transp full
@@ -737,8 +737,8 @@ Arte Povera;period;1960;2025;row4;1960 => ?</br>Italie</br>Giuseppe Penone</br>P
 ;;;;;;
 Pop Art;period;1950;1968;row3;1950 => ?</br>Def de Leslie Fiedler : (dans un essai sur la BD) 'la culture populaire contemporaine, qui est le fruit de la société industrialisée, se distingue des autres arts populaires par son refus d'être considérée comme minable ou de seconde zone, ou d'être enfermée dans une case. Cependant, les ouvrages issus de la culture populaire ne sont pas faits pour être soigneusement conservés mais plutôt pour être jetés';popart ouvert
 Design pop;period;1966;1973;row3 / span 2;1966 => 1973</br>L'arrivée du plastique ouvre la voie à un design organique et anticonformiste;designpop rec13
-<strong>Joe Colombo</strong></br><mark class=&quot;technique&quot;>Universale</mark>;event;1965;;row3 / span 2;<mark class=&quot;technique&quot;>1ère chaise moulée entièrement en plastique ABS et empilable, édition Kartell, typique pop</mark></br><img src='https://framemark.vam.ac.uk/collections/2021NB1582/full/110,/0/default.jpg' width='160'>;colombo bulle
-<mark class=&quot;technique&quot;>Chaise</mark> <strong>Panton</strong>;event;1967;;row3 / span 2;<mark class=&quot;technique&quot;>Première chaise en plastique entièrement moulée</mark></br><img src='https://cdn11.bigcommerce.com/s-kvxianwgwu/images/stencil/160w/products/11771/159231/159231__21589.1711051097.jpg?c=1' width='160'>;transp bulle
+<strong>Joe Colombo</strong></br><mark class="technique">Universale</mark>;event;1965;;row3 / span 2;<mark class="technique">1ère chaise moulée entièrement en plastique ABS et empilable, édition Kartell, typique pop</mark></br><img src='https://framemark.vam.ac.uk/collections/2021NB1582/full/110,/0/default.jpg' width='160'>;colombo bulle
+<mark class="technique">Chaise</mark> <strong>Panton</strong>;event;1967;;row3 / span 2;<mark class="technique">Première chaise en plastique entièrement moulée</mark></br><img src='https://cdn11.bigcommerce.com/s-kvxianwgwu/images/stencil/160w/products/11771/159231/159231__21589.1711051097.jpg?c=1' width='160'>;transp bulle
 <em>Pouf Sacco</em>;event;1968;;row3 / span 2;<strong>Piero Gatti, Cesare Paolini, Franco Teodoro</strong> édition Zanotta</br><img src='https://mediation.centrepompidou.fr/education/ressources/ENS-Art-contemporain/photos/38-piero-gatti-cesare-paolini-franco-teodoro-pouf-sacco-1968-1969-150x190.jpg' width='160'>;transp bulle
 ;;;;;;
 MIBI;period;1954;1957;row16;1954 => 1957</br>Mouvement International pour le Bauhaus Imaginiste</br><strong>Asger Jorn, Guy Debord, Max Bill</strong></br>Critique des valeurs du design moderne, et notamment le fonctionnalisme, contre le néo-bauhaus purement technique, sans peinture, sans recherche, orga internationale dans le domaine de la fiction et des images;mibi
@@ -755,7 +755,7 @@ Antidesign;period;1969;1981;row8 / span 2;1969 => ?</br>Joe Colombo, Ettore Sott
 Groupe de Memphis;period;1981;1987;row7;1981 => 1987</br>Italie</br>Ettore Sottsass, Andrea Branzi</br>S'oppose au style international, au post-modernisme, au design post Bauhaus;memphis full
 Global Tools;period;1973;1985;row6;1973 => 1985</br>Alessandro Mendini, Ettore Sottsass</br>Prémices du designparticipatif;globaltools rec13
 'Superarchittetura';event;1966;;row8;Exposition à Pistoia; bulle
-<strong>Ettore Sottsass</strong></br><em>Valentine</em>;event;1969;;row6;<mark class=&quot;technique&quot;>machine à écrire</mark></br><img src='https://www.ecosia.org/images?size=small&q=sottsass+valentine#id=EFDA337CE47A484A84623AC5D24716F76172BFA3' width='160'>;transp bulle full
+<strong>Ettore Sottsass</strong></br><em>Valentine</em>;event;1969;;row6;<mark class="technique">machine à écrire</mark></br><img src='https://www.ecosia.org/images?size=small&q=sottsass+valentine#id=EFDA337CE47A484A84623AC5D24716F76172BFA3' width='160'>;transp bulle full
 'Italy : the New Domestic Landscape';event;1972;;row6;New York</br>Exposition au MoMA</br><img src='https://tse4.mm.bing.net/th/id/OIP.C1MOwqKD7n9MGTRhj4I0TAAAAA?pid=Api' width='160'>;transp bulle full
 <strong>Ant Farm</strong></br><em>Dolphin Embassy</em>;event;1974;;row5;<img src='https://hiddenarchitecture.net/wp-content/uploads/2016/02/antfarm_dolphin-embassy_01-150x150.jpg' width='160'>;full bulle
 <strong>Enzo Mari</strong></br><em>Autoprojettazione</em>;event;1974;;row6;;transp full
@@ -768,14 +768,14 @@ Superstudio se sépare;event;1978;;row5;;full
 Design spéculatif;period;1994;2025;row8 / span 2;1994 => à nos jours</br>Angleterre, États-Unis</br>Anthony Dunne, Fiona Raby</br>Design développé à travers la fiction pour en faire un outil d'anticipation, de critique et de débats;speculatif
 Design fiction;period;2005;2025;row8;2005 => à nos jours;designfiction rec13
 ;;;;;;
-<strong>Klarenbeek & Dros</strong></br><mark class=&quot;technique&quot;>Mycelium chair</mark>;event;2019;;row6;;full
+<strong>Klarenbeek & Dros</strong></br><mark class="technique">Mycelium chair</mark>;event;2019;;row6;;full
 Zoépolis;period;2021;2025;row6;2021 => à nos jours;zoepolis
 ;;;;;;
 Apparition de l’homme;event;-26M;;rowhist1;;
 Fin de la dernière période glacière;event;-11700;;rowhist1;;
-<mark class=&quot;technique&quot;>Agriculture et élevage</mark>;event;-6400;;rowhist1;;
-<mark class=&quot;technique&quot;>Métallurgie du bronze</mark>;event;-3300;;rowhist1;;
-<mark class=&quot;technique&quot;>Invention de l’écriture</mark>;event;-3300;;rowhist2;<img src='https://www.histoire-pour-tous.fr/images/articles/dossiers/image-illustration-debut.gif' width='160'>;bulle
+<mark class="technique">Agriculture et élevage</mark>;event;-6400;;rowhist1;;
+<mark class="technique">Métallurgie du bronze</mark>;event;-3300;;rowhist1;;
+<mark class="technique">Invention de l’écriture</mark>;event;-3300;;rowhist2;<img src='https://www.histoire-pour-tous.fr/images/articles/dossiers/image-illustration-debut.gif' width='160'>;bulle
 ;;;;;;
 ;;;;;;
 ;;;;;;
@@ -785,8 +785,8 @@ Fin de la dernière période glacière;event;-11700;;rowhist1;;
 Le pape <strong>Grégoire 1er</strong> meurt;event;604;;row12;En simplifiant la représentation dans l'art religieux, il le remet au goût du jour;bulle full
 Fondation de l'Empire Ottoman;event;1299;;rowhist1;Par l'empereur Osman</br>Conquête du pourtour méditerrannéen</br>Nord Turquie;bulle
 Domination de la royauté;event;1400;;rowhist2;Domination juridique et politique;bulle
-<strong>Guttemberg</strong></br><mark class=&quot;technique&quot;>Invention de l'imprimerie</mark>;event;1440;;row12 / span 2;;trois
-<mark class=&quot;technique&quot;>Grandes découvertes</mark>;event;1492;;rowhist2;;
+<strong>Guttemberg</strong></br><mark class="technique">Invention de l'imprimerie</mark>;event;1440;;row12 / span 2;;trois
+<mark class="technique">Grandes découvertes</mark>;event;1492;;rowhist2;;
 'Découverte' de l'Amérique;event;1492;;rowhist1;;
 Enclosures;event;1500;;rowhist1;Le mouvement des enclosures prend de l'ampleur à partir de ce siècle;transp bulle
 <strong>Thomas More</strong></br><em>Utopia</em>;event;1516;;row12;Première utilisation de ce terme;bulle full
@@ -807,9 +807,9 @@ Mobilier Bivouac, Napoléon;event;1815;;row12;<img src='https://i.pinimg.com/ori
 Autre invasion de la France;event;1815;;rowhist1;;
 Mesures douanières;event;1816;;rowhist1;Pour protéger les industriels de la concurrence;bulle
 2ème Révolution française;event;1830;;rowhist1;Fin de la seconde restauration et début de la monarchie de juillet;bulle
-<mark class=&quot;technique&quot;>Daguerréotype</mark>;event;1839;;row12;Balbuciements de la photo;bulle
+<mark class="technique">Daguerréotype</mark>;event;1839;;row12;Balbuciements de la photo;bulle
 <strong>Catharine Ester Beecher</strong> <em>On the construction of houses</em>;event;1841;;row12 / span 2;États-Unis;bulle trois
-<mark class=&quot;technique&quot;>Première photo en couleur</mark>;event;1848;;row12;<strong>Edmond Bécquerel</strong></br>Au musée d'Histoire Naturelle de Paris;bulle full
+<mark class="technique">Première photo en couleur</mark>;event;1848;;row12;<strong>Edmond Bécquerel</strong></br>Au musée d'Histoire Naturelle de Paris;bulle full
 <strong>Thomas Carlyle</strong></br><em>Past and Present</em>;event;1848;;row10;Il réagit aux expositions industrielles, contre le matérialisme et préfère le gothique</br>Il accuse la mécanisation;bulle full
 Révolution;event;1848;;rowhist1;;
 Abolition de l'esclavage;event;1848;;row2;;full
@@ -825,44 +825,44 @@ Victoire de l'Allemagne, chute du 2nd empire;event;1870;;rowhist2;Guerre franco-
 Commune de Paris;event;1871;;rowhist2;;
 Fin de la censure;event;1881;;rowhist2;Loi sur la liberté de la presse;bulle
 <em>Le Capital 2</em>;event;1885;;row10;<strong>Karl Marw, Friedrich Engels</strong></br><em>Le Capital 2, Critique de l'économie politique</em>;bulle
-<strong>Étienne-Jules Marey</strong> <mark class=&quot;technique&quot;>chronophotographie</mark>;event;1890;;row12;Pratique pour l'étude des mouvements;bulle full
+<strong>Étienne-Jules Marey</strong> <mark class="technique">chronophotographie</mark>;event;1890;;row12;Pratique pour l'étude des mouvements;bulle full
 Les premières photos dans l'art;event;1890;;row10;;full
-<mark class=&quot;expo&quot;>11e exposition universelle</mark></br>Chicago;event;1893;;row3;Rejet de <strong>Sullivan</strong>, triomphe du style historique international.</br>Pour Alexandra Midal, Chicago était le centre de la révolution industrielle des États-Unis, qui avait d'ailleurs commencé avant celle européenne;bulle full
+<mark class="expo">11e exposition universelle</mark></br>Chicago;event;1893;;row3;Rejet de <strong>Sullivan</strong>, triomphe du style historique international.</br>Pour Alexandra Midal, Chicago était le centre de la révolution industrielle des États-Unis, qui avait d'ailleurs commencé avant celle européenne;bulle full
 <em>Le Capital 3</em>;event;1894;;row10;<strong>Karl Marx, Friedrich Engels</strong></br><em>Le Capital 3, Critique de l'économie politique</em>;bulle
-<mark class=&quot;technique&quot;>1er film</mark>;event;1895;;row1;<strong>Les frères lumière</strong></br><em>La sortie des usines</em></br>Lyon;bulle
+<mark class="technique">1er film</mark>;event;1895;;row1;<strong>Les frères lumière</strong></br><em>La sortie des usines</em></br>Lyon;bulle
 Fin de l'Académie royale de peinture et de sculpture;event;1897;;rowhist2 / span 2;;
 Ouverture du Prix de Rome aux femmes;event;1903;;rowhist2;Les artistes femmes peuvent enfin prétendre au Prix de Rome;bulle
 <em>Le Capital 4</em>;event;1904;;row10 / span 2;<strong>Karl Marx, Karl Kautsky</strong></br><em>Le Capital 4, Théorie de la plus-value;bulle
 Séparation de l'Église et de l'État;event;1905;;rowhist1;;
 Fin de la censure théâtrale;event;1906;;rowhist1;;
 <strong>Minkowski</strong> <em>Space and time</em>;event;1908;;row19;;
-<strong>Henry Ford</strong> <mark class=&quot;technique&quot;>Modèle T</mark>;event;1908;;row9;<mark class=&quot;technique&quot;>1ère automobile fabriquée en grande série</mark></br><img src='https://tse2.mm.bing.net/th/id/OIP.g8Ue2kwICCfdfRbRZppttQAAAA?pid=Api' width='160'>;bulle
-<mark class=&quot;technique&quot;>1er film tourné à Hollywood</mark>;event;1910;;row1;;full
-<mark class=&quot;technique&quot;>1er film en couleurs kinemacolor</mark>;event;1911;;row1;;full
+<strong>Henry Ford</strong> <mark class="technique">Modèle T</mark>;event;1908;;row9;<mark class="technique">1ère automobile fabriquée en grande série</mark></br><img src='https://tse2.mm.bing.net/th/id/OIP.g8Ue2kwICCfdfRbRZppttQAAAA?pid=Api' width='160'>;bulle
+<mark class="technique">1er film tourné à Hollywood</mark>;event;1910;;row1;;full
+<mark class="technique">1er film en couleurs kinemacolor</mark>;event;1911;;row1;;full
 Le <strong>facteur cheval</strong> achève son palais idéal;event;1912;;row9;<img src='https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2021/04/cda-gac-palais-facteur-cheval-main-2-tt-width-192-height-108-fill-1-crop-1-bgcolor-ffffff.jpg' width='160'>;full bulle
 <strong>Frederic W. Taylor</strong> <em>Les principes d'organisation des usines</em>;event;1912;;row3;;full
 <strong>Franck B. et Lillian M. Gilbreth</strong> <em>Ce qu'est un musée de la fatigue</em>;event;1916;;row1 / span 2;;
 Révolution russe;event;1917;;rowhist1;;
 Société des Nations;event;1920;;rowhist1;SDN</br>Désarmement, règlement des conflits par la négociation;bulle
-<mark class=&quot;expo&quot;>Exposition internationale des arts décoratifs et industriels modernes</mark>;event;1925;;row1 / span 2;Paris;bulle
-<mark class=&quot;technique&quot;>1er film parlant</mark>;event;1926;;row1;;
+<mark class="expo">Exposition internationale des arts décoratifs et industriels modernes</mark>;event;1925;;row1 / span 2;Paris;bulle
+<mark class="technique">1er film parlant</mark>;event;1926;;row1;;
 <em>Bois ou métal</em>;event;1929;;row21;<strong>John Gloag, Charlotte Perriand</strong>;bulle
-<mark class=&quot;expo&quot;>Exposition universelle</mark>;event;1929;;row1;;full
+<mark class="expo">Exposition universelle</mark>;event;1929;;row1;;full
 Krach boursier New York;event;1929;;rowhist1;Suivi d'une crise économique mondiale;bulle
 <strong>Albert Renger-Patzsh</strong>;event;1931;;row16;Photos de paysages, photo industrielle, rend beau l'industriel</br><img src='https://artblart.com/wp-content/uploads/2018/01/renger-patzsch-zeche-heinrich-robert.jpg?w=110&h=150' width='160'>;bulle
 Régime nazi;event;1933;;rowhist1;;
 Jeux Olympiques de Berlin;event;1936;;rowhist2;;
 Premiers congés payés;event;1936;;rowhist1;;
 <strong>Sir Herbert Read</strong></br><em>Art and Society</em>;event;1937;;row8;Histoire de l'art;bulle full
-<mark class=&quot;expo&quot;>Les femmes artistes d'Europe exposent au Jeu de Paume</mark>;event;1937;;row16 / span 2;Paris;bulle trois
-<mark class=&quot;expo&quot;>'Art dégénéré'</mark></br>Munich;event;1937;;row21;700 œuvres décrochées des musées allemands et montrées comme des symptômes d'un art malade, par les nazis;bulle full below
-<mark class=&quot;expo&quot;>Exposition universelle</mark></br>Paris;event;1937;;row9;Plus de femmes sont exposées;bulle full
+<mark class="expo">Les femmes artistes d'Europe exposent au Jeu de Paume</mark>;event;1937;;row16 / span 2;Paris;bulle trois
+<mark class="expo">'Art dégénéré'</mark></br>Munich;event;1937;;row21;700 œuvres décrochées des musées allemands et montrées comme des symptômes d'un art malade, par les nazis;bulle full below
+<mark class="expo">Exposition universelle</mark></br>Paris;event;1937;;row9;Plus de femmes sont exposées;bulle full
 <strong>Asplund</strong> Affranchissement de la couleur;event;1938;;row8;Suédois</br>1er à intégrer, dans une composition monuentale, l'affranchissement de la couleur consommée par les peintres;bulle full
-<mark class=&quot;expo&quot;>Exposition universelle</mark> New York;event;1939;;row9;Fluidité formelle et métaphorique du design</br><em>Futurama</em>, General Motors, <strong>Norman Bel Geddes</strong</br>Pavillon Ford, <strong>Walter Teague</strong></br>Piste de lancement de fusée, <strong>Raymond Loewy</strong></br>chrystler <em>Democracity</em>, <strong>Dreyfuss</strong>;bulle full
+<mark class="expo">Exposition universelle</mark> New York;event;1939;;row9;Fluidité formelle et métaphorique du design</br><em>Futurama</em>, General Motors, <strong>Norman Bel Geddes</strong</br>Pavillon Ford, <strong>Walter Teague</strong></br>Piste de lancement de fusée, <strong>Raymond Loewy</strong></br>chrystler <em>Democracity</em>, <strong>Dreyfuss</strong>;bulle full
 <strong>Henri Focillon</strong></br><em>Vie des formes</em>;event;1943;;row9;;full
 Droit de vote des femmes en France;event;1944;;rowhist1;;
 Début de la guerre froide;event;1947;;rowhist1;;
-<strong>Marcel Bich</strong></br><mark class=&quot;technique&quot;>Stylo bic crystal</mark>;event;1950;;row4;<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/02-BICcristal2008-03-26.jpg/180px-02-BICcristal2008-03-26.jpg' width='160'>;full bulle
+<strong>Marcel Bich</strong></br><mark class="technique">Stylo bic crystal</mark>;event;1950;;row4;<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/02-BICcristal2008-03-26.jpg/180px-02-BICcristal2008-03-26.jpg' width='160'>;full bulle
 Conférence Internationale de design d'Aspen;event;1951;;row17 / span 2;Colorado</br>Fondée par l'entrepreneur <strong>Walter Paepcke</strong>;bulle trois
 <strong>Pevsner</strong> découvre le design à Aspen;event;1953;;row17 / span 2;Dans le Colorado</br>À l'occasion d'un colloque;bulle trois
 <em>Manifesto per il disegno industriale</em>;event;1952;;row9;1er manifeste du design italien, dans domus 296</br>Exposition 'arte e l'estetica industriale' à la foire Campanionaria de Milan;bulle full
@@ -874,56 +874,56 @@ Traité de Rome;event;1957;;rowhist1;;
 <strong>Gilbert Simondon</strong></br><em>Du mode d'existence des objets techniques</em>;event;1958;;row18 / span 2;;trois
 <strong>Pierre Francastel</strong></br><em>Art et technique</em>;event;1958;;row9;;full
 <strong>Banham</strong> <em>Théorie et design à l'ère industrielle</em>;event;1960;;row9;;full
-<mark class=&quot;technique&quot;>Période où les voitures s'imposent en ville</mark>;event;1960;;rowhist2;;
+<mark class="technique">Période où les voitures s'imposent en ville</mark>;event;1960;;rowhist2;;
 <strong>Vance Packard</strong></br><em>L'art du gaspillage</em>;event;1962;;row1;Sociologue américain</br>Alerte sur l'obsolescence programmée;bulle full
 Indépendance de l'Algérie;event;1962;;rowhist1;;
 <strong>Stewart Brand</strong></br><em>Whole Earth Catalog</em>;event;1968;;row1 / span 2;USA</br>Catalogue de contre-culture;bulle
 Mai 1968;event;1968;;rowhist1;;
-<mark class=&quot;technique&quot;>Premiers pas sur la lune</mark>;event;1969;;rowhist1;;
-<strong>Verner Panton</strong> <mark class=&quot;expo&quot;>'Qu'est-ce que le design'</mark>;event;1969;;row1 / span 2;Expo inaugurale au CCI Centre de Création Industrielle, texte de <strong>Verner Panton</strong>;bulle
+<mark class="technique">Premiers pas sur la lune</mark>;event;1969;;rowhist1;;
+<strong>Verner Panton</strong> <mark class="expo">'Qu'est-ce que le design'</mark>;event;1969;;row1 / span 2;Expo inaugurale au CCI Centre de Création Industrielle, texte de <strong>Verner Panton</strong>;bulle
 <strong>Jean Baudrillard</strong></br><em>La société de consommation</em>;event;1970;;row1 / span 2;;
 <strong>Victor Papanek </strong><em>design pour un monde réel</em>;event;1971;;row1 / span 2;;
 <strong>Denis et Donella Meadows </strong><em>The limits to growth</em>;event;1972;;rowhist2;Comandité par le club de Rome;bulle
 <strong>Reyner Banham</strong></br><em>The architecture of the Well-Tempered Environment</em>;event;1973;;row1 / span 2;;trois
 Premier choc pétrolier;event;1973;;rowhist1;;
-<strong>Roland Moreno</strong></br><mark class=&quot;technique&quot;>Carte à puce</mark>;event;1974;;row1;<mark class=&quot;technique&quot;>bancaire ?</mark>;bulle full
-<strong>Roger Tallon</strong></br><mark class=&quot;technique&quot;>TGV</mark>;event;1974;;row3;;full
+<strong>Roland Moreno</strong></br><mark class="technique">Carte à puce</mark>;event;1974;;row1;<mark class="technique">bancaire ?</mark>;bulle full
+<strong>Roger Tallon</strong></br><mark class="technique">TGV</mark>;event;1974;;row3;;full
 Années internationale de la femme (ONU);event;1975;;row2;Les premières expos de femmes depuis la seconde guerre mondiale;bulle full
 Second choc pétrolier;event;1976;;rowhist1;;
-<mark class=&quot;technique&quot;>Sony, Walkman</mark>;event;1979;;row1;;
+<mark class="technique">Sony, Walkman</mark>;event;1979;;row1;;
 <strong>Bourdieu</strong></br><em>La distinction</em>;event;1979;;row3;;full
-<mark class=&quot;technique&quot;>Premier réseau intranet</mark>;event;1980;;row2;<mark class=&quot;technique&quot;>Militaire</mark>;bulle full
+<mark class="technique">Premier réseau intranet</mark>;event;1980;;row2;<mark class="technique">Militaire</mark>;bulle full
 <strong>Peter Weibel</strong></br><em>Biotechnologie et art</em>;event;1981;;row3;;full
-<mark class=&quot;technique&quot;>IBM PC</mark>;event;1981;;row1;<mark class=&quot;technique&quot;>Premier ordinateur personnel</mark>;bulle
+<mark class="technique">IBM PC</mark>;event;1981;;row1;<mark class="technique">Premier ordinateur personnel</mark>;bulle
 ENSCI;event;1982;;row2;Fondation de l'école;bulle
 <strong>Sigfried Giedion</strong></br><em>La mécanisation au pouvoir</em>;event;1983;;row2 / span 2;;trois
 Tchernobyl;event;1986;;rowhist1;;
 Chute du mur de Berlin;event;1989;;rowhist1;Néolibéralisme;bulle
-<mark class=&quot;technique&quot;>Création du World Wild Web</mark>;event;1989;;row1;;full
-<mark class=&quot;technique&quot;>Nintendo Game Boy</mark>;event;1989;;row3;Première console portable;bulle full
+<mark class="technique">Création du World Wild Web</mark>;event;1989;;row1;;full
+<mark class="technique">Nintendo Game Boy</mark>;event;1989;;row3;Première console portable;bulle full
 Première guerre du Golf;event;1990;;rowhist1;;
 Effondrement de l'URSS;event;1991;;rowhist1;;
 Fin de l'appartheid en Afrique du Sud;event;1991;;rowhist2;;
-<mark class=&quot;expo&quot;>Design, miroir du siècle,</mark>;event;1993;;row1;Paris, Grand Palais</br>La plus grande exposition du design en France;bulle full
-<strong>James Dyson</strong><mark class=&quot;technique&quot;> DC02 Aspirateur</mark>;event;1993;;row3;;full
+<mark class="expo">Design, miroir du siècle,</mark>;event;1993;;row1;Paris, Grand Palais</br>La plus grande exposition du design en France;bulle full
+<strong>James Dyson</strong><mark class="technique"> DC02 Aspirateur</mark>;event;1993;;row3;;full
 ANDEA;event;1995;;row2;Au moment où l'État se retire des financements d'écoles, laissant les territoires prendre en charge chacun à leur manière, les directeurs des Écoles supérieures d'Art et de design publiques de France s'associent;bulle
 Le Fresnois;event;1997;;row2;Tourcoing</br>Ouverture de ce studio national des arts contemporains;bulle
 Loi Aubry;event;1998;;rowhist1;Réduction du temps de travail à 35h;bulle
-<mark class=&quot;expo&quot;>Biennale de design Saint-Étienne</mark>;event;1998;;row1;La première;bulle full
+<mark class="expo">Biennale de design Saint-Étienne</mark>;event;1998;;row1;La première;bulle full
 Design Thinking;event;1998;;row3;Méthodologie de conception créative;bulle
 <strong>Pierre Damien Huyghe</strong>;event;2000;;row2;Le design est autorisé à figurer</br>dans les énoncés des filières universitaires;bulle full
 Attentats du 11 septembre;event;2001;;rowhist1;Manhattan, New York;bulle
 <strong>Nicolas Bourriaud</strong></br><em>Esthétique relationnelle</em>;event;2001;;row2;;full
 Passage à l'euro;event;2002;;rowhist1;Première monnaie unique en Europe;bulle
 Seconde guerre du Golf;event;2003;;rowhist1;;
-<mark class=&quot;expo&quot;>D-Day</mark>;event;2005;;row3;Exposition Pompidou sur l'émergence de nouveaux courants de design responsables;bulle
-<mark class=&quot;technique&quot;>Vélo'V JCDecaux</mark>;event;2005;;row6;<mark class=&quot;technique&quot;>Juste avant le vélib'</mark>;bulle full
+<mark class="expo">D-Day</mark>;event;2005;;row3;Exposition Pompidou sur l'émergence de nouveaux courants de design responsables;bulle
+<mark class="technique">Vélo'V JCDecaux</mark>;event;2005;;row6;<mark class="technique">Juste avant le vélib'</mark>;bulle full
 International Association of Societies of Design Research;event;2005;;row2 / span 2;Fondation de l'IASDR pour regrouper les sociétés savantes de design du monde entier;bulle trois
 Ateliers de la Recherche en Design;event;2006;;row2;Nîmes</br>Fondation de l'ARD, réseau international de chercheurs francophones</br>À l'initiative d'<strong>Alain Findeli, Brigitte Borja de Mozota et Georges Schambach</strong>;bulle full
 Crise des subprimes;event;2008;;rowhist1;Récession économique mondiale;bulle
 <strong>John Thackara</strong> <em>In the bubble</em>;event;2008;;row2;<em>In the bubble : de la complexité au design durable</em>;bulle full
 Accident nucléaire de Fukushima;event;2011;;rowhist1;;
-<mark class=&quot;technique&quot;>MaKerbot</mark><em> Replicator</em></br><mark class=&quot;technique&quot;>imprimante 3D</mark>;event;2011;;row2 / span 2;<mark class=&quot;technique&quot;>Troisième imprimante 3D et dernier modèle en Open Source</mark>;bulle trois
+<mark class="technique">MaKerbot</mark><em> Replicator</em></br><mark class="technique">imprimante 3D</mark>;event;2011;;row2 / span 2;<mark class="technique">Troisième imprimante 3D et dernier modèle en Open Source</mark>;bulle trois
 ANDEA devient ANdÉA;event;2012;;row2 / span 2;le terme 'Directeurs' disparaît de l'acronyme;bulle trois
 ARD devient PROJEKT;event;2014;;row2 / span 2;Le groupe des Ateliers de la Recherche en Design devient le laboratoire PROJEKT;bulle trois
 Accords de Paris sur le climat;event;2015;;rowhist1;;
@@ -931,13 +931,13 @@ Trump;event;2016;;rowhist1;;
 metoo;event;2017;;rowhist1;;
 Covid Confinement;event;2020;;rowhist1;;
 Brexit;event;2020;;rowhist2;;
-<mark class=&quot;technique&quot;>Chat GPT</mark>;event;2022;;row2;;
+<mark class="technique">Chat GPT</mark>;event;2022;;row2;;
 <strong>Nicolas Nova</strong></br><em>Persistence du Merveilleux</em>;event;2024;;row2 / span 2;;trois
 ;;;;;;
 Aujourd'hui;period;2025;2029;row23;;
-Légende :</br><strong>Gras</strong> : auteurs, noms de personnes</br><em>Souligné</em> : tous les titres, œuvres, livres, chapitres, ...</br><mark class=&quot;technique&quot;>Orange</mark> : techniques</br><mark class=&quot;expo&quot;>Bleu</mark> : Expositions qui font date;event;2027;;row21 / span 6;;left
+Légende :</br><strong>Gras</strong> : auteurs, noms de personnes</br><em>Souligné</em> : tous les titres, œuvres, livres, chapitres, ...</br><mark class="technique">Orange</mark> : techniques</br><mark class="expo">Bleu</mark> : Expositions qui font date;event;2027;;row21 / span 6;;left
 Ombre : survoler avec le pointeur pour voir une description;event;2027;;row15;Des images s'y cachent parfois</br><img src='https://www.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-260nw-1037719192.jpg' width='160'>;bulle left
 Dégradé : date de fin de période très floue, voire période toujours en cours;period;2026;2028;row13;date de début => ?;noir ouvert
 Fond bleu clair : pour les deux guerres mondiales;period;2026;2028;row11;;bleu
 La vue chronologique a pour vocation d'aider une compréhension des ruptures et des logiques dans l’histoire. Le format linéaire induit l'illusion d’un chemin unique et partagé par tous les humains mais ce n'est pas le cas. Cette version reste largement franco-centrée, je tente d’ouvrir à d’autres contextes géographiques et culturels, mais le travail est nécessairement partiel et situé. Vos critiques et suggestions sont les bienvenues pour enrichir et décentrer cette représentation !</br>Marie;event;2027;;row8 / span 9;;left
-<a href=&quot;https://github.com/marieboishus/frise-chronologique-design&quot; target=&quot;_blank&quot;>Ouvrir le projet GitHub dans un nouvel onglet</a> : Vous pouvez utiliser l'outil 'issues' pour faire des suggestions;event;2027;;rowhist2 / span 2;;left
+<a href="https://github.com/marieboishus/frise-chronologique-design" target="_blank">Ouvrir le projet GitHub dans un nouvel onglet</a> : Vous pouvez utiliser l'outil 'issues' pour faire des suggestions;event;2027;;rowhist2 / span 2;;left
