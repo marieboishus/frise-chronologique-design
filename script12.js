@@ -52,6 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const customWidths = {
         "-11700": 53,
         "-17000": 55,
+        "-2550": 50,
+        "-2490": 50,
         "-2000": 55,
         "-771": 70,
         "-510": 55,
@@ -84,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "1434": 55,
         "1440": 40,
         "1453": 50,
+        "1480": 60,
         "1492": 40,
         "1500": 55,
         "1503": 50,
@@ -218,13 +221,13 @@ document.addEventListener("DOMContentLoaded", () => {
         "1991": 50,
         "1993": 50,
         "1994": 50,
-        "1995": 10,
+        "1997": 40,
         "1998": 55,
         "2000": 45,
         "2001": 65,
         "2002": 30,
         "2003": 45,
-        "2005": 45,
+        "2005": 65,
         "2006": 65,
         "2008": 45,
         "2011": 50,
@@ -234,7 +237,9 @@ document.addEventListener("DOMContentLoaded", () => {
         "2019": 55,
         "2021": 10,
         "2024": 50,
-        "2025": 10
+        "2025": 10,
+        "2026": 130,
+        "2027": 190
       };
       const gridColumns = buildGridColumns(data, customWidths);
       grid.style.gridTemplateColumns = gridColumns;
