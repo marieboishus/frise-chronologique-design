@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Charge le CSV et construit la grille
-  fetch("data12.csv")
+  fetch("data12.tsv")
     .then(r => {
       if (!r.ok) throw new Error("Échec du chargement du CSV: " + r.status);
       return r.text();
@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(text => {
       const data = Papa.parse(text, {
         header: true,
-        delimiter: ";",
-        quoteChar: "§"
-      }).data;
+        delimiter: "\t"
+      });
+//      }).data;
       console.log("CSV parsed, lignes:", data.length);
 
 // |||||||||||||||||||| ICI LES LARGEURS DE COLONNES PERSONNALISÉES ||||||||||||||||||||||||||||
