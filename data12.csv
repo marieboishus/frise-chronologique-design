@@ -344,7 +344,7 @@ title;type;start;end;row;tooltip;class
 2022;date;2022;;;;
 2024;date;2024;;;;
 2025;date;2025;;;;
-Préhistoire;period;-26M;-3300;rowP1;"-2,6M => -3300";periode1 full carre
+Préhistoire;period;-26M;-3300;rowP1;-2,6M => -3300;periode1 full carre
 Histoire;period;-3300;2025;rowP1;"-3300 => 2025";periode2 full carre
 Paléolithique;period;-26M;-11700;rowP2;-2,6M => -11 700;epoque1 full carre
 Mésolithique;period;-11700;-6400;rowP2;-11 700 => -6400;epoque2 full carre
