@@ -44,7 +44,11 @@ document.addEventListener("DOMContentLoaded", () => {
       return r.text();
     })
     .then(text => {
-      const data = Papa.parse(text, { header: true, delimiter: ";" }).data;
+      const data = Papa.parse(text, {
+        header: true,
+        delimiter: ";",
+        quoteChar: "§"
+      }).data;
       console.log("CSV parsed, lignes:", data.length);
 
 // |||||||||||||||||||| ICI LES LARGEURS DE COLONNES PERSONNALISÉES ||||||||||||||||||||||||||||
