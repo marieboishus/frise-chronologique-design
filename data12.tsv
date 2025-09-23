@@ -1,0 +1,943 @@
+title\ttype\tstart\tend\trow\ttooltip\tclass
+-2,6M\tdate\t-26M\t\t\t\t
+-21000\tdate\t-21000\t\t\t\t
+-17000\tdate\t-17000\t\t\t\t
+-14000\tdate\t-14000\t\t\t\t
+-11700\tdate\t-11700\t\t\t\t 
+-6400\tdate\t-6400\t\t\t\t
+-5000\tdate\t-5000\t\t\t\t
+-3800\tdate\t-3800\t\t\t\t
+-3300\tdate\t-3300\t\t\t\t
+-2550\tdate\t-2550\t\t\t\t
+-2490\tdate\t-2490\t\t\t\t
+-2000\tdate\t-2000\t\t\t\t
+-1000\tdate\t-1000\t\t\t\t
+-771\tdate\t-771\t\t\t\t
+-753\tdate\t-753\t\t\t\t
+-650\tdate\t-650\t\t\t\t
+-510\tdate\t-510\t\t\t\t
+-509\tdate\t-509\t\t\t\t
+-500\tdate\t-500\t\t\t\t
+-481\tdate\t-481\t\t\t\t
+-380\tdate\t-380\t\t\t\t
+-348\tdate\t-348\t\t\t\t
+-323\tdate\t-323\t\t\t\t
+-221\tdate\t-221\t\t\t\t
+-206\tdate\t-206\t\t\t\t
+-138\tdate\t-138\t\t\t\t
+-127\tdate\t-127\t\t\t\t
+-126\tdate\t-126\t\t\t\t
+-63\tdate\t-63\t\t\t\t
+-59\tdate\t-59\t\t\t\t
+-52\tdate\t-52\t\t\t\t
+-49\tdate\t-49\t\t\t\t
+-44\tdate\t-44\t\t\t\t
+-31\tdate\t-31\t\t\t\t
+-27\tdate\t-27\t\t\t\t
+-15\tdate\t-15\t\t\t\t
+14\tdate\t14\t\t\t\t
+37\tdate\t37\t\t\t\t
+41\tdate\t41\t\t\t\t
+54\tdate\t54\t\t\t\t
+68\tdate\t68\t\t\t\t
+69\tdate\t69\t\t\t\t
+77\tdate\t77\t\t\t\t
+79\tdate\t79\t\t\t\t
+81\tdate\t81\t\t\t\t
+161\tdate\t161\t\t\t\t
+169\tdate\t169\t\t\t\t
+180\tdate\t180\t\t\t\t
+211\tdate\t211\t\t\t\t
+217\tdate\t217\t\t\t\t
+220\tdate\t220\t\t\t\t
+235\tdate\t235\t\t\t\t
+238\tdate\t238\t\t\t\t
+265\tdate\t265\t\t\t\t
+280\tdate\t280\t\t\t\t
+285\tdate\t285\t\t\t\t
+286\tdate\t286\t\t\t\t
+305\tdate\t305\t\t\t\t
+316\tdate\t316\t\t\t\t
+420\tdate\t420\t\t\t\t
+476\tdate\t476\t\t\t\t 
+479\tdate\t479\t\t\t\t
+481\tdate\t481\t\t\t\t
+502\tdate\t502\t\t\t\t
+511\tdate\t511\t\t\t\t
+557\tdate\t557\t\t\t\t
+558\tdate\t558\t\t\t\t
+561\tdate\t561\t\t\t\t
+581\tdate\t581\t\t\t\t
+589\tdate\t589\t\t\t\t
+604\tdate\t604\t\t\t\t
+613\tdate\t613\t\t\t\t
+618\tdate\t618\t\t\t\t
+629\tdate\t629\t\t\t\t
+639\tdate\t639\t\t\t\t
+690\tdate\t690\t\t\t\t
+705\tdate\t705\t\t\t\t
+751\tdate\t751\t\t\t\t
+768\tdate\t768\t\t\t\t
+800\tdate\t800\t\t\t\t
+814\tdate\t814\t\t\t\t
+840\tdate\t840\t\t\t\t
+843\tdate\t843\t\t\t\t
+877\tdate\t877\t\t\t\t
+879\tdate\t879\t\t\t\t
+884\tdate\t884\t\t\t\t
+888\tdate\t888\t\t\t\t
+898\tdate\t898\t\t\t\t
+907\tdate\t907\t\t\t\t
+922\tdate\t922\t\t\t\t
+923\tdate\t923\t\t\t\t
+924\tdate\t924\t\t\t\t
+936\tdate\t936\t\t\t\t
+954\tdate\t954\t\t\t\t
+986\tdate\t986\t\t\t\t
+987\tdate\t987\t\t\t\t
+996\tdate\t996\t\t\t\t
+1030\tdate\t1030\t\t\t\t
+1031\tdate\t1031\t\t\t\t
+1060\tdate\t1060\t\t\t\t
+1095\tdate\t1095\t\t\t\t
+1100\tdate\t1100\t\t\t\t
+1108\tdate\t1108\t\t\t\t
+1137\tdate\t1137\t\t\t\t
+1180\tdate\t1180\t\t\t\t
+1223\tdate\t1223\t\t\t\t
+1226\tdate\t1226\t\t\t\t
+1270\tdate\t1270\t\t\t\t
+1285\tdate\t1285\t\t\t\t
+1291\tdate\t1291\t\t\t\t
+1299\tdate\t1299\t\t\t\t
+1300\tdate\t1300\t\t\t\t
+1314\tdate\t1314\t\t\t\t
+1316\tdate\t1316\t\t\t\t
+1322\tdate\t1322\t\t\t\t
+1328\tdate\t1328\t\t\t\t
+1337\tdate\t1337\t\t\t\t
+1350\tdate\t1350\t\t\t\t
+1364\tdate\t1364\t\t\t\t
+1380\tdate\t1380\t\t\t\t
+1400\tdate\t1400\t\t\t\t
+1409\tdate\t1409\t\t\t\t
+1420\tdate\t1420\t\t\t\t
+1422\tdate\t1422\t\t\t\t
+1430\tdate\t1430\t\t\t\t
+1434\tdate\t1434\t\t\t\t
+1440\tdate\t1440\t\t\t\t
+1453\tdate\t1453\t\t\t\t
+1461\tdate\t1461\t\t\t\t
+1473\tdate\t1473\t\t\t\t
+1480\tdate\t1480\t\t\t\t
+1483\tdate\t1483\t\t\t\t
+1492\tdate\t1492\t\t\t\t
+1498\tdate\t1498\t\t\t\t
+1500\tdate\t1500\t\t\t\t
+1503\tdate\t1503\t\t\t\t
+1512\tdate\t1512\t\t\t\t
+1515\tdate\t1515\t\t\t\t
+1516\tdate\t1516\t\t\t\t
+1517\tdate\t1517\t\t\t\t
+1520\tdate\t1520\t\t\t\t
+1529\tdate\t1529\t\t\t\t
+1540\tdate\t1540\t\t\t\t
+1547\tdate\t1547\t\t\t\t
+1550\tdate\t1550\t\t\t\t
+1559\tdate\t1559\t\t\t\t
+1560\tdate\t1560\t\t\t\t
+1574\tdate\t1574\t\t\t\t
+1580\tdate\t1580\t\t\t\t
+1589\tdate\t1589\t\t\t\t
+1594\tdate\t1594\t\t\t\t
+1600\tdate\t1600\t\t\t\t
+1610\tdate\t1610\t\t\t\t
+1630\tdate\t1630\t\t\t\t
+1642\tdate\t1642\t\t\t\t
+1643\tdate\t1643\t\t\t\t
+1648\tdate\t1648\t\t\t\t
+1653\tdate\t1653\t\t\t\t
+1660\tdate\t1660\t\t\t\t
+1662\tdate\t1662\t\t\t\t
+1673\tdate\t1673\t\t\t\t
+1682\tdate\t1682\t\t\t\t
+1700\tdate\t1700\t\t\t\t
+1710\tdate\t1710\t\t\t\t
+1715\tdate\t1715\t\t\t\t
+1722\tdate\t1722\t\t\t\t
+1725\tdate\t1725\t\t\t\t
+1747\tdate\t1747\t\t\t\t
+1750\tdate\t1750\t\t\t\t
+1751\tdate\t1751\t\t\t\t
+1756\tdate\t1756\t\t\t\t
+1774\tdate\t1774\t\t\t\t
+1777\tdate\t1777\t\t\t\t
+1785\tdate\t1785\t\t\t\t
+1789\tdate\t1789\t\t\t\t
+1792\tdate\t1792\t\t\t\t
+1793\tdate\t1793\t\t\t\t
+1795\tdate\t1795\t\t\t\t
+1798\tdate\t1798\t\t\t\t
+1800\tdate\t1800\t\t\t\t
+1801\tdate\t1801\t\t\t\t
+1802\tdate\t1802\t\t\t\t
+1803\tdate\t1803\t\t\t\t
+1804\tdate\t1804\t\t\t\t
+1805\tdate\t1805\t\t\t\t
+1806\tdate\t1806\t\t\t\t
+1810\tdate\t1810\t\t\t\t
+1812\tdate\t1812\t\t\t\t
+1813\tdate\t1813\t\t\t\t
+1814\tdate\t1814\t\t\t\t
+1815\tdate\t1815\t\t\t\t
+1816\tdate\t1816\t\t\t\t
+1819\tdate\t1819\t\t\t\t
+1820\tdate\t1820\t\t\t\t
+1824\tdate\t1824\t\t\t\t
+1827\tdate\t1827\t\t\t\t
+1830\tdate\t1830\t\t\t\t
+1834\tdate\t1834\t\t\t\t
+1837\tdate\t1837\t\t\t\t
+1839\tdate\t1839\t\t\t\t
+1841\tdate\t1841\t\t\t\t
+1844\tdate\t1844\t\t\t\t
+1846\tdate\t1846\t\t\t\t
+1847\tdate\t1847\t\t\t\t
+1848\tdate\t1848\t\t\t\t
+1849\tdate\t1849\t\t\t\t
+1850\tdate\t1850\t\t\t\t
+1851\tdate\t1851\t\t\t\t
+1852\tdate\t1852\t\t\t\t
+1853\tdate\t1853\t\t\t\t
+1855\tdate\t1855\t\t\t\t
+1856\tdate\t1856\t\t\t\t
+1859\tdate\t1859\t\t\t\t
+1860\tdate\t1860\t\t\t\t
+1861\tdate\t1861\t\t\t\t
+1862\tdate\t1862\t\t\t\t
+1863\tdate\t1863\t\t\t\t
+1867\tdate\t1867\t\t\t\t
+1870\tdate\t1870\t\t\t\t
+1871\tdate\t1871\t\t\t\t
+1872\tdate\t1872\t\t\t\t
+1873\tdate\t1873\t\t\t\t
+1875\tdate\t1875\t\t\t\t
+1879\tdate\t1879\t\t\t\t
+1880\tdate\t1880\t\t\t\t
+1881\tdate\t1881\t\t\t\t
+1884\tdate\t1884\t\t\t\t
+1885\tdate\t1885\t\t\t\t
+1886\tdate\t1886\t\t\t\t
+1887\tdate\t1887\t\t\t\t
+1888\tdate\t1888\t\t\t\t
+1889\tdate\t1889\t\t\t\t
+1890\tdate\t1890\t\t\t\t
+1893\tdate\t1893\t\t\t\t
+1894\tdate\t1894\t\t\t\t
+1895\tdate\t1895\t\t\t\t
+1897\tdate\t1897\t\t\t\t
+1899\tdate\t1899\t\t\t\t
+1900\tdate\t1900\t\t\t\t
+1901\tdate\t1901\t\t\t\t
+1903\tdate\t1903\t\t\t\t
+1904\tdate\t1904\t\t\t\t
+1905\tdate\t1905\t\t\t\t
+1906\tdate\t1906\t\t\t\t
+1907\tdate\t1907\t\t\t\t
+1908\tdate\t1908\t\t\t\t
+1909\tdate\t1909\t\t\t\t
+1910\tdate\t1910\t\t\t\t
+1911\tdate\t1911\t\t\t\t
+1912\tdate\t1912\t\t\t\t
+1913\tdate\t1913\t\t\t\t
+1914\tdate\t1914\t\t\t\t
+1915\tdate\t1915\t\t\t\t
+1916\tdate\t1916\t\t\t\t
+1917\tdate\t1917\t\t\t\t
+1918\tdate\t1918\t\t\t\t
+1919\tdate\t1919\t\t\t\t
+1920\tdate\t1920\t\t\t\t
+1923\tdate\t1923\t\t\t\t
+1924\tdate\t1924\t\t\t\t
+1925\tdate\t1925\t\t\t\t
+1926\tdate\t1926\t\t\t\t
+1928\tdate\t1928\t\t\t\t
+1929\tdate\t1929\t\t\t\t
+1930\tdate\t1930\t\t\t\t
+1931\tdate\t1931\t\t\t\t
+1932\tdate\t1932\t\t\t\t
+1933\tdate\t1933\t\t\t\t
+1934\tdate\t1934\t\t\t\t
+1935\tdate\t1935\t\t\t\t
+1936\tdate\t1936\t\t\t\t
+1937\tdate\t1937\t\t\t\t
+1938\tdate\t1938\t\t\t\t
+1939\tdate\t1939\t\t\t\t
+1940\tdate\t1940\t\t\t\t
+1941\tdate\t1941\t\t\t\t
+1942\tdate\t1942\t\t\t\t
+1943\tdate\t1943\t\t\t\t
+1944\tdate\t1944\t\t\t\t
+1945\tdate\t1945\t\t\t\t
+1946\tdate\t1946\t\t\t\t
+1947\tdate\t1947\t\t\t\t
+1948\tdate\t1948\t\t\t\t
+1949\tdate\t1949\t\t\t\t
+1950\tdate\t1950\t\t\t\t
+1951\tdate\t1951\t\t\t\t
+1952\tdate\t1952\t\t\t\t
+1953\tdate\t1953\t\t\t\t
+1954\tdate\t1954\t\t\t\t
+1955\tdate\t1955\t\t\t\t
+1956\tdate\t1956\t\t\t\t
+1957\tdate\t1957\t\t\t\t
+1958\tdate\t1958\t\t\t\t
+1959\tdate\t1959\t\t\t\t
+1960\tdate\t1960\t\t\t\t
+1962\tdate\t1962\t\t\t\t
+1965\tdate\t1965\t\t\t\t
+1966\tdate\t1966\t\t\t\t
+1967\tdate\t1967\t\t\t\t
+1968\tdate\t1968\t\t\t\t
+1969\tdate\t1969\t\t\t\t
+1970\tdate\t1970\t\t\t\t
+1971\tdate\t1971\t\t\t\t
+1972\tdate\t1972\t\t\t\t
+1973\tdate\t1973\t\t\t\t
+1974\tdate\t1974\t\t\t\t
+1975\tdate\t1975\t\t\t\t
+1976\tdate\t1976\t\t\t\t
+1978\tdate\t1978\t\t\t\t
+1979\tdate\t1979\t\t\t\t
+1980\tdate\t1980\t\t\t\t
+1981\tdate\t1981\t\t\t\t
+1982\tdate\t1982\t\t\t\t
+1983\tdate\t1983\t\t\t\t
+1985\tdate\t1985\t\t\t\t
+1986\tdate\t1986\t\t\t\t
+1987\tdate\t1987\t\t\t\t
+1989\tdate\t1989\t\t\t\t
+1990\tdate\t1990\t\t\t\t
+1991\tdate\t1991\t\t\t\t
+1993\tdate\t1993\t\t\t\t
+1994\tdate\t1994\t\t\t\t
+1995\tdate\t1995\t\t\t\t
+1997\tdate\t1997\t\t\t\t
+1998\tdate\t1998\t\t\t\t
+2000\tdate\t2000\t\t\t\t
+2001\tdate\t2001\t\t\t\t
+2002\tdate\t2002\t\t\t\t
+2003\tdate\t2003\t\t\t\t
+2005\tdate\t2005\t\t\t\t
+2006\tdate\t2006\t\t\t\t
+2007\tdate\t2007\t\t\t\t
+2008\tdate\t2008\t\t\t\t
+2011\tdate\t2011\t\t\t\t
+2012\tdate\t2012\t\t\t\t
+2014\tdate\t2014\t\t\t\t
+2015\tdate\t2015\t\t\t\t
+2016\tdate\t2016\t\t\t\t
+2017\tdate\t2017\t\t\t\t
+2019\tdate\t2019\t\t\t\t
+2020\tdate\t2020\t\t\t\t
+2021\tdate\t2021\t\t\t\t
+2022\tdate\t2022\t\t\t\t
+2024\tdate\t2024\t\t\t\t
+2025\tdate\t2025\t\t\t\t
+Préhistoire\tperiod\t-26M\t-3300\trowP1\t-2,6M => -3300\tperiode1 full carre
+Histoire\tperiod\t-3300\t2025\trowP1\t-3300 => 2025\tperiode2 full carre
+Paléolithique\tperiod\t-26M\t-11700\trowP2\t-2,6M => -11 700\tepoque1 full carre
+Mésolithique\tperiod\t-11700\t-6400\trowP2\t-11 700 => -6400\tepoque2 full carre
+Néolithique\tperiod\t-6400\t-3300\trowP2\t-6400 => -3300\tepoque1 full carre
+Antiquité\tperiod\t-3300\t476\trowP2\t-3300 => 476\tepoque2 full carre
+Moyen-Âge\tperiod\t476\t1492\trowP2\t476 => 1492\tepoque1 full carre
+Temps Modernes\tperiod\t1492\t1789\trowP2\t1492 => 1789\tepoque2 full carre
+Période contemporaine\tperiod\t1789\t2025\trowP2\t1789 => 2025\tepoque1 full carre
+Âge de pierre\tperiod\t-26M\t-3300\trowP5 / span 3\t-2,6M => -3000\tage1 full carre
+Âge de bronze\tperiod\t-3300\t-1000\trowP5 / span 3\t-3000 => -1000\tage2 full carre
+Âge de fer\tperiod\t-1000\t481\trowP5 / span 3\t-1000 => ?\tage1 ouvert full carre
+Les Mérovingiens\tperiod\t481\t751\trowP4\t481 => 751\troyfrance1 full carre
+Les Carolingiens\tperiod\t751\t987\trowP4\t751 => 987\troyfrance2 full carre
+Les Capétiens\tperiod\t987\t1328\trowP4\t987 => 1328\troyfrance1 full carre
+Les Valois\tperiod\t1328\t1589\trowP4\t1328 => 1589\troyfrance2 full carre
+Les Bourbons\tperiod\t1589\t1792\trowP4\t1589 => 1792\troyfrance1 full carre
+Les Bourbons\tperiod\t1814\t1848\trowP4\t1814 => 1848\troyfrance1 full carre
+Art Moderne\tperiod\t1863\t1945\trowP3\t1963 => ?\tage1 ouvert full carre
+Art Contemporain\tperiod\t1945\t2025\trowP3\t1945 => à nos jours\tage2 full carre
+Empire franc\tperiod\t800\t924\trowP5\t800 => 924\tempire full carre
+Système féodal\tperiod\t1030\t1400\trowP5\t1030 => 1400\tfeodal full carre
+Les croisades\tperiod\t1095\t1291\trowhist1\t1095 => 1291</br>9 croisades sur cette période, des 'pélerinages en armes', souvent lancés par la France</br>Les chrétiens, les pellerins armés => les croisés\tcroisades
+Guerre de cent ans\tperiod\t1337\t1453\trowhist1\t1337 => 1453</br>Valois (royaume de France) contre Plantagenêts (royaume d'Angleterre)\tguerrecent full carre
+1ère République\tperiod\t1792\t1804\trowP5\t1792 => 1804\trep1 full carre
+1er Empire\tperiod\t1804\t1814\trowP5\t1804 => 1814\tempire full carre
+Cent-jours\tevent\t1815\t\trowP5\t\tfull
+Napoléon Ier\tperiod\t1804\t1814\trowP4\t1804 => 1814\tempire full carre
+2e République\tperiod\t1848\t1852\trowP5\t1848 => 1852\trep1 full carre
+Napoléon III\tperiod\t1848\t1851\trowP4\t1848 => 1851\trep1 full carre
+Second Empire\tperiod\t1852\t1870\trowP5\t1852 => 1870\tempire full carre
+Napoléon III\tperiod\t1852\t1870\trowP4\t1852 => 1870\tempire full carre
+3e République\tperiod\t1870\t1940\trowP5\t1870 => 1940\trep1 full carre
+Adolphe Thiers\tperiod\t1871\t1873\trowP4\t1871 => 1873\trep2 full carre
+Patrice de Mac Mahon\tperiod\t1873\t1879\trowP4\t1873 => 1879\trep1 full carre
+Jules Grévy\tperiod\t1879\t1887\trowP4\t1879 => 1887\trep2 full carre
+Sadi Carnot\tperiod\t1887\t1894\trowP4\t1887 => 1894\trep1 full carre
+Jean Casimir-Perier\tperiod\t1894\t1895\trowP4\t1894 => 1895\trep2 full carre
+Félix Faure\tperiod\t1895\t1899\trowP4\t1895 => 1899\trep1 full carre
+Émile Loubet\tperiod\t1899\t1906\trowP4\t1899 => 1906\trep2 full carre
+Armand Fallières\tperiod\t1906\t1913\trowP4\t1906 => 1913\trep1 full carre
+Raymond Poincaré\tperiod\t1913\t1919\trowP4\t1913 => 1920\trep2 full carre
+Paul Deschanel\tperiod\t1919\t1920\trowP4\t1920 => 1920\trep1 full carre
+Alexandre Millerand\tperiod\t1920\t1924\trowP4\t1920 => 1924\trep2 full carre
+Gaston Doumergue\tperiod\t1924\t1931\trowP4\t1924 => 1931\trep1 full carre
+Paul Doumer\tperiod\t1931\t1932\trowP4\t1931 => 1932\trep2 full carre
+Albert Lebrun\tperiod\t1932\t1940\trowP4\t1932 => 1940\trep1 full carre
+4e République\tperiod\t1946\t1958\trowP5\t1946 => 1958\trep1 full carre
+Vincent Auriol\tperiod\t1947\t1954\trowP4\t1947 => 1954\trep2 full carre
+René Coty\tperiod\t1954\t1959\trowP4\t1954 => 1959\trep1 full carre
+5e République\tperiod\t1958\t2025\trowP5\t1958 => à nos jours\trep2 full carre
+Charles de Gaulle\tperiod\t1959\t1969\trowP4\t1959 => 1969\trep2 full carre
+Georges Pompidou\tperiod\t1969\t1974\trowP4\t1969 => 1974\trep1 full carre
+Valéry Giscard d'Estaing\tperiod\t1974\t1981\trowP4\t1974 => 1981\trep2 full carre
+François Mitterand\tperiod\t1981\t1995\trowP4\t1981 => 1995\trep1 full carre
+Jacques Chirac\tperiod\t1995\t2007\trowP4\t1995 => 2007\trep2 full carre
+Nicolas Sarkozy\tperiod\t2007\t2012\trowP4\t2007 => 2012\trep1 full carre
+François Hollande\tperiod\t2012\t2017\trowP4\t2012 => 2017\trep2 full carre
+Emmanuel Macron\tperiod\t2017\t2025\trowP4\t2017 => à nos jours\trep1 full carre
+Humanisme\tperiod\t1400\t1789\trow4 / span 2\t<strong>Humanisme</strong></br>1400 => fin 1700</br>L'humain avant tout le reste, laïcité</br><img src='https://sciencepost.fr/wp-content/uploads/2018/10/Ortuns-Wikipedia-192x192.jpg' width='160'>\thumanisme
+Lumières\tperiod\t1715\t1789\trow3\t1715 => 1789\tlumieres rec13
+<strong>Diderot, d'Alembert</strong></br><em>l'Encyclopédie</em>\tevent\t1751\t\trow3\t\ttransp full
+Classicisme\tperiod\t1660\t1785\trow2\t1660 => ~1785</br>Style au goût de Louis XIV</br>Esthétique de l'honnête homme, fondé sur l'inspiration de l'art antique. Esthétique fondée sur des principes assez contraignants, en particulier les règles du théâtre classique, marqué par l'équilibre, la mesure et la vraisemblance\tcourantofficiel2 carre full
+Salons Académie\tperiod\t1673\t1880\trow1\t1673 => 1880\tsalons carre full
+Salon des refusés\tperiod\t1863\t1886\trow2\t1863 => 1886</br><strong>Viollet le Duc</strong> initie les salons des refusés\trefuses carre full
+Académie royale de peinture et de sculpture\tevent\t1648\t\trow1 / span 2\tCréation de l'académie</br>Défendre les intérêts des artistes face au pouvoir royal, former les copistes\tbulle academie
+<strong>Édouard Manet</strong></br></strong><em>Le déjeûner sur l'herbe</em>\tevent\t1863\t\trow4 / span 2\tUne femme non-déesse est 'mise à poil'\tbulle trois
+La Fronde\tperiod\t1648\t1653\trowP5\t1648 => 1653\tcrise full carre
+Régence\tperiod\t1715\t1722\trowP5\t1715 => 1722</br>Roi trop jeune, régence exercée par le duc d'Orléans. Hausse du progressisme et baisse de la crédibilité de l'État\tcrise full carre
+Crise\tperiod\t1837\t1839\trowhist1 / span 2\t1837 => 1839</br>Angleterre, Canada, États-Unis</br>Crise de la production agricole et crise financière\tcrise full carre
+Crise\tperiod\t1846\t1847\trowhist1 / span 2\t1846 => 1847</br>Crise économique en Europe due à la crise industrielle et aux mauvaises récoltes de céréales\tcrise full carre
+Rococo, style rocaille\tperiod\t1715\t1774\trowhist2\t1715 => 1774</br>Europe</br>Décors d'intérieur inspirés de la nature, fleurs, motifs fantaisistes, exotiques, arabesques\tcourantofficiel1 carre full
+Néo-classicisme\tperiod\t1750\t1810\trowhist1\t1750 => 1810</br>Émerge avec les lumières - promeuvent le retour à l'Antique - contre le rococo\tcourantofficiel2 carre full
+Romantisme\tperiod\t1800\t1870\trowhist2\tFin 1700 => 1870</br>Occident</br>Contre le classicisme, les lumières, la raison\tcourantofficiel1 carre full
+Réalisme\tperiod\t1850\t1885\trowhist1\t1850 => 1885</br>International</br>Proche du romantisme et du naturalisme\tcourantofficiel2 carre full
+<strong>Gustave Courbet</strong> Manifeste du réalisme\tevent\t1855\t\trowhist1\tIl loue un entrepôt face à l'exposition universelle, il expose ses œuvres, 'pavillon du réalisme'</br>La première marque de l'indépendance des artistes face aux institutions, tournant précurseur de l'art moderne\tbulle transp
+<strong>Auguste Rodin</strong> <em>Le penseur</em>\tevent\t1880\t\trowhist1\t<img src='https://cdn.pixabay.com/photo/2015/12/12/22/04/the-thinker-1090227__180.jpg' width='160'>\ttransp bulle
+\tfond\t-11700\t-6400\trowticks / rowend\t\tepoquefond
+\tfond\t-3300\t476\trowticks / rowend\t\tepoquefond
+\tfond\t1492\t1789\trowticks / rowend\t\tepoquefond
+\tfond\t1914\t1918\trowticks / rowend\t\tgmfond
+\tfond\t1939\t1945\trowticks / rowend\t\tgmfond
+Grottes de Lascaux\tperiod\t-21000\t-14000\trow4\t-21 000 => -14 000</br>(Dordogne)</br><img src='https://www.fabula.org/actualites/documents/122756_fbb41ad888c08b362911ae20334f001b.jpg' width='160'>\tlascaux
+Magdalénien\tperiod\t-17000\t-14000\trow9\t-17 000 => -14 000</br>(culture)\tmagdalenien
+Dolmens\tperiod\t-5000\t-3300\trow3\t-5000 => -3300</br><img src='https://www.aquaportail.com/pictures2209/dolmen.jpg' width='160'>\tdolmens
+\t\t\t\t\t\t
+Clovis\tperiod\t481\t511\trowP3\t\troyfrance2 carre full
+Clothaire 1er\tperiod\t558\t561\trowP3\t\troyfrance2 carre full
+Clothaire 2\tperiod\t613\t629\trowP3\t\troyfrance2 carre full
+Dagobert 1er\tperiod\t629\t639\trowP3\t\troyfrance1 carre full
+13 rois mérovingiens\tperiod\t639\t751\trowP3\t\troyfrance2 carre full
+Pépin le Bref\tperiod\t751\t768\trowP3\t\troyfrance1 carre full
+Charlemagne et Carloman\tperiod\t768\t814\trowP3\t\tempire carre full
+Louis Ier le Pieux\tperiod\t814\t840\trowP3\t\troyfrance1 carre full
+Charles le Chauve\tperiod\t843\t877\trowP3\t\troyfrance1 carre full
+Louis II le Bègue\tperiod\t877\t879\trowP3\t\troyfrance2 carre full
+Charles II le Gros\tperiod\t884\t888\trowP3\t\troyfrance1 carre full
+Eudes (Robertien)\tperiod\t888\t898\trowP3\t\troyfrance2 carre full
+Charles III le Simple\tperiod\t898\t922\trowP3\t\troyfrance1 carre full
+Robert Ier (Robertien)\tperiod\t922\t923\trowP3\t\troyfrance2 carre full
+Raoul (Robertien)\tperiod\t923\t936\trowP3\t\troyfrance1 carre full
+Louis IV l'Outremer\tperiod\t936\t954\trowP3\t\troyfrance2 carre full
+Lothaire\tperiod\t954\t986\trowP3\t\troyfrance1 carre full
+Louis V\tperiod\t986\t987\trowP3\t\troyfrance2 carre full
+Hugues Ier Capet\tperiod\t987\t996\trowP3\t\troyfrance1 carre full
+Robert II le Pieux\tperiod\t996\t1031\trowP3\t\troyfrance2 carre full
+Henri Ier\tperiod\t1031\t1060\trowP3\t\troyfrance1 carre full
+Philippe Ier\tperiod\t1060\t1108\trowP3\t\troyfrance2 carre full
+Louis VI le Gros\tperiod\t1108\t1137\trowP3\t\troyfrance1 carre full
+Louis VII le Jeune\tperiod\t1137\t1180\trowP3\t\troyfrance2 carre full
+Philippe II Auguste\tperiod\t1180\t1223\trowP3\t\troyfrance1 carre full
+Louis VIII le Lion\tperiod\t1223\t1226\trowP3\t\troyfrance2 carre full
+Louis IX (Saint Louis)\tperiod\t1226\t1270\trowP3\t\troyfrance1 carre full
+Philippe III le Hardi\tperiod\t1270\t1285\trowP3\t\troyfrance2 carre full
+Philippe IV le Bel\tperiod\t1285\t1314\trowP3\t\troyfrance1 carre full
+Louis X le Hutin</br>Jean Ier le Posthume\tperiod\t1314\t1316\trowP3\tLouis X : 1314 => 1316</br>Jean Ier : 1316 => 1316\troyfrance2 carre full
+Philippe V le Long\tperiod\t1316\t1322\trowP3\t\troyfrance1 carre full
+Charles IV le Bel\tperiod\t1322\t1328\trowP3\t\troyfrance2 carre full
+Philippe VI de Valois\tperiod\t1328\t1350\trowP3\t\troyfrance1 carre full
+Jean II le Bon\tperiod\t1350\t1364\trowP3\t\troyfrance2 carre full
+Charles V le Sage\tperiod\t1364\t1380\trowP3\t\troyfrance1 carre full
+Charles VI le Bien-Aimé\tperiod\t1380\t1422\trowP3\t\troyfrance2 carre full
+Charles VII le Bien Servi\tperiod\t1422\t1461\trowP3\t\troyfrance1 carre full
+Louis XI le Prudent\tperiod\t1461\t1483\trowP3\t\troyfrance2 carre full
+Charles VIII l'Affable\tperiod\t1483\t1498\trowP3\t\troyfrance1 carre full
+Louis XII le père du Peuple\tperiod\t1498\t1515\trowP3\t\troyfrance2 carre full
+François Ier, père et restaurateur des Lettres\tperiod\t1515\t1547\trowP3\t\troyfrance1 carre full
+Henri II\tperiod\t1547\t1559\trowP3\t\troyfrance2 carre full
+François II\tperiod\t1559\t1560\trowP3\t\troyfrance1 carre full
+Charles IX\tperiod\t1560\t1574\trowP3\t\troyfrance2 carre full
+Henri III\tperiod\t1574\t1589\trowP3\t\troyfrance1 carre full
+Henri IV (le Vert Galand)\tperiod\t1589\t1610\trowP3\t\troyfrance2 carre full
+Louis XIII le Juste\tperiod\t1610\t1643\trowP3\t\troyfrance1 carre full
+Louis XIV (le Roi Soleil)\tperiod\t1643\t1715\trowP3\tPlus long règne, 72 ans\troyfrance2 carre full
+Louis XV le Bien-Aimé\tperiod\t1715\t1774\trowP3\t\troyfrance1 carre full
+Louis XVI\tperiod\t1774\t1792\trowP3\t\troyfrance2 carre full
+Louis XVIII\tperiod\t1814\t1824\trowP3\t\troyfrance1 carre full
+Charles X\tperiod\t1824\t1830\trowP3\t\troyfrance2 carre full
+Louis-Philippe 1er\tperiod\t1830\t1848\trowP3\t\troyfrance1 carre full
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+Premières traces de la route de la soie\tevent\t-2000\t\trow18\tde Chang'an (Xi'an, Chine) à Constantinople (Istanbul, Turquie)\tbulle full
+Période des Printemps et automnes\tperiod\t-771\t-481\trow18\t-771 => -481</br>Chine\tchine1 carre full
+Royaumes combattants\tperiod\t-481\t-221\trow18\t-481 => -221</br>Chine\tchine2 carre full
+Dynastie Qin\tperiod\t-221\t-206\trow18\t-221 => -206</br>Chine\tchine1 carre full
+Dynastie Han\tperiod\t-206\t220\trow18\t-206 => 220</br>Chine</br>Développement de la route de la soie\tchine2 carre full
+Voyage de Zhang Qian\tperiod\t-138\t-126\trow17\t-138 => -126</br>Date d'ouverture de la route de la soie fixée par les chinois\tzhangqian
+Trois Royaumes\tperiod\t220\t280\trow18\t220 => 280</br>Chine\tchine1 carre full
+Dynastie Jin de l'Ouest\tperiod\t265\t316\trow19\t265 => 316\tchine2 carre full
+Dynastie Jin de l'Est\tperiod\t316\t420\trow19\t317 => 420\tchine1 carre full
+Dynastie Song du Sud\tperiod\t420\t479\trow19\t420 => 479\tchine2 carre full
+Dynastie Qi du Sud\tperiod\t479\t502\trow19\t479 => 502\tchine1 carre full
+Dynastie Liang\tperiod\t502\t557\trow19\t502 => 557\tchine2 carre full
+Dynastie Chen\tperiod\t557\t589\trow19\t557 => 589\tchine1 carre full
+Dynastie Sui\tperiod\t581\t618\trow18\t581 => 618\tchine2 carre full
+Dynastie Lang\tperiod\t618\t690\trow18\t618 => 690\tchine1 carre full
+Dynsatie Tang\tperiod\t705\t907\trow18\t705 => 907\tchine2 carre full
+Cao Pi fonde le royaume de Wei\tevent\t220\t\trow19\tIl dépose l'empereur Xiandi</br>Il met ainsi fin à la dynastie Han\tbulle full
+Sima Yan mène un coup d'État\tevent\t265\t\trow20\tLe fondateur de la dynastie Jin</br>Coup d'État contre le royaume de Wei\tbulle full
+Annexion du royaume de Wu\tevent\t280\t\trow17\tPar Sima Yan, fondateur de la dynastie Jin</br>Il met ainsi fin aux 3 royaumes\tbulle full
+\t\t\t\t\t\t
+Royauté\tperiod\t-753\t-509\trow3 / span 2\t-753 => -509</br>Rome\trome1 carre full
+République romaine\tperiod\t-509\t-27\trow2\t-509 => -27\trome2 carre full
+Guerre civile romaine\tperiod\t-127\t-27\trow1\t-127 => -27\trome1 full
+Jules César\tperiod\t-63\t-44\trow3\t-63 => -44</br>Pontifex maximus adoré du peuple\trome1 full
+Empire romain d'occident\tperiod\t-27\t476\trow2\t-27 => 476\trome1 carre full
+Octave Auguste\tperiod\t-27\t14\trow3\t-27 => 14</br>Princeps civitatis (premier de la cité)\trome1 full
+Tibère\tperiod\t14\t37\trow3\t14 => 37</br>Empereur\trome2 full
+Caligula\tperiod\t37\t41\trow3\t37 => 41\trome1 full
+Claude\tperiod\t41\t54\trow3\t41 => 54\trome2 full
+Néron\tperiod\t54\t68\trow3\t54 => 68\trome1 full
+Vespasien\tperiod\t69\t79\trow3\t69 => 79\trome2 full
+Titus\tperiod\t79\t81\trow3\t79 => 81\trome1 full
+Lucius Aurelius Verus</br>et Marc Aurèle\tperiod\t161\t169\trow3\t161 => 169\trome2 full
+Marc Aurèle\tperiod\t169\t180\trow3\t169 => 180\trome1 full
+Caracalla\tperiod\t211\t217\trow3\t211 => 217\trome2 full
+Maximin 1er</br>le Thrace\tperiod\t235\t238\trow3\t235 => 238\trome1 full
+Dioclétien\tperiod\t285\t305\trow3\t285 => 305\trome2 full
+Empire romain\tperiod\t476\t1453\trow2\t-27 => 476 => 1453\trome2 carre full
+Fondation de Rome\tevent\t-753\t\trow4\tPar Romulus et Remus</br><img src='https://aegidius.elis-management.com/-753.Romulus.Remus.jpg' width='160'>\tbulle full
+Tarquin le Superbe est chassé\tevent\t-509\t\trow4\tIl était le dernier roi\tbulle full
+Jules César devient consul\tevent\t-59\t\trow4\tPour la première fois\tbulle full
+Conquête de la Gaule\tevent\t-52\t\trow4\tPar Jules César\tbulle full
+Jules César devient dictateur\tevent\t-49\t\trow4\tPour la première fois\tbulle full
+Jules César est assassiné\tevent\t-44\t\trow4\tPar Brutus et Cassius\tbulle full
+Octave est proclamé Auguste\tevent\t-27\t\trow4\tDescendant testamentaire de Jules César\tbulle full
+<strong>Pline l'ancien</strong></br><em>Historia Naturalia</em>\tevent\t77\t\trow4\t\tfull
+Erruption du Vésuve\tevent\t79\t\trow4\tPompéi\tbulle full
+L'empire romain comprend maintenant l'orient\tevent\t286\t\trow5 / span 2\t\ttrois
+Chute de l'empire romain d'occident\tevent\t476\t\trowhist1\t\t 
+Chute de l'empire romain d'orient\tevent\t1453\t\trow1\t\tfull
+\t\t\t\t\t\t
+Démocratie athénienne\tperiod\t-510\t-221\trow14\t-510 => ?\trome2 carre full ouvert
+Ordre dorique\tperiod\t-650\t-348\trow13\t-650 => ?</br>Grèce</br>Sans décor</br><img src='https://www.ledifice.net/6033-2-8.jpg' width='160'>\tordre ouvert
+Ordre ionique\tperiod\t-500\t-323\trow12\t-500 => ?</br>Grèce</br>Volutes</br><img src='https://img.over-blog.com/150x120/1/17/12/99/IMAGES-10---2011/Chapiteau-ionique.jpg' width='160'>\tordre ouvert
+Style corinthien\tperiod\t-380\t-206\trow11\t-380 => ?</br>Feuilles d'acanthe</br><img src='https://static.techno-science.net/illustration/Definition/180px/Corinthian-capital.jpg' width='160'>\tordre ouvert
+Art hellénistique\tperiod\t-323\t-31\trow10\t-323 => -31</br>Grèce</br>Sculpture, figure humaine, portraits, scènes mythologiques, scènes de la vie quotidienne, scènes de grande passion (pathos)</br><img src='https://www.arsmundi.de/media/a1/1f/92/1689683634/amMagazin_Hellenismus_Content2.jpg' width='160'>\thellenistique
+La cité d'Athènes renverse ses tyrans\tevent\t-510\t\trow15\t\tfull
+Platon meurt\tevent\t-348\t\trow15\tAthènes</br>Philosophe\tbulle full
+Mort d'Alexandre le Grand\tevent\t-323\t\trow9\tRoi de Macédoine\tbulle full
+Défaite de Cléopâtre VII\tevent\t-31\t\trow9\tÀ la bataille d'Actium, en Grèce\tbulle full
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+Art Roman, normand, bizantin, lombard, saxon\tperiod\t768\t1100\trow6\t768 => 1100</br><img src='https://www.romanes.com/media/thumb/thb-FR-Autun-Saint_Lazare-2778-0023.jpg' width='160'>\tgothique
+Gothique\tperiod\t1100\t1300\trow6\t1100 => 1300</br><img src='https://www.romanes.com/media/thumb/thb-FR-Bayeux-Notre_Dame-T011-0014.jpg' width='160'>\tgothique
+Gothique flamboyant\tperiod\t1350\t1500\trow14\t1350 => 1500</br>Ornement à outrance, flammes</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Capilla_de_los_Condestables_(Catedral_de_Burgos)._Exterior.jpg/180px-Capilla_de_los_Condestables_(Catedral_de_Burgos)._Exterior.jpg' width='160'>\tgothique
+Gothique international\tperiod\t1380\t1420\trow14 / span 2\t1380 => 1420</br>Flandre, Italie</br>Tons vifs, précision des étoffes / drapés</br><img src='https://www.rivagedeboheme.fr/medias/images/colart-de-laon-priere-dans-le-jardin-avec-le-donateur-louis-ier-d-orleans-1408.jpg?fx=c_120_120' width='160'>\tgothique rec13
+Rupture\tevent\t1100\t\trow5\t\t
+\t\t\t\t\t\t
+Socialisme utopiste\tperiod\t1800\t1850\trow19\t1800 => 1850</br><strong>Fourier, Proudon</strong></br>Philosophie esthétique de la machine\tutopiste
+<strong>Saint-Simon</strong>\tevent\t1848\t\trow19\tPenseur de la société industrielle française\ttransp bulle
+Âge d'or des Shakers\tperiod\t1820\t1860\trow20\t1820 => 1860</br>Angleterre puis États-Unis</br>Les shakers : 1747 => 1996\tshaker
+\t\t\t\t\t\t
+Impressionnisme\tperiod\t1841\t1926\trow22\t1841 => 1926</br>International</br>Représenter la lumière, s'oppose à l'académisme\timpressionnisme below
+<mark class="technique">Peinture en tube</mark>\tevent\t1841\t\trow21\tInventée par <strong>John Goffe Rand</strong>\tbulle
+<strong>Claude Monet</strong> Impression soleil levant</em>\tevent\t1872\t\trow22\t<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_xgiDFF6jUzztxYR1Rd0qMuT4L5h5xXKpA&s' width='160'>\ttransp bulle full below
+Postimpressionnisme\tperiod\t1880\t1910\trow22 / span 2\t1880 => 1910\tpostimpressionnisme
+Pointillisme\tperiod\t1884\t1900\trow21\t1884 => 1900</br>France, Belgique</br><strong>George Seurat, Paul Signac, Camille Pissaro, Maximilien Luce, Théo va Rysselberghe\tpointillisme rec13 below
+Deux expositions de cette nouvelle touche\tevent\t1886\t\trow20\tUne critique emploie pour la première fois le terme pointillisme\tbulle full
+Fauvisme\tperiod\t1903\t1910\trow21\t1903 => 1910</br>Europe</br>Couleurs et lumières > dessin\tfauvisme rec13
+\t\t\t\t\t\t
+<strong>Vitruve</strong></br><em>De architectura</em>\tevent\t-15\t\trow7\tTraité à l'origine du rationalisme : l'architecture est une science qui peut être appréhendée rationnellement\tvitruve bulle full
+Renaissance\tperiod\t1400\t1700\trow7 / span 4\t1400 => 1700</br>On arrête avec le médiéval et on s'inspire de l'art de l'antiquité gréco-romaine, plus seulement art religieux, entrée dans la sphère privée.</br>Et on fait plein de découvertes scientifiques et techniques.</br>Séparation art / technique : art / artisanats\trenaissance full
+Traités architecturaux\tperiod\t1400\t1700\trow7\t1400 => 1700</br>Écrits pendant la Renaissance, ils annoncent les prémices du rationnalisme architectural\trationalisme rec13
+Renaissance nordique\tperiod\t1430\t1580\trow6\t1430 => 1580</br>Pays-Bas, Flandre, Hollande, Allemagne</br>Influence de l'humanisme</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg/116px-Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg' width='160'></br>Hans Holbein Le Jeune, The Ambassadors, 1533\trennordique rec13
+<strong>Jérôme Bosch</strong> <em>Le jardin des délices</em>\tevent\t1500\t\trow6\t<img src='https://fr.muzeo.com/sites/default/files/styles/image_oeuvre_slider/public/oeuvres/peinture/renaissance/le_jardin_des_deelices_panneau137619.jpg?itok=8KaylQY4' width='160'>\ttransp bulle full
+Quattrocento\tperiod\t1400\t1500\trow4\t1400 => 1500</br>Italie</br>De 'millequattrocento'</br><img src='https://i.pinimg.com/736x/6c/c1/b3/6cc1b349a342126fc17b097d0a883aa4--italian-renaissance-renaissance-art.jpg' width='160'>\tquattrocento rec13
+Arrivée massive de scientifiques, artistes, intellectuels en Europe\tevent\t1400\t\trow9 / span 2\tEn provenance de l'Empire byzantin\tbulle trois
+<strong>Brunelesci</strong></br><mark class="technique">Perspective</mark>\tevent\t1409\t\trow4\t<img src='https://nelson-atkins.org/gates/images/Brunelleschi.jpg' width='160'>\ttransp full bulle
+<strong>Jan Van Eyck</strong></br><em>Les Époux Arnolfini</em></br><mark class="technique">Peinture à l'huile</mark>\tevent\t1434\t\trow6 / span 2\tLa peinture à l'huile vient remplacer la peinture aux blancs d'œufs</br><img src='https://www.museumtv.art/wp-content/uploads/2019/03/EPOUX1.jpg' width='160'>\ttransp bulle trois
+<strong>Piero Della Francesca</strong></br><mark class="technique">Perspective</mark>\tevent\t1473\t\trow5 / span 2\t<img src='https://www.artchive.com/wp-content/uploads/2023/04/The-Flagellation-Piero-della-Francesca-c.-1469-4-150x150.jpg' width='160'></br>La flagellation du Christ, 1460\ttransp trois bulle
+<strong>Léonard de Vinci</strong></br><em>La Joconde</em>\tevent\t1503\t\trow4\t<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Leonardo_di_ser_Piero_da_Vinci_-_Portrait_de_Mona_Lisa_(dite_La_Joconde)_-_Louvre_779.jpg/122px-Leonardo_di_ser_Piero_da_Vinci_-_Portrait_de_Mona_Lisa_(dite_La_Joconde)_-_Louvre_779.jpg' width='160'>\ttransp full bulle
+<strong>Michel-Ange</strong> <em>La création d'Adam</em>\tevent\t1512\t\trow4\t<img src='https://bohemegalante.com/wp-content/uploads/2020/08/michel-ange-crecc81ation-dadam.jpg?w=150' width='160'>\ttransp bulle full
+<mark class="technique">Perspective</mark> <strong>Alberti</strong></br><em>Traité de la pictura</em>\tevent\t1540\t\trow4\t\ttransp full
+<strong>Galilée</strong> meurt\tevent\t1642\t\trow4\tFondateur de la physique, astronomie moderne</br>Il a amélioré la lunette astronomique</br>Il se heurte à Aristote et l'Église\ttransp bulle full
+Blaise Pascal meurt\tevent\t1662\t\trow4\tProbabilités, philosophie religieuse</br>Entre le pessimisme de Saint Augustin et le Scepticisme de Montaigne\ttransp bulle full
+\t\t\t\t\t\t
+Art grotesque\tperiod\t1480\t1700\trow17\t1480 => 1700</br><strong>Ghirlandaio, Pinturicchio, Prérugin, Filippino Lippi, Signorelli</strong></br>Motifs d'ornementation peints, dessinés ou sculptés reproduisant des sujets de caractères bizarres ou formant des enroulements de feuillages</br>Inspiré des décors antiques qu'on redécouvre à cette période</br><img src='https://i0.wp.com/www.proantic.com/magazine/wp-content/uploads/2016/02/142519-1.jpg?resize=192%2C128&ssl=1' width='160'>\tgrotesque below
+Arabesques\tperiod\t1700\t1750\trow17\t1700 => ?</br>Terme utilisé ensuite pour parler des grotesques\tarabesque
+Maniérisme\tperiod\t1520\t1630\trow18\t1520 => 1630</br>Italie puis Europe\tmanierisme
+Baroque\tperiod\t1550\t1750\trow19\t1550 => 1750</br>Commence en Italie (Rome, Mantoue, Venise, Florence)\tbaroque
+On redécouvre de l'architecture et des décors antiques\tevent\t1480\t\trow19 / span 2\t\ttrois
+<strong>Raphaël</strong> meurt\tevent\t1520\t\trow19\t\tfull
+\t\t\t\t\t\t
+Pyramides de Gizeh\tperiod\t-2550\t-2490\trow8 / span 2\t-2550 => -2490</br>Construites par les pharaons Khéops, Khéphren et Mykérinos</br><img src='https://stock.wikimini.org/w/images/thumb/9/93/Pyramides_de_Gizeh.jpg/180px-Pyramides_de_Gizeh.jpg' width='160'>\tegypte rec13
+Art de l'Égypte antique\tperiod\t-3800\t-500\trow8\t-3800 => ?</br><img src='https://i.pinimg.com/200x150/2a/ef/49/2aef493bb16679bd4f0f04ab8edcb987.jpg' width='160'>\tegypte ouvert
+<strong>John Nef</strong>\tperiod\t1849\t1852\trow13\t1849 => 1852</br>Naissance de la civilisation industrielle\tnef
+Style néo-roman\tperiod\t1850\t1900\trow8\t1850 => 1900</br>Architecture\tneoroman
+<strong>Pattrick Geddes</strong>\tperiod\t1900\t1920\trow12 / span 2\t1900 => 1920</br>Premiers ouvrages théorie sociologique de l'urbanisme, apôtre de la cité-jardin\tgeddes
+Deutscher Werkbund\tperiod\t1907\t1933\trow15\t1907 => 1933</br>24 membres, <strong>Hermann Muthesius, Henry Van de Velde, Walter Gropius</strong></br>Association d'industriels et d'artistes allemands : inspirés par Morris, réfléchir à des relations plus qualitatives entre production et produit et aux relations sociales, ils sélectionnent les meilleures réalisations, ils font de la propagande MAIS ils accueillent l'évolution des techniques industrielles\twerkbund
+Les Seiz Breur\tperiod\t1923\t1947\trow3\t1923 => 1947</br>'Les sept frères'</br>Regroupement de jusqu'à 50 artistes se donnant pour mission de renouveler l'art populaire breton</br><img src='https://bcd.bzh/becedia/sites/default/files/medias/dossiers-thematiques/les-seiz-breur/jorj%20robin.jpg' width='160'></br>Couverture de l’édition limitée de Jorj Robin skulter breton Crédit : CRBC-UBO-Brest.\tseizbreur
+Art Concret\tperiod\t1930\t1960\trow1\t1930 => ?</br>Mouvement artistique de tendance abstraite (même si ses représentants réfutent l'usage de ce terme)\tconcret ouvert
+Street Art\tperiod\t1960\t2025\trow22\t1960 => ?\tstreetart ouvert
+Hyperréalisme\tperiod\t1960\t2025\trow19\t1960 => à nos jours\thyperrealisme
+Art Conceptuel\tperiod\t1960\t2025\trow18\t1960 => ?\tconceptuel ouvert
+Op Art\tperiod\t1960\t2025\trow17\t1960 => ?\topart ouvert
+Art Vidéo\tperiod\t1960\t2025\trow11\t1960 => ?\tvideo ouvert
+Art brut\tperiod\t1945\t1953\trow22\t1945 => ?</br>Jean Dubuffet emploie pour la première fois l'expression pour qualifier les productions venant de personnes n'ayant pas de culture artistique mais on s'intéresse déjà à l'art des fous depuis 1900\tbrut ouvert below
+\t\t\t\t\t\t
+New Brutalism\tperiod\t1957\t1980\trow12\t<strong>New brutalism</strong></br>1957 => années 1970</br>Répétition de motifs comme les fenêtres, pas d'ornements, béton brut\tbrutalism
+<strong>Alison et Peter Smithson</strong> fondent le new brutalism\tevent\t1957\t\trow12 / span 2\t\ttrois transp
+\t\t\t\t\t\t
+Cubisme\tperiod\t1900\t1915\trow11 / span 2\t1900 => 1915</br>Surtout en région parisienne</br><strong>Pablo Picasso, George Braques, Auguste Herbin, Juan Gris, Robert et Sonia Delaunay</strong>\tcubisme
+Tubisme\tperiod\t1909\t1919\trow10\t1909 => 1919</br><strong>Fernand Léger</strong>\ttubisme rec13
+\t\t\t\t\t\t
+Art Nouveau\tperiod\t1890\t1914\trow14\t1890 => 1914</br><strong>Hector Guimard</strong></br>France et Belgique</br>Lignes courbes et motifs floraux, inspiration de la nature</br><img src='https://rootstoblooms.com/wp-content/uploads/2012/04/guimards-metro-entrance.png?w=584&h=456' width='160'></br>Les bouches de métro réalisées par l'architecte <strong>Hector Guimard</strong>\tartsdeco below
+<strong>Henri Van de Velde</strong>\tevent\t1897\t\trow14\tDu design et du mobilier moderne. Il aime les arts et crafts, l'industrie.</br>Il est pour un style rationnel et fonctionnel</br>Son engagement dans les arts appliqués influence</br>1 Weimar avec Gropius</br>2 Gestaltum, Ulm</br>La Cambre, Bruxelles\ttransp bulle
+<strong>Émile Gallé</strong> Fondation de l'école de Nancy\tevent\t1901\t\trow14\tStyle Gallé</br>Promouvoir l'artisanat d'art régional et s'impose rapidement comme creuset d'art nouveau</br><img src='https://cdn-s-www.vosgesmatin.fr/images/F12F0A15-4311-4F72-B99B-2C5AEEDDC4EE/NW_raw/emile-galle-vase-passiflore-1900-musee-de-l-ecole-de-nancy-photo-philippe-caron-1621344836.jpg' width='160'>\ttransp bulle full
+Préraphaélisme\tperiod\t1848\t1855\trow16\t1848 => 1855</br>Né en Angleterre</br><strong>John Everett Millais, William Holman Hunt, Dante Gabriel Rossetti, James Collinson, Thomas Woolner, William Michael Rossetti, Frederic George Stephens, Walter Deverell, Arthur Hughes, Charles Allston Collins</strong></br>Réinspiration par les peintres italiens des années 1400 jusqu'à Raphaël 'ce gros nul', œuvres morales, pour compenser la perte de morale depuis la Révolution industrielle (soutenu par <strong>John Ruksin</strong>)\tpreraphaelisme below
+École de Barbizon\tperiod\t1820\t1875\trow15\t1820 => 1875</br>À Barbizon</br>Peintres plein air, forêt de Fontainebleau\tbarbizon
+Japonisme\tperiod\t1860\t1900\trow18\t1860 => 1900</br>Influence de l'art japonais sur les artistes et écrivains\tjaponisme
+Arts and crafts\tperiod\t1860\t1920\trow13 / span 2\t1860 => 1920</br>Angleterre</br><strong>William Morris</strong> inspiré par <strong>John Ruskin</strong></br>Architecture, arts décoratifs, peinture, sculpture</br>Le travail doit fournir au travailleur de la satisfaction + questionne la qualité des premiers objets industriels / parallèle à l'art nouveau en France</br><img src='https://uploads7.wikiart.org/images/william-morris/snakeshead-printed-textile-1876.jpg!PinterestSmall.jpg' width='160'></br>Papier peint Art and Crafts\tartsdeco below
+<strong>William Morris</strong></br><em>Les arts mineurs</em>\tevent\t1885\t\trow13\tL'art est nécessairement utile (au pire il satisfait l'esprit, il distrait)\tbulle transp full
+<strong>Charles Robert Ashbee</strong> Guild and school of Handicraft\tevent\t1888\t\trow13\tLondres</br>Il fonde la guilde</br>Post arts and crafts, accueille la machine au lieu de la rejeter\ttransp bulle full
+Naturalisme\tperiod\t1863\t1920\trow16\t1863 => 1920</br>Proche du réalisme, en opposition avec le romantisme, réalisme appliqué à la peinture : pas de fioritures\tartsdeco
+Arts Décoratifs\tperiod\t1910\t1940\trow17\t1910 => 1940</br>Mouvement international caractérisé par des formes géométriques et des lignes tendues\tartsdeco
+\t\t\t\t\t\t
+<strong>Griaule</strong>\tperiod\t1928\t1929\trow22\tEn Ethiopie\tethno
+<strong>Lebaudy - Griaule</strong>\tperiod\t1931\t1933\trow22\t1931 => 1933</br> Dakar - Djibouti\tethno
+<strong>Lebaudy - Marcel Griaule</strong>\tperiod\t1935\t1939\trow22\t1935 => 1939</br>Nouvelles expéditions\tethno
+\t\t\t\t\t\t
+Rationalisme architectural\tperiod\t1700\t1886\trow7 / span 3\t1700 => ?\trationalisme ouvert full
+<strong>Francesco Algarotti</strong></br><em>Saggio sopra l'architettura</em>\tevent\t1756\t\trow5\t(1712-1764)</br>Traité sur l'architecture, sur <strong>Carlo Lodoli</strong> à contre-courant du rococo et du néoclassicisme, il pense que l'architecture doit montrer ses propriétés organiques et celles des matériaux\ttransp bulle full
+<mark class="expo">1ère exposition industrielle</mark>\tevent\t1798\t\trow5\tParis, Champ de Mars</br>Cérémonie révolutionnaire annuelle</br>Encourager l'industrie + compétition avec l'Angleterre\ttransp bulle full
+<mark class="expo">2e exposition industrielle</mark>\tevent\t1801\t\trow5\tParis, palais national (Louvre)</br>On fête la République\ttransp bulle full
+<mark class="expo">3e exposition industrielle</mark>\tevent\t1802\t\trow5\tParis, Louvre</br>On fête la République\ttransp bulle full
+<mark class="expo">Exposition industrielle</mark> à Gand\tevent\t1803\t\trow5\tPremière exposition industrielle en province\ttransp bulle full
+<mark class="expo">4e exposition industrielle</mark>\tevent\t1806\t\trow5\tParis, Invalides</br>Grande ampleur + focus sur des objets commercialisés et bon-marché + on ne célèbre plus la République mais les hauts faits d'armes de la France\ttransp bulle full
+<mark class="expo">Exposition industrielle</mark> à Stuttgart\tevent\t1816\t\trow5\tStuttgart, dans le Wurtemberg (États allemands confédérés)</br>Première exposition industrielle à l'étranger\ttransp bulle full
+<mark class="expo">5e exposition industrielle</mark>\tevent\t1819\t\trow5\tParis, Louvre\ttransp bulle full
+<mark class="expo">Expositions industrielles</mark> en province\tevent\t1820\t\trow5\tEssor des expositions universelles en province française dans les années 1820\ttransp bulle full
+<mark class="expo">6e exposition industrielle</mark>\tevent\t1827\t\trow5\tParis, Louvre\ttransp bulle full
+<mark class="expo">7e exposition industrielle</mark>\tevent\t1834\t\trow5\tParis, bâtiments provisoires à Concorde\ttransp bulle full
+<mark class="expo">8e exposition industrielle</mark>\tevent\t1839\t\trow5\tParis\ttransp bulle full
+<mark class="expo">9e exposition industrielle</mark>\tevent\t1844\t\trow5\tParis\ttransp bulle full
+<mark class="expo">Exposition industrielle</mark> Belgique\tevent\t1847\t\trow5\t+ section produits agricoles + médaille pour les ouvriers\ttransp bulle full
+<mark class="expo">10e exposition industrielle</mark>\tevent\t1849\t\trow5\tParis</br>+ produits agricoles + la colonie algérienne expose aussi\ttransp bulle full
+<strong>Sir Henry Cole</strong></br><em>Journal of Design and Manufacture</em>\tevent\t1849\t\trow7 / span 2\tTitre de revue</br>Considéré comme le premier usage du terme design pour qualifier une nouvelle discipline\ttransp bulle trois
+<mark class="expo">1ère exposition universelle</mark>\tevent\t1851\t\trow5\tLondres, Crystal Palace (dessiné par <strong>Joseph Paxton</strong>)</br>Alors que beaucoup de pays avaient commencé les expositions industrielles, celle-ci est la première pour Londres</br>Le <strong>comte Laborde</strong> écrit un rapport dessus</br><strong>Henry Cole</strong> organise l'exposition, il est rédacteur du <em>journal of design and manufactures</em>. À sa mort ses notes sont publiées <em>Fifty years of public work</em></br>Ils veulent réconcilier art et industrie\ttransp bulle full
+<mark class="expo">2e exposition universelle</mark>\tevent\t1855\t\trow5\tParis, Palais de l'industrie</br>+section Beaux-Arts + section économie domestique\ttransp bulle full
+<mark class="expo">3e exposition universelle</mark>\tevent\t1862\t\trow5\tLondres</br>+ section pédagogie + exposition d'objets d'art prêtés (influencé par Manchester)\ttransp bulle full
+<strong>Viollet-le-Duc</strong></br><em>Entretiens sur l'architecture</em>\tevent\t1863\t\trow6 / span 2\tNéogothique</br>Invente la notion de rationalisme constructif</br>Pose les bases de ce qui sera le fonctionnalisme, il dépasse Cole et Laborde car il renonce à la réconciliation art - industrie et aussi l'artisanat représentatif des vraies valeurs humaines\ttransp bulle trois
+<mark class="expo">4e exposition universelle</mark>\tevent\t1867\t\trow6\tParis</br>L'empereur cherche à se mettre les ouvriers dans la poche, maison hygiéniste\ttransp bulle full
+<strong>Henri Labrouste</strong>\tperiod\t1801\t1875\trow7\t1801 => 1875</br>Centre de formation rationaliste, il saisit l'importance du fer en architecture\trec13 labrouste
+Expressionnisme\tperiod\t1905\t1930\trow8\t1905 => 1930</br>Allemagne, Europe du nord</br><strong>Munch</strong></br>Peinture, architecture, littérature, théâtre, cinéma, musique, danse</br>Essor de l'expérience personnelle, intensité dramatique des couleurs, mots, mouvements\texpressionnisme
+Die Brücke\tevent\t1905\t\trow9\tFormation du groupe Die Brücke\t
+Premier emploi du terme 'expressionnisme'\tevent\t1908\t\trow8\tPar le critique d'art <strong>Wilhelm Worringer</strong>\ttransp bulle full
+Der Blaue Reiter\tevent\t1911\t\trow8\tFormation du groupe (le cavalier bleu)\ttransp bulle
+Nouvelle objectivité\tperiod\t1918\t1933\trow9 / span 2\t1918 => 1933</br>Allemagne</br>Succède à l'expressionnisme\tnouvelleobj
+<strong>Walter Gropius</strong>\tperiod\t1919\t1926\trow7\t1919 => 1926</br>Style international, rationnalisme, fonctionnalisme, standardisation, synthèse de tous les arts\tbauhau rec13
+Bauhaus\tperiod\t1926\t1928\trow7\t1919 => 1933</br><strong>Vassily Kandinsky, Gunta Stölzl, Vassily Kandinsky, Paul Klee, Oskar Schlemmer, László Moholy-Nagy, Marcel Breuer</strong></br>Inspiration guilde moyen âgeuse + œuvre d'art totale</br><img src='https://www.du-grand-art.fr/wp-content/uploads/2020/01/oeuvre-bauhaus-celebre-marianne-brandt-150x150.jpg' width='160'></br><strong>Marianne Brandt</strong>\tbauha rec13
+<strong>Hannes Meyer</strong>\tperiod\t1928\t1930\trow7\t1928 => 1930</br>Marxiste, viré pour cette raison, son influence a longtemps été niée\tbauhau rec13
+<strong>Ludwig Mies Van der Rohe</strong>\tperiod\t1930\t1933\trow7\t1930 => 1933</br>Style prussien et style moderne, part aux États-Unis et pose les bases des gratte-ciels</br><img src='https://images2.dwell.com/photos/6166648977860894720/6566485707718406144/original.jpg?auto=format&q=35&w=160' width='160'></br><em>Farnsworth House</em>\tbauhau rec13
+\tperiod\t1919\t1933\trow7 / span 2\t\tbauhaus full
+Déménagement\tevent\t1925\t\trow7\tDe Weimar à Dessau\ttransp bulle
+Neues Bauen\tperiod\t1910\t1930\trow6\t1910 => 1930</br>Architecture\tneuesbauen rec13
+<strong>Ernst May</strong> plan d'urbanisme de Francfort\tevent\t1920\t\trow6\tLogements de masse, fonctionnaliste et staliniste\ttransp full bulle
+Fonctionnalisme géométrique\tperiod\t1867\t1949\trow6 / span 3\t? => ?</br>Retour à la simplicité révélée par la machine, les formes modernes et fonctionnelles doivent refléter la vérité et créer au-delà des identités stylistiques\tgeometrique ouvert full
+<mark class="expo">10e exposition universelle\tevent\t1889\t\trow6\tParis</br>Impressionnisme, tour Eiffel, triomphe de la machine centenaire de la Révolution française\ttransp bulle full
+<strong>Louis Henri Sullivan</strong> commence les gratte ciels à cette époque\tevent\t1890\t\trow6 / span 2\tArchitecte américain spécialiste du béton armé, papa des gratte-ciels, fonctionnaliste</br>En 1896 dans son article <em>Le gratte-ciel de bureaux considéré dans une perspective artistique</em> il écrit son célèbre : 'form follows function'\ttransp bulle trois
+<strong>Hendrik Petrus Berlage</strong> <em>La bourse d'Amsterdam</em>\tevent\t1903\t\trow6 / span 2\tArchitecture style rationnel, plans géométriques, pas d'ornementation</br><img src='https://www.vanupied.com/wp-content/uploads/amsterdam-bourse-berlage-carte-postale.jpeg' width='160'>\ttransp bulle trois
+<strong>Paul Souriau</strong></br><em>La beauté rationnelle</em\tevent\t1904\t\trow5\tEsthéticien\ttransp bulle full
+<strong>Dr Cazalis</strong> <em>Les habitations à bon marché et un art nouveau pour le peuple</em>\tevent\t1904\t\trow7 / span 2\tParallèle entre décoration épurée et hygiène domestique\ttransp bulle
+Design global\tevent\t1907\t\trow6\tDébut du mode de conception totale en design industriel\ttransp bulle full
+<strong>Adolf Loos</strong></br><em>Ornement et crime</em>\tevent\t1908\t\trow6\tRaciste et très très très fan de la modernité\ttransp bulle full
+<strong>Adolf Loos</strong> <em>La suppression des meubles</em>\tevent\t1924\t\trow5\t\ttransp full
+<strong>Le Corbusier</strong> <em>Le lait de chaux : la loi du Ripolin</em>\tevent\t1925\t\trow5\tDans <em>L'art décoratif aujourd'hui</em>\ttransp bulle full
+Cuisine de Francfort, <strong>Margarete Schûtte-Lihotzky</strong>\tevent\t1926\t\trow5\t<img src='https://www.grapheine.com/wp-content/uploads/2016/07/Francfort-cuisine-134x134.jpg' width='160'>\ttransp full bulle
+<strong>Philip Johnson</strong> <mark class="expo">Machine Art</mark>\tevent\t1934\t\trow5\t(1906-2005), architecte, figure du style international</br>MoMA, New York</br><strong>Alfred Barr</strong>, directeur du musée</br>Exposition d'objets, ustensiles industriels, scientifiques, utilitaires, domestiques, beauté des fonctionnements, précision de l'usinage, monomatériaux, peu de plastique.</br>S'oppose au streamline considéré comme une esthétique vide et qui oublie les fonctionnements.</br><img src='https://tse2.mm.bing.net/th/id/OIP.bB9FTN7k5EFcLWbNXj2UfQAAAA?pid=Api' width='160'>\tbulle transp full
+<strong>Lewis Mumford</strong></br><em>Technics and civilization</em>\tevent\t1934\t\trow7 / span 2\tHistorien fonctionnaliste assumé\ttransp bulle trois
+<strong>Nikolaus Bernhard Léon Pevsner</strong> <em>Pioneers of Modern Movement</em>\tevent\t1936\t\trow7 / span 2\tUn père de l'histoire du design</br>Il étudie la mécanisation dans l'architecture, il est très centré fonctionnalisme\ttransp bulle trois
+<strong>Lewis Mumford</strong></br><em>The culture of the cities</em>\tevent\t1938\t\trow6\t\ttransp full
+<strong>Sigfried Giedion</strong></br><em>Space, time and Architecture</em>\tevent\t1941\t\trow6 / span 2\tArchitecte théoricien, historien, fonctionnaliste assumé\ttransp bulle trois
+<strong>Sigfried Giedion</strong></br><em>Mechanization takes command</em>\tevent\t1948\t\trow5\t<em>Mechanization takes command : Contribution à l'histoire anonyme</em> (mysogine)\ttransp bulle full
+Futurisme\tperiod\t1909\t1920\trow5\t1909 => 1920</br>Aime la vitesse, les machines, la civilisation urbaine\tfuturisme rec13
+<strong>Marinetti</strong> Manifeste des peintres futuristes\tevent\t1909\t\trow6\t\ttransp full
+Néo-académique\tperiod\t1900\t1946\trow4\t1900 => 1930 au moins</br>'Form follows function' ?</br>Les néo-académiques répandent une vision de simplicité d'abstraction soit-disant permanente\tneoacademique rec13
+<strong>Herbert Read</strong> <em>Art et industrie</em>\tevent\t1945\t\trow4\t'la machine a rejeté l'ornement'\ttransp bulle full
+Fonctionnalisme organique\tperiod\t1908\t1956\trow2\t1908 => ?\torganique ouvert
+<strong>Franck Lloyd Wright</strong> publie des critères d'architecture organique\tevent\t1908\t\trow1 / span 2\tLa liste est dans Francastel p.60-61</br>Chef de file d'une nouvelle architecture\t bulle
+Concours 'Organic design'\tevent\t1940\t\trow2\t<strong>Charles Eames et Eero Saarinen</strong> (Cranbrook college) remportent 2/8 sections du concours\ttransp bulle full
+'Organic design in Home furnishing'\tevent\t1941\t\trow2\tExposition organisée par la villa Noyes\ttransp bulle full
+<strong>Bruno Zevi</strong> <em>Verso un architettura organica</em>\tevent\t1945\t\trow2\tTurin</br>Il a vécu aux États-Unis pendant la guerre</br>Il est contre Le Corbusier et Gropius\ttransp bulle full
+<strong>Bruno Zevi</strong> <em>Saper vedere l'architettura</em>\tevent\t1948\t\trow2\tRome</br>Théorique\ttransp bulle full
+<strong>Franck Lloyd Wright</strong> deux ouvrages qui expriment sa doctrine\tevent\t1949\t\trow2\t<em>Genius and the Mobocracy</br>An Organic Architecture : the architecture of Democracy</em></br>Il est anti-rationaliste, contre Le Corbusier et Gropius\ttransp bulle full
+<strong>Bruno Zevi</strong> <em>Storia dell'architettura moderna</em>\tevent\t1950\t\trow2\tTurin</br>approche historique depuis le début du XIXe</br>Impressionnante biblio\ttransp bulle full
+<strong>Lewis Mumford</strong></br><em>Roots of contemporary american architecture</em>\tevent\t1952\t\trow2 / span 2\tFonctionnalisme organique\ttransp trois
+<strong>G. Combet</strong> <em>Esthétique et Economie</em>\tevent\t1954\t\trow2\tDirecteur du gaz de France</br>En faveur d'un style 'organique' au plus près de la vie biologique\tcombet bulle full
+École d'Ulm\tperiod\t1953\t1968\trow5\t1953 => 1968</br>Héritière du Bauhaus, prône un design adapté aux besoins de l'individu et non au service de la société de consommation\tulm
+\t\t\t\t\t\t
+Streamline\tperiod\t1929\t1954\trow11\t1929 => 1954</br><strong>Raymond Loewy, Norman Bel Geddes</strong></br>Mouvement né aux États-Unis : objet aux lignes fluides et aérodynamiques, évocatrices de mouvement et progrès</br><img src='https://bringatrailer.com/wp-content/uploads/2020/06/1951_studebaker_commander_convertible_15959404183f27b0DH__3930.jpg?fit=144%2C96' width='160'></br><strong>Raymond Loewy</strong>, <em>Studebaker Commander Convertible</em>, 1953\tstreamline
+<strong>Raymond Loewy</strong> Crée son entreprise\tevent\t1930\t\trow11\tÉtats-Unis</br>Entreprise de design industriel\ttransp bulle full
+<strong>Raymond Loewy</strong> Locomotive PRR S-1\tevent\t1939\t\trow11\t<img src='https://i.pinimg.com/originals/b6/b5/be/b6b5be4dd0c6ff78aed6a86052cd40ae.jpg' width='160'>\ttransp full bulle
+<strong>Raymond Loewy</strong></br><em>La laideur se vend mal</em>\tevent\t1952\t\trow11\t\trec13 transp full
+CIAM\tperiod\t1928\t1959\trow10\t1928 => 1959</br>28 architectes membres, <strong>Le Corbusier, Sigfried Giedion, Ernst May</strong></br>Congrès International d'Architecture Moderne\tciam
+Team X (ten)\tperiod\t1960\t1968\trow10\t1960 => ?</br>Nouveaux congrès d'architecture Moderne détachés de la charte d'Athène\tteamten ouvert
+Charte d'Athène\tevent\t1933\t\trow10\tDécidée suite à un congrès : les grands principes de l'architecture moderne\tbulle transp full
+\t\t\t\t\t\t
+Art abstrait\tperiod\t1910\t1945\trow20 / span 3\t1910 => 1945\tabstrait full
+<strong>Vassily Kandinsky</strong> 1er tableau abstrait\tevent\t1910\t\trow20\tSans titre, aquarelle</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg/1200px-Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg' width='160'>\tbulle full below
+Suprématisme\tperiod\t1915\t1918\trow20 / span 2\t1915 => 1918</br>Russie</br><strong>Kasimir Malévitch</strong></br>Abstraction absolue\tsuprematisme rec13
+<strong>Kasimir Malévitch</strong> 39 tableaux\tevent\t1915\t\trow19 / span 2\tPétrograd</br>Dernière exposition futuriste</br>Malévitch présente 39 tableaux suprématistes\tbulle transp
+Constructivisme architectural soviétique\tperiod\t1920\t1932\trow20\tconstructivisme\tconstructivisme rec13
+De Stijl, néoplasticisme\tperiod\t1917\t1932\trow18\t1917 => 1932</br>Pays-Bas</br><strong>Theo van Doesburg, Piet Mondrian</strong>Peinture, architecture, sculpture, poésie</br>Esthétique abstraite à partir de lignes et de couleurs primaires</br><img src='https://i0.wp.com/arteyalgomas.com/wp-content/uploads/2020/11/Diseno-de-Gerrit-Thomas-Rietveld-realizado-por-Geard-van-de-Groenekan-1930..jpg?resize=150%2C150&quality=89&ssl=1' width='160'></br><strong>Gerrit Rietveld</strong>, 1918, <em>Red and blue chair</em>\tdestijl rec13 below
+Expressionnisme abstrait\tperiod\t1945\t1970\trow20\t1945 => 1970</br>États-Unis</br>Jackson Pollock, M. Rothko</br>Place au hasard\texprabstrait
+Minimalisme\tperiod\t1960\t2025\trow21 / span 2\t1960 => ?</br>États-Unis</br>Contre l'expressionnisme abstrait\tminimalisme ouvert rec13
+\t\t\t\t\t\t
+Dadaïsme, dada\tperiod\t1916\t1925\trow14 / span 2\t1916 => 1925</br>Suisse => international</br><strong>Tristan Tzara, Hugo Ball, ou Hanz Harp ou Marcel Janco</strong>\tdada
+1ère exposition dada\tevent\t1916\t\trow14\texposition de <strong>Marcel Janco</strong> dans le Cabaret Voltaire d'Hugo Ball, Zurich\tbulle
+<strong>Marcel Duchamp</strong></br><em>La fontaine</em>\tevent\t1917\t\trow14 / span 2\t<img src='https://cdn.britannica.com/s:500x150/43/19343-004-CFD4C383.jpg' width='160'>\ttransp bulle
+Surréalisme\tperiod\t1924\t1969\trow14\t1924 => 1969</br>Dali</br>Proche du dadaïsme mais avec d'autres valeurs\tsurrealisme
+Fluxus\tperiod\t1960\t1980\trow15 / span 2\t1960 => 1980</br>George Maciunas, Robert Filiou</br>Rôle de l'artiste, place de l'art dans la société\tfluxus rec13
+<strong>René Magritte</strong> <em>La trahison des images</em>\tevent\t1929\t\trow14\t<img src='https://szeifertjudit.com/wp-content/uploads/2015/12/magritte-pipe.jpg?w=150&h=112' width='160'>\ttransp full bulle
+'N'allez pas à l'exposition coloniale'\tevent\t1931\t\trow14\tManifeste surréaliste</br>'le tour du monde en 1 jour'\tbulle transp full
+<strong>André Breton</strong> meurt\tevent\t1969\t\trow15\tFin du mouvement surréaliste\tbulle
+\t\t\t\t\t\t
+Union des Artistes Modernes\tperiod\t1929\t1954\trow13 / span 2\t1929 => 1954</br>Association d'artistes, architectes, décorateurs et peintres français qui font scission avec l'académisme et rejoingnent les rangs des modernes\tuam
+Formes Utiles\tperiod\t1949\t1987\trow13\t1949 => 1987</br>Née de l'UAM, l'association Formes Utiles encourage le design industriel\tformesutiles rec13
+\t\t\t\t\t\t
+Première exposition au musée d'art moderne de Paris\tevent\t1969\t\trow9 / span 2\tSupport surface\tbulle trois
+Suport surface\tperiod\t1969\t1972\trow10\t1969 => 1972</br>Pratique de peinture qui met l'accent sur ses composantes élémentaires\tsurface
+\t\t\t\t\t\t
+Arte Povera\tperiod\t1960\t2025\trow4\t1960 => ?</br>Italie</br>Giuseppe Penone</br>Pas sophistiqué\tpovera ouvert
+<strong>Michelangelo Pistoletto</strong></br><em>Metrocubo d'infinito</em>\tevent\t1966\t\trow4\t<img src='https://tse1.mm.bing.net/th/id/OIP.4gZdPoIgLX4k-vr3y3c03QAAAA?pid=Api' width='160'>\ttransp bulle full
+\t\t\t\t\t\t
+Pop Art\tperiod\t1950\t1968\trow3\t1950 => ?</br>Def de Leslie Fiedler : (dans un essai sur la BD) 'la culture populaire contemporaine, qui est le fruit de la société industrialisée, se distingue des autres arts populaires par son refus d'être considérée comme minable ou de seconde zone, ou d'être enfermée dans une case. Cependant, les ouvrages issus de la culture populaire ne sont pas faits pour être soigneusement conservés mais plutôt pour être jetés'\tpopart ouvert
+Design pop\tperiod\t1966\t1973\trow3 / span 2\t1966 => 1973</br>L'arrivée du plastique ouvre la voie à un design organique et anticonformiste\tdesignpop rec13
+<strong>Joe Colombo</strong></br><mark class="technique">Universale</mark>\tevent\t1965\t\trow3 / span 2\t<mark class="technique">1ère chaise moulée entièrement en plastique ABS et empilable, édition Kartell, typique pop</mark></br><img src='https://framemark.vam.ac.uk/collections/2021NB1582/full/110,/0/default.jpg' width='160'>\tcolombo bulle
+<mark class="technique">Chaise</mark> <strong>Panton</strong>\tevent\t1967\t\trow3 / span 2\t<mark class="technique">Première chaise en plastique entièrement moulée</mark></br><img src='https://cdn11.bigcommerce.com/s-kvxianwgwu/images/stencil/160w/products/11771/159231/159231__21589.1711051097.jpg?c=1' width='160'>\ttransp bulle
+<em>Pouf Sacco</em>\tevent\t1968\t\trow3 / span 2\t<strong>Piero Gatti, Cesare Paolini, Franco Teodoro</strong> édition Zanotta</br><img src='https://mediation.centrepompidou.fr/education/ressources/ENS-Art-contemporain/photos/38-piero-gatti-cesare-paolini-franco-teodoro-pouf-sacco-1968-1969-150x190.jpg' width='160'>\ttransp bulle
+\t\t\t\t\t\t
+MIBI\tperiod\t1954\t1957\trow16\t1954 => 1957</br>Mouvement International pour le Bauhaus Imaginiste</br><strong>Asger Jorn, Guy Debord, Max Bill</strong></br>Critique des valeurs du design moderne, et notamment le fonctionnalisme, contre le néo-bauhaus purement technique, sans peinture, sans recherche, orga internationale dans le domaine de la fiction et des images\tmibi
+Internationale Situationiste\tperiod\t1957\t1972\trow16\t1957 => 1972</br>Théoriciens activistes révolutionnaires opérant dans les domaines culturels, artistiques, politiques, sociaux et désireux d'en finir avec la société de classes et la 'dictature de la marchandise'\tintsituationiste
+Première expo du MIBI\tevent\t1954\t\trow17\tÀ la 10e triennale d'art industriel de Milan</br>Céramiques réalisées par des enfants\tbulle full
+MIBI fusionne avec d'autres\tevent\t1957\t\trow17\tEt devient l'internationale situationniste\tbulle full
+\t\t\t\t\t\t
+Good Design, modernisme\tperiod\t1945\t1966\trow7 / span 2\t1945 => 1966</br>États-Unis</br><strong>Charles et Ray Eames, Laszlo Moholy-Nagy, Hans Wegner, Gloag, Herman Lebus, Gordon Russel, (Edgar Kaufmann Jr</strong> au MoMA NY de 1946 à 1965)</br>Fusion forme / fonction, beauté simple et pratique, ingénieuse, utilisation de méthodes et matériaux de leur temps, coûts abordables\tgooddesign
+Expositions good design\tperiod\t1950\t1955\trow7\t1950 => 1955</br>Expositions initiées par Kaufmann Jr (avec le Merchandise Mart Chicago et le MoMA)\texpogooddesign rec13
+Attelle des <strong>Eames</strong>\tevent\t1942\t\trow7\tTypique du good design</br><img src='https://i.pinimg.com/originals/eb/df/46/ebdf46498e5fbe00590bcc21d9a225c7.jpg' width='160'>\tattelle bulle full
+<strong>Eames</strong> <em>Storage Unit</em>\tevent\t1949\t\trow6\tProduite par <strong>Herman Miller</strong></br>Kit démontable</br><img src='https://www.silvera.fr/media/cache/small_thumbnail_image/product_3659_18976_eames-storage-unit-bookcase.jpg' width='160'>\t bulle
+Design radical\tperiod\t1966\t1978\trow7 / span 2\t1966 => 1978</br>Italie</br>Superstudio, Archizoom, Archigram, Ettore Sottsass\tradical full
+Antidesign\tperiod\t1969\t1981\trow8 / span 2\t1969 => ?</br>Joe Colombo, Ettore Sottsass, Archigram, Superstudio</br>Pour la disparition de tous les objets (contre le modernisme / good design capitaliste) car porteurs de symbolique de classe, et pour mettre à la place un antidesign constitué d'éléments anonymes, production de masse, aux prix abordables, personnalisés au moment de leur assemblage\tantidesign ouvert rec13
+Groupe de Memphis\tperiod\t1981\t1987\trow7\t1981 => 1987</br>Italie</br>Ettore Sottsass, Andrea Branzi</br>S'oppose au style international, au post-modernisme, au design post Bauhaus\tmemphis full
+Global Tools\tperiod\t1973\t1985\trow6\t1973 => 1985</br>Alessandro Mendini, Ettore Sottsass</br>Prémices du designparticipatif\tglobaltools rec13
+'Superarchittetura'\tevent\t1966\t\trow8\tExposition à Pistoia\t bulle
+<strong>Ettore Sottsass</strong></br><em>Valentine</em>\tevent\t1969\t\trow6\t<mark class="technique">machine à écrire</mark></br><img src='https://www.ecosia.org/images?size=small&q=sottsass+valentine#id=EFDA337CE47A484A84623AC5D24716F76172BFA3' width='160'>\ttransp bulle full
+'Italy : the New Domestic Landscape'\tevent\t1972\t\trow6\tNew York</br>Exposition au MoMA</br><img src='https://tse4.mm.bing.net/th/id/OIP.C1MOwqKD7n9MGTRhj4I0TAAAAA?pid=Api' width='160'>\ttransp bulle full
+<strong>Ant Farm</strong></br><em>Dolphin Embassy</em>\tevent\t1974\t\trow5\t<img src='https://hiddenarchitecture.net/wp-content/uploads/2016/02/antfarm_dolphin-embassy_01-150x150.jpg' width='160'>\tfull bulle
+<strong>Enzo Mari</strong></br><em>Autoprojettazione</em>\tevent\t1974\t\trow6\t\ttransp full
+Superstudio se sépare\tevent\t1978\t\trow5\t\tfull
+1ère exposition à la galerie Arc 74\tevent\t1981\t\trow8\tÀ Milan</br>Groupe Memphis\tbulle full
+\t\t\t\t\t\t
+<strong>Anthony Dunne, Fiona Raby</strong>\tevent\t1994\t\trow9\tLeurs premiers travaux\tbulle full
+<strong>Bruce Sterling</strong></br><em>Shaping things</em>\tevent\t2005\t\trow10 / span 2\tEmploie le terme 'design fiction'\t bulle
+<strong>Jasper Morrison,</br>Naoto Fukasawa</strong></br><em>Manifeste Super Normal</em>\tevent\t2006\t\trow10 / span 2\t\ttrois
+Design spéculatif\tperiod\t1994\t2025\trow8 / span 2\t1994 => à nos jours</br>Angleterre, États-Unis</br>Anthony Dunne, Fiona Raby</br>Design développé à travers la fiction pour en faire un outil d'anticipation, de critique et de débats\tspeculatif
+Design fiction\tperiod\t2005\t2025\trow8\t2005 => à nos jours\tdesignfiction rec13
+\t\t\t\t\t\t
+<strong>Klarenbeek & Dros</strong></br><mark class="technique">Mycelium chair</mark>\tevent\t2019\t\trow6\t\tfull
+Zoépolis\tperiod\t2021\t2025\trow6\t2021 => à nos jours\tzoepolis
+\t\t\t\t\t\t
+Apparition de l’homme\tevent\t-26M\t\trowhist1\t\t
+Fin de la dernière période glacière\tevent\t-11700\t\trowhist1\t\t
+<mark class="technique">Agriculture et élevage</mark>\tevent\t-6400\t\trowhist1\t\t
+<mark class="technique">Métallurgie du bronze</mark>\tevent\t-3300\t\trowhist1\t\t
+<mark class="technique">Invention de l’écriture</mark>\tevent\t-3300\t\trowhist2\t<img src='https://www.histoire-pour-tous.fr/images/articles/dossiers/image-illustration-debut.gif' width='160'>\tbulle
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+\t\t\t\t\t\t
+Le pape <strong>Grégoire 1er</strong> meurt\tevent\t604\t\trow12\tEn simplifiant la représentation dans l'art religieux, il le remet au goût du jour\tbulle full
+Fondation de l'Empire Ottoman\tevent\t1299\t\trowhist1\tPar l'empereur Osman</br>Conquête du pourtour méditerrannéen</br>Nord Turquie\tbulle
+Domination de la royauté\tevent\t1400\t\trowhist2\tDomination juridique et politique\tbulle
+<strong>Guttemberg</strong></br><mark class="technique">Invention de l'imprimerie</mark>\tevent\t1440\t\trow12 / span 2\t\ttrois
+<mark class="technique">Grandes découvertes</mark>\tevent\t1492\t\trowhist2\t\t
+'Découverte' de l'Amérique\tevent\t1492\t\trowhist1\t\t
+Enclosures\tevent\t1500\t\trowhist1\tLe mouvement des enclosures prend de l'ampleur à partir de ce siècle\ttransp bulle
+<strong>Thomas More</strong></br><em>Utopia</em>\tevent\t1516\t\trow12\tPremière utilisation de ce terme\tbulle full
+Réforme, Martin Luther\tevent\t1517\t\trow1\t\tfull
+Protestantisme\tevent\t1529\t\trow1\tEn Europe, à Genève et en Allemagne</br>La Réforme protestante contre le commerce des indulgences : les prêtres et curés en échange d'argent ou de pélerinages, promettent le salut aux chrétiens. Cela leur permet de financer la construction de la basilique Saint-Pierre de Rome.</br>Contre l'autorité du pape et des prêtres, il délivre les chrétiens de l'inquiétude d'après la mort.</br>En plus la Bible était en latin, seuls les prêtres la connaissent, ils s'interposent donc entre Dieu et les fidèles.</br>Les huguenots sont les protestants de France et de Navarre</br>L'Église catholique lance une contre-Réforme qui s'appuie notamment sur l'art baroque.</br><img src='https://www.centreaccueilrome.com/wp-content/uploads/2012/10/Petersdom_von_Engelsburg_gesehen-150x150.jpg' width='160'>\tbulle
+La Cour se sédentarise à Versailles\tevent\t1682\t\trowhist1 / span 2\t\t
+<strong>Leibniz</strong></br><em>Essais de Théodicée</em>\tevent\t1710\t\trow12 / span 2\tNous vivons dans 'le meilleur des mondes possibles', même si on prend en compte les risques d'accident  inhérents à la technique\tbulle
+La cour à Paris\tevent\t1710\t\trowhist1\t\t
+La Cour à Versailles\tevent\t1722\t\trowhist1\t\t
+<strong>Abraham Darby III</strong> Pont d'acier\tevent\t1777\t\trow12\tÀ Coalbdale, Shropshire (Angleterre)</br><img src='https://upload.wikimedia.org/wikipedia/commons/7/78/The_Iron_Bridge_%288542%29.jpg' width='160'>\tbulle full
+Révolution française\tevent\t1789\t\trow2\t\tfull
+Victoire française à Ulm et Austerlitz\tevent\t1805\t\trow3 / span 2\t\t
+Décrêt de Berlin, blocus contre le Royaume-Uni\tevent\t1806\t\trow3 / span 2\tNapoléon Ier commence le blocus continental pour empêcher le Royaume-Uni de commercer avec le reste de l'Europe\tbulle trois
+Échec de la campagne de Russie\tevent\t1812\t\trow3 / span 2\t\ttrois
+Échec de la campagne d'Allemagne\tevent\t1813\t\trow3 / span 2\t\ttrois
+Échec de la campagne de France\tevent\t1814\t\trow3 / span 2\tInvasion de la France</br>Napoléon Ier s'exile sur l'île d'Elbe\tbulle trois
+Mobilier Bivouac, Napoléon\tevent\t1815\t\trow12\t<img src='https://i.pinimg.com/originals/a7/3f/a6/a73fa64c257991b2d7135f4a8779dcd1.png' width='160'>\tfull bulle
+Autre invasion de la France\tevent\t1815\t\trowhist1\t\t
+Mesures douanières\tevent\t1816\t\trowhist1\tPour protéger les industriels de la concurrence\tbulle
+2ème Révolution française\tevent\t1830\t\trowhist1\tFin de la seconde restauration et début de la monarchie de juillet\tbulle
+<mark class="technique">Daguerréotype</mark>\tevent\t1839\t\trow12\tBalbuciements de la photo\tbulle
+<strong>Catharine Ester Beecher</strong> <em>On the construction of houses</em>\tevent\t1841\t\trow12 / span 2\tÉtats-Unis\tbulle trois
+<mark class="technique">Première photo en couleur</mark>\tevent\t1848\t\trow12\t<strong>Edmond Bécquerel</strong></br>Au musée d'Histoire Naturelle de Paris\tbulle full
+<strong>Thomas Carlyle</strong></br><em>Past and Present</em>\tevent\t1848\t\trow10\tIl réagit aux expositions industrielles, contre le matérialisme et préfère le gothique</br>Il accuse la mécanisation\tbulle full
+Révolution\tevent\t1848\t\trowhist1\t\t
+Abolition de l'esclavage\tevent\t1848\t\trow2\t\tfull
+<strong>John Ruskin</strong></br><em>Les sept lampes de l'architecture</em>\tevent\t1849\t\trow10 / span 2\tRéagit aux expositions industrielles, il est contre le matérialisme et préfère le gothique. Aliénation de l'ouvrier par la machine, et tout ça pour des produits manufacturés laids et de mauvaise qualité.</br>Il théorise le concept de vérité artistique\tbulle
+<strong>John Ruskin</strong> <em>La nature du gothique</em>\tevent\t1851\t\trow10\tDans ce chapitre, il critique l'industrie et lui préfère le gothique : la division du travail est en fait division des hommes\tbulle full
+Début de la guerre de Crimée\tevent\t1853\t\trow2\tRussie contre empire ottoman, empire français, Royaume-Uni, royaume de Sardaigne\tbulle full
+Traité de Paris, fin de la guerre de Crimée\tevent\t1956\t\trow2\t\tfull
+Campagne d'Italie\tevent\t1859\t\trow2\tSeconde guerre d'indépendance italienne : empire d'Autriche contre empire français et royaume de Sardaigne\tbulle full
+Début Guerre de Sécession\tevent\t1861\t\trow2\tGuerre civile des États-Unis, des États du nord contre d'autres du sud\tbulle full
+Débat autour de l'abolition de l'esclavage\tevent\t1861\t\trowhist2\t\t
+<em>Le Capital 1</em>\tevent\t1867\t\trow10\t<strong>Karl Marx</strong></br><em>Le Capital 1, Critique de l'économie politique</em></br>Développement de la production capitaliste\tbulle
+Victoire de l'Allemagne, chute du 2nd empire\tevent\t1870\t\trowhist2\tGuerre franco-allemande</br>Lors de la capitulation de Sedan, l'Empereur est fait prisonnier</br>La déchéance de Napoléon III est votée par la Chambre\tbulle
+Commune de Paris\tevent\t1871\t\trowhist2\t\t
+Fin de la censure\tevent\t1881\t\trowhist2\tLoi sur la liberté de la presse\tbulle
+<em>Le Capital 2</em>\tevent\t1885\t\trow10\t<strong>Karl Marw, Friedrich Engels</strong></br><em>Le Capital 2, Critique de l'économie politique</em>\tbulle
+<strong>Étienne-Jules Marey</strong> <mark class="technique">chronophotographie</mark>\tevent\t1890\t\trow12\tPratique pour l'étude des mouvements\tbulle full
+Les premières photos dans l'art\tevent\t1890\t\trow10\t\tfull
+<mark class="expo">11e exposition universelle</mark></br>Chicago\tevent\t1893\t\trow3\tRejet de <strong>Sullivan</strong>, triomphe du style historique international.</br>Pour Alexandra Midal, Chicago était le centre de la révolution industrielle des États-Unis, qui avait d'ailleurs commencé avant celle européenne\tbulle full
+<em>Le Capital 3</em>\tevent\t1894\t\trow10\t<strong>Karl Marx, Friedrich Engels</strong></br><em>Le Capital 3, Critique de l'économie politique</em>\tbulle
+<mark class="technique">1er film</mark>\tevent\t1895\t\trow1\t<strong>Les frères lumière</strong></br><em>La sortie des usines</em></br>Lyon\tbulle
+Fin de l'Académie royale de peinture et de sculpture\tevent\t1897\t\trowhist2 / span 2\t\t
+Ouverture du Prix de Rome aux femmes\tevent\t1903\t\trowhist2\tLes artistes femmes peuvent enfin prétendre au Prix de Rome\tbulle
+<em>Le Capital 4</em>\tevent\t1904\t\trow10 / span 2\t<strong>Karl Marx, Karl Kautsky</strong></br><em>Le Capital 4, Théorie de la plus-value\tbulle
+Séparation de l'Église et de l'État\tevent\t1905\t\trowhist1\t\t
+Fin de la censure théâtrale\tevent\t1906\t\trowhist1\t\t
+<strong>Minkowski</strong> <em>Space and time</em>\tevent\t1908\t\trow19\t\t
+<strong>Henry Ford</strong> <mark class="technique">Modèle T</mark>\tevent\t1908\t\trow9\t<mark class="technique">1ère automobile fabriquée en grande série</mark></br><img src='https://tse2.mm.bing.net/th/id/OIP.g8Ue2kwICCfdfRbRZppttQAAAA?pid=Api' width='160'>\tbulle
+<mark class="technique">1er film tourné à Hollywood</mark>\tevent\t1910\t\trow1\t\tfull
+<mark class="technique">1er film en couleurs kinemacolor</mark>\tevent\t1911\t\trow1\t\tfull
+Le <strong>facteur cheval</strong> achève son palais idéal\tevent\t1912\t\trow9\t<img src='https://www.connaissancedesarts.com/wp-content/thumbnails/uploads/2021/04/cda-gac-palais-facteur-cheval-main-2-tt-width-192-height-108-fill-1-crop-1-bgcolor-ffffff.jpg' width='160'>\tfull bulle
+<strong>Frederic W. Taylor</strong> <em>Les principes d'organisation des usines</em>\tevent\t1912\t\trow3\t\tfull
+<strong>Franck B. et Lillian M. Gilbreth</strong> <em>Ce qu'est un musée de la fatigue</em>\tevent\t1916\t\trow1 / span 2\t\t
+Révolution russe\tevent\t1917\t\trowhist1\t\t
+Société des Nations\tevent\t1920\t\trowhist1\tSDN</br>Désarmement, règlement des conflits par la négociation\tbulle
+<mark class="expo">Exposition internationale des arts décoratifs et industriels modernes</mark>\tevent\t1925\t\trow1 / span 2\tParis\tbulle
+<mark class="technique">1er film parlant</mark>\tevent\t1926\t\trow1\t\t
+<em>Bois ou métal</em>\tevent\t1929\t\trow21\t<strong>John Gloag, Charlotte Perriand</strong>\tbulle
+<mark class="expo">Exposition universelle</mark>\tevent\t1929\t\trow1\t\tfull
+Krach boursier New York\tevent\t1929\t\trowhist1\tSuivi d'une crise économique mondiale\tbulle
+<strong>Albert Renger-Patzsh</strong>\tevent\t1931\t\trow16\tPhotos de paysages, photo industrielle, rend beau l'industriel</br><img src='https://artblart.com/wp-content/uploads/2018/01/renger-patzsch-zeche-heinrich-robert.jpg?w=110&h=150' width='160'>\tbulle
+Régime nazi\tevent\t1933\t\trowhist1\t\t
+Jeux Olympiques de Berlin\tevent\t1936\t\trowhist2\t\t
+Premiers congés payés\tevent\t1936\t\trowhist1\t\t
+<strong>Sir Herbert Read</strong></br><em>Art and Society</em>\tevent\t1937\t\trow8\tHistoire de l'art\tbulle full
+<mark class="expo">Les femmes artistes d'Europe exposent au Jeu de Paume</mark>\tevent\t1937\t\trow16 / span 2\tParis\tbulle trois
+<mark class="expo">'Art dégénéré'</mark></br>Munich\tevent\t1937\t\trow21\t700 œuvres décrochées des musées allemands et montrées comme des symptômes d'un art malade, par les nazis\tbulle full below
+<mark class="expo">Exposition universelle</mark></br>Paris\tevent\t1937\t\trow9\tPlus de femmes sont exposées\tbulle full
+<strong>Asplund</strong> Affranchissement de la couleur\tevent\t1938\t\trow8\tSuédois</br>1er à intégrer, dans une composition monuentale, l'affranchissement de la couleur consommée par les peintres\tbulle full
+<mark class="expo">Exposition universelle</mark> New York\tevent\t1939\t\trow9\tFluidité formelle et métaphorique du design</br><em>Futurama</em>, General Motors, <strong>Norman Bel Geddes</strong</br>Pavillon Ford, <strong>Walter Teague</strong></br>Piste de lancement de fusée, <strong>Raymond Loewy</strong></br>chrystler <em>Democracity</em>, <strong>Dreyfuss</strong>\tbulle full
+<strong>Henri Focillon</strong></br><em>Vie des formes</em>\tevent\t1943\t\trow9\t\tfull
+Droit de vote des femmes en France\tevent\t1944\t\trowhist1\t\t
+Début de la guerre froide\tevent\t1947\t\trowhist1\t\t
+<strong>Marcel Bich</strong></br><mark class="technique">Stylo bic crystal</mark>\tevent\t1950\t\trow4\t<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/02-BICcristal2008-03-26.jpg/180px-02-BICcristal2008-03-26.jpg' width='160'>\tfull bulle
+Conférence Internationale de design d'Aspen\tevent\t1951\t\trow17 / span 2\tColorado</br>Fondée par l'entrepreneur <strong>Walter Paepcke</strong>\tbulle trois
+<strong>Pevsner</strong> découvre le design à Aspen\tevent\t1953\t\trow17 / span 2\tDans le Colorado</br>À l'occasion d'un colloque\tbulle trois
+<em>Manifesto per il disegno industriale</em>\tevent\t1952\t\trow9\t1er manifeste du design italien, dans domus 296</br>Exposition 'arte e l'estetica industriale' à la foire Campanionaria de Milan\tbulle full
+Milan Associazione per il Disegno Industriale\tevent\t1956\t\trow9 / span 2\t\ttrois
+<strong>A. P. Elkin</strong> <em>La technique occidentale et les aborigènes australiens</em>\tevent\t1952\t\trow5 / span 2\t\tfull
+<strong>George Friedmann</strong></br><em>UNESCO Bulletin international des sciences sociales</em>\tevent\t1952\t\trow19 / span 2\tLes 'conséquences sociales du progrès technique'\tbulle full
+Traité de Rome\tevent\t1957\t\trowhist1\t\t
+<strong>Roland Barthes</strong></br><em>Mythologies</em>\tevent\t1957\t\trow9\t\tfull
+<strong>Gilbert Simondon</strong></br><em>Du mode d'existence des objets techniques</em>\tevent\t1958\t\trow18 / span 2\t\ttrois
+<strong>Pierre Francastel</strong></br><em>Art et technique</em>\tevent\t1958\t\trow9\t\tfull
+<strong>Banham</strong> <em>Théorie et design à l'ère industrielle</em>\tevent\t1960\t\trow9\t\tfull
+<mark class="technique">Période où les voitures s'imposent en ville</mark>\tevent\t1960\t\trowhist2\t\t
+<strong>Vance Packard</strong></br><em>L'art du gaspillage</em>\tevent\t1962\t\trow1\tSociologue américain</br>Alerte sur l'obsolescence programmée\tbulle full
+Indépendance de l'Algérie\tevent\t1962\t\trowhist1\t\t
+<strong>Stewart Brand</strong></br><em>Whole Earth Catalog</em>\tevent\t1968\t\trow1 / span 2\tUSA</br>Catalogue de contre-culture\tbulle
+Mai 1968\tevent\t1968\t\trowhist1\t\t
+<mark class="technique">Premiers pas sur la lune</mark>\tevent\t1969\t\trowhist1\t\t
+<strong>Verner Panton</strong> <mark class="expo">'Qu'est-ce que le design'</mark>\tevent\t1969\t\trow1 / span 2\tExpo inaugurale au CCI Centre de Création Industrielle, texte de <strong>Verner Panton</strong>\tbulle
+<strong>Jean Baudrillard</strong></br><em>La société de consommation</em>\tevent\t1970\t\trow1 / span 2\t\t
+<strong>Victor Papanek </strong><em>design pour un monde réel</em>\tevent\t1971\t\trow1 / span 2\t\t
+<strong>Denis et Donella Meadows </strong><em>The limits to growth</em>\tevent\t1972\t\trowhist2\tComandité par le club de Rome\tbulle
+<strong>Reyner Banham</strong></br><em>The architecture of the Well-Tempered Environment</em>\tevent\t1973\t\trow1 / span 2\t\ttrois
+Premier choc pétrolier\tevent\t1973\t\trowhist1\t\t
+<strong>Roland Moreno</strong></br><mark class="technique">Carte à puce</mark>\tevent\t1974\t\trow1\t<mark class="technique">bancaire ?</mark>\tbulle full
+<strong>Roger Tallon</strong></br><mark class="technique">TGV</mark>\tevent\t1974\t\trow3\t\tfull
+Années internationale de la femme (ONU)\tevent\t1975\t\trow2\tLes premières expos de femmes depuis la seconde guerre mondiale\tbulle full
+Second choc pétrolier\tevent\t1976\t\trowhist1\t\t
+<mark class="technique">Sony, Walkman</mark>\tevent\t1979\t\trow1\t\t
+<strong>Bourdieu</strong></br><em>La distinction</em>\tevent\t1979\t\trow3\t\tfull
+<mark class="technique">Premier réseau intranet</mark>\tevent\t1980\t\trow2\t<mark class="technique">Militaire</mark>\tbulle full
+<strong>Peter Weibel</strong></br><em>Biotechnologie et art</em>\tevent\t1981\t\trow3\t\tfull
+<mark class="technique">IBM PC</mark>\tevent\t1981\t\trow1\t<mark class="technique">Premier ordinateur personnel</mark>\tbulle
+ENSCI\tevent\t1982\t\trow2\tFondation de l'école\tbulle
+<strong>Sigfried Giedion</strong></br><em>La mécanisation au pouvoir</em>\tevent\t1983\t\trow2 / span 2\t\ttrois
+Tchernobyl\tevent\t1986\t\trowhist1\t\t
+Chute du mur de Berlin\tevent\t1989\t\trowhist1\tNéolibéralisme\tbulle
+<mark class="technique">Création du World Wild Web</mark>\tevent\t1989\t\trow1\t\tfull
+<mark class="technique">Nintendo Game Boy</mark>\tevent\t1989\t\trow3\tPremière console portable\tbulle full
+Première guerre du Golf\tevent\t1990\t\trowhist1\t\t
+Effondrement de l'URSS\tevent\t1991\t\trowhist1\t\t
+Fin de l'appartheid en Afrique du Sud\tevent\t1991\t\trowhist2\t\t
+<mark class="expo">Design, miroir du siècle,</mark>\tevent\t1993\t\trow1\tParis, Grand Palais</br>La plus grande exposition du design en France\tbulle full
+<strong>James Dyson</strong><mark class="technique"> DC02 Aspirateur</mark>\tevent\t1993\t\trow3\t\tfull
+ANDEA\tevent\t1995\t\trow2\tAu moment où l'État se retire des financements d'écoles, laissant les territoires prendre en charge chacun à leur manière, les directeurs des Écoles supérieures d'Art et de design publiques de France s'associent\tbulle
+Le Fresnois\tevent\t1997\t\trow2\tTourcoing</br>Ouverture de ce studio national des arts contemporains\tbulle
+Loi Aubry\tevent\t1998\t\trowhist1\tRéduction du temps de travail à 35h\tbulle
+<mark class="expo">Biennale de design Saint-Étienne</mark>\tevent\t1998\t\trow1\tLa première\tbulle full
+Design Thinking\tevent\t1998\t\trow3\tMéthodologie de conception créative\tbulle
+<strong>Pierre Damien Huyghe</strong>\tevent\t2000\t\trow2\tLe design est autorisé à figurer</br>dans les énoncés des filières universitaires\tbulle full
+Attentats du 11 septembre\tevent\t2001\t\trowhist1\tManhattan, New York\tbulle
+<strong>Nicolas Bourriaud</strong></br><em>Esthétique relationnelle</em>\tevent\t2001\t\trow2\t\tfull
+Passage à l'euro\tevent\t2002\t\trowhist1\tPremière monnaie unique en Europe\tbulle
+Seconde guerre du Golf\tevent\t2003\t\trowhist1\t\t
+<mark class="expo">D-Day</mark>\tevent\t2005\t\trow3\tExposition Pompidou sur l'émergence de nouveaux courants de design responsables\tbulle
+<mark class="technique">Vélo'V JCDecaux</mark>\tevent\t2005\t\trow6\t<mark class="technique">Juste avant le vélib'</mark>\tbulle full
+International Association of Societies of Design Research\tevent\t2005\t\trow2 / span 2\tFondation de l'IASDR pour regrouper les sociétés savantes de design du monde entier\tbulle trois
+Ateliers de la Recherche en Design\tevent\t2006\t\trow2\tNîmes</br>Fondation de l'ARD, réseau international de chercheurs francophones</br>À l'initiative d'<strong>Alain Findeli, Brigitte Borja de Mozota et Georges Schambach</strong>\tbulle full
+Crise des subprimes\tevent\t2008\t\trowhist1\tRécession économique mondiale\tbulle
+<strong>John Thackara</strong> <em>In the bubble</em>\tevent\t2008\t\trow2\t<em>In the bubble : de la complexité au design durable</em>\tbulle full
+Accident nucléaire de Fukushima\tevent\t2011\t\trowhist1\t\t
+<mark class="technique">MaKerbot</mark><em> Replicator</em></br><mark class="technique">imprimante 3D</mark>\tevent\t2011\t\trow2 / span 2\t<mark class="technique">Troisième imprimante 3D et dernier modèle en Open Source</mark>\tbulle trois
+ANDEA devient ANdÉA\tevent\t2012\t\trow2 / span 2\tle terme 'Directeurs' disparaît de l'acronyme\tbulle trois
+ARD devient PROJEKT\tevent\t2014\t\trow2 / span 2\tLe groupe des Ateliers de la Recherche en Design devient le laboratoire PROJEKT\tbulle trois
+Accords de Paris sur le climat\tevent\t2015\t\trowhist1\t\t
+Trump\tevent\t2016\t\trowhist1\t\t
+metoo\tevent\t2017\t\trowhist1\t\t
+Covid Confinement\tevent\t2020\t\trowhist1\t\t
+Brexit\tevent\t2020\t\trowhist2\t\t
+<mark class="technique">Chat GPT</mark>\tevent\t2022\t\trow2\t\t
+<strong>Nicolas Nova</strong></br><em>Persistence du Merveilleux</em>\tevent\t2024\t\trow2 / span 2\t\ttrois
+\t\t\t\t\t\t
+Aujourd'hui\tperiod\t2025\t2029\trow23\t\t
+Légende :</br><strong>Gras</strong> : auteurs, noms de personnes</br><em>Souligné</em> : tous les titres, œuvres, livres, chapitres, ...</br><mark class="technique">Orange</mark> : techniques</br><mark class="expo">Bleu</mark> : Expositions qui font date\tevent\t2027\t\trow21 / span 6\t\tleft
+Ombre : survoler avec le pointeur pour voir une description\tevent\t2027\t\trow15\tDes images s'y cachent parfois</br><img src='https://www.shutterstock.com/image-vector/default-ui-image-placeholder-wireframes-260nw-1037719192.jpg' width='160'>\tbulle left
+Dégradé : date de fin de période très floue, voire période toujours en cours\tperiod\t2026\t2028\trow13\tdate de début => ?\tnoir ouvert
+Fond bleu clair : pour les deux guerres mondiales\tperiod\t2026\t2028\trow11\t\tbleu
+La vue chronologique a pour vocation d'aider une compréhension des ruptures et des logiques dans l’histoire. Le format linéaire induit l'illusion d’un chemin unique et partagé par tous les humains mais ce n'est pas le cas. Cette version reste largement franco-centrée, je tente d’ouvrir à d’autres contextes géographiques et culturels, mais le travail est nécessairement partiel et situé. Vos critiques et suggestions sont les bienvenues pour enrichir et décentrer cette représentation !</br>Marie\tevent\t2027\t\trow8 / span 9\t\tleft
+<a href="https://github.com/marieboishus/frise-chronologique-design" target="_blank">Ouvrir le projet GitHub dans un nouvel onglet</a> : Vous pouvez utiliser l'outil 'issues' pour faire des suggestions\tevent\t2027\t\trowhist2 / span 2\t\tleft
