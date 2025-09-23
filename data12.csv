@@ -564,7 +564,7 @@ Socialisme utopiste;period;1800;1850;row19;1800 => 1850</br><strong>Fourier, Pro
 Âge d'or des Shakers;period;1820;1860;row20;1820 => 1860</br>Angleterre puis États-Unis</br>Les shakers : 1747 => 1996;shaker
 ;;;;;;
 Impressionnisme;period;1841;1926;row22;1841 => 1926</br>International</br>Représenter la lumière, s'oppose à l'académisme;impressionnisme below
-<mark class="technique">Peinture en tube</mark>;event;1841;;row21;"Inventée par <strong>John Goffe Rand</strong>";bulle
+"<mark class="technique">Peinture en tube</mark>";event;1841;;row21;"Inventée par <strong>John Goffe Rand</strong>";bulle
 <strong>Claude Monet</strong> Impression soleil levant</em>;event;1872;;row22;<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_xgiDFF6jUzztxYR1Rd0qMuT4L5h5xXKpA&s' width='160'>;transp bulle full below
 Postimpressionnisme;period;1880;1910;row22 / span 2;1880 => 1910;postimpressionnisme
 Pointillisme;period;1884;1900;row21;1884 => 1900</br>France, Belgique</br><strong>George Seurat, Paul Signac, Camille Pissaro, Maximilien Luce, Théo va Rysselberghe;pointillisme rec13 below
