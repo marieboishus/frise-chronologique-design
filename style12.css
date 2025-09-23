@@ -1,3 +1,29 @@
+/*
+@font-face {
+  font-family: "Azimut";
+  src: url("fonts/Azimut-Regular.woff2") format("woff2"),
+  url("fonts/Azimut-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azimut";
+  src: url("fonts/Azimut-Bold.woff2") format("woff2"),
+  url("fonts/Azimut-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azimut";
+  src: url("fonts/Azimut-Italic.woff2") format("woff2"),
+  url("fonts/Azimut-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+*/
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -62,7 +88,7 @@ em {
 .expo {
   background-color: transparent;
   color: rgb(0,0,203);
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 /* Ligne des repères-dates
@@ -96,7 +122,7 @@ position: relative; /*reste au flux, pas de recouvrement de la ligne*/
 background: white;
 border-radius: 4px;
 padding: 0 2px;
-font-size:11px;
+font-size: 11px;
 }
 
 /* la ligne highlightée */
@@ -116,7 +142,7 @@ font-size:11px;
 .period {
   display: flex;
   align-self: center;
-  max-height: 70%;
+  max-height: 80%;
   align-items: center; /* centre verticalement */
   background-color: rgba(var(--r),var(--g),var(--b),0.7);
   color: black;
@@ -125,7 +151,7 @@ font-size:11px;
   border-radius: 15px;
   font-size: 9px;
   position: relative;
-  cursor: pointer;
+  cursor: help;
 /*  transition: background 0.3s; */
   z-index: 2;
   overflow: visible; /* pour le sticky des titres de périodes */
@@ -196,7 +222,6 @@ font-size:11px;
   z-index: 14;
   transition: background 0.3s,
   transform 0.3s;
-  cursor: pointer;
   box-sizing: border-box; /* évite le chevauchement */
 }
 .event.trois {
@@ -221,6 +246,12 @@ font-size:11px;
   box-shadow: -2px 2px 2px rgba(51,51,51,0.1)
 }
 
+/* pour la légende etc, justification à gauche */
+.event.left {
+  text-align: left;
+  font-size: 12px;
+}
+
 /* pour les events liés à des périodes que j'ai disposés dessus */
 .event.transp {
   background-color: rgba(255,255,255,0.6);
@@ -232,7 +263,8 @@ font-size:11px;
 
 /* Pour voir quels events ont un tooltip */
 .event.bulle {
-  box-shadow: -4px 4px 4px rgba(51,51,51,0.4)
+  box-shadow: -4px 4px 4px rgba(51,51,51,0.4);
+  cursor: help;
 }
 
 .event.bulle:hover {
@@ -267,10 +299,27 @@ font-size:11px;
 }
 
 .tooltip img {
-  display: block;
-  margin-top: 4px;
+  display: block;   /* force l'image à se comporter comme un bloc */
+  margin: 4px auto; /* marges auto = centrage horizontal */
   max-width: 150px;           /* sécurité */
 }
+
+a {
+  color: rgb(0, 145, 75);
+  background-color: rgba(255,255,255,0);
+}
+
+a:hover {
+  color: rgb(0, 69, 36);
+  background-color: rgba(255,255,255,0);
+  cursor: pointer;
+}
+
+a:visited {
+  color: rgb(0,255,130);
+  background-color: rgba(255,255,255,0);
+}
+
 
 /* |||||||||||  ICI COULEURS SPÉCIALES  |||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .periode1 { --r: 158; --g: 153; --b: 188; }
@@ -289,6 +338,14 @@ font-size:11px;
 .gmfond {
   background-color: rgb(225,240,234);
   z-index: 0;
+}
+.bleu { --r: 225; --g: 240; --b: 234;
+  font-size: 12px;
+}
+.noir {
+  --r: 1; --g: 1; --b: 1;
+  color: white;
+  font-size: 12px;
 }
 
 .age1 { --r: 255; --g: 216; --b: 16; }
@@ -367,7 +424,9 @@ font-size:11px;
 
 .quattrocento { --r: 158; --g: 51; --b: 40; }
 
-/* .manierisme { background-color: rgb(180, 75, 0);} */
+.grotesque { --r: 222; --g: 203; --b: 0; }
+.arabesque { --r: 181; --g: 222; --b: 0; }
+
 .manierisme { --r: 180; --g: 75; --b: 0}
 
 .baroque { --r: 158; --g: 51; --b: 40; }
@@ -383,6 +442,8 @@ font-size:11px;
 .geddes { --r: 234; --g: 221; --b: 229; }
 
 .werkbund { --r: 106; --g: 79; --b: 155; }
+
+.seizbreur { --r: 121; --g: 191; --b: 199; }
 
 .concret { --r: 152; --g: 136; --b: 192; }
 
@@ -520,3 +581,11 @@ font-size:11px;
 .designfiction { --r: 89; --g: 255; --b: 209; }
 
 .zoepolis { --r: 167; --g: 205; --b: 125; }
+
+/* https://www.citedudesign.com/fr/t/chronologie-du-design/0/
+https://www.lejournaldesarts.fr/actualites/chronologie-des-vols-doeuvres-dart-116676
+https://projekt.unimes.fr formation => cursus doctoral => Référecement des thèses en design
+
+
+https://fr.wikipedia.org/wiki/Jean-Baptiste_Colbert#Colbert_et_l'économie_du_royaume_:_le_colbertisme
+*/
