@@ -1,3 +1,4 @@
+// script.js adapté pour TSV
 document.addEventListener("DOMContentLoaded", () => {
   const grid = document.querySelector(".timeline-grid");
 
@@ -37,21 +38,21 @@ document.addEventListener("DOMContentLoaded", () => {
     return cols.join(" ");
   }
 
-  // Charge le CSV et construit la grille
-  fetch("data12.tsv")
+  // ---- Chargement du TSV et construction de la grille ----
+  fetch("data13.tsv")
     .then(r => {
-      if (!r.ok) throw new Error("Échec du chargement du CSV: " + r.status);
+      if (!r.ok) throw new Error("Échec du chargement du TSV: " + r.status);
       return r.text();
     })
     .then(text => {
-      const data = Papa.parse(text, {
+      const parsed = Papa.parse(text, {
         header: true,
-        delimiter: "\t"
+        delimiter: "\t" // ✅ TSV = tabulation
       });
-//      }).data;
-      console.log("CSV parsed, lignes:", data.length);
+      const data = parsed.data; // ✅ on prend bien .data
 
-// |||||||||||||||||||| ICI LES LARGEURS DE COLONNES PERSONNALISÉES ||||||||||||||||||||||||||||
+      console.log("TSV parsed, lignes:", data.length);
+
       // === construit grid-template-columns dynamiquement ===
       const customWidths = {
         "-11700": 53,
@@ -262,7 +263,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!item.type && !item.class && !item.start && !item.end) return;
 
-        // ----- Dates (ticks) -----
+        // ----- Dates -----
         if (item.type === "date") {
           const div = document.createElement("div");
           div.className = "tick";
@@ -307,10 +308,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (item.start) div.dataset.start = item.start;
           if (item.end) div.dataset.end = item.end;
           div.style.gridColumn = `col-${item.start}-tick / col-${item.end}-tick`;
-          if (item.row) {
-          // permet d'écrire "rowhist1 / span 3" directement dans le CSV
-            div.style.gridRow = item.row;
-          }
+          if (item.row) div.style.gridRow = item.row;
           grid.appendChild(div);
           return;
         }
@@ -320,32 +318,27 @@ document.addEventListener("DOMContentLoaded", () => {
       const targets = document.querySelectorAll('.period[data-tooltip], .event[data-tooltip]');
       targets.forEach(el => {
         el.addEventListener("mouseenter", e => {
-          tooltip.innerHTML = el.getAttribute("data-tooltip")
-            ?.replace(/=>/g, "⟶"); // remplace les => par une flèche
+          tooltip.innerHTML = el.getAttribute("data-tooltip")?.replace(/=>/g, "⟶");
           tooltip.classList.add("visible");
         });
-el.addEventListener("mousemove", e => {
-  const rect = el.getBoundingClientRect();
-  const pageY = window.scrollY + rect.top;
+        el.addEventListener("mousemove", e => {
+          const rect = el.getBoundingClientRect();
+          const pageY = window.scrollY + rect.top;
 
-  tooltip.style.left = `${e.pageX}px`;
+          tooltip.style.left = `${e.pageX}px`;
 
-  if (el.classList.contains("below")) {
-    // Cas manuel : tooltip en dessous
-    tooltip.classList.add("below");
-    tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
-  } else {
-    // Cas normal : tooltip au-dessus
-    tooltip.classList.remove("below");
-    tooltip.style.top = `${pageY - 10}px`;
-
-    // Sécurité si ça sort de l'écran en haut
-    if (tooltip.offsetTop < window.scrollY) {
-      tooltip.classList.add("below");
-      tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
-    }
-  }
-});
+          if (el.classList.contains("below")) {
+            tooltip.classList.add("below");
+            tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
+          } else {
+            tooltip.classList.remove("below");
+            tooltip.style.top = `${pageY - 10}px`;
+            if (tooltip.offsetTop < window.scrollY) {
+              tooltip.classList.add("below");
+              tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
+            }
+          }
+        });
         el.addEventListener("mouseleave", () => {
           tooltip.classList.remove("visible");
         });
@@ -357,7 +350,7 @@ el.addEventListener("mousemove", e => {
       console.log("Construction de la frise terminée.");
     })
     .catch(err => {
-      console.error("Erreur dans le chargement du CSV ou la construction :", err);
+      console.error("Erreur dans le chargement du TSV ou la construction :", err);
     });
 
   // --------- Fonction d'activation des highlights ----------
