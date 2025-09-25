@@ -72,6 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         skipEmptyLines: true
       });
 
+      
       if (parsed.errors && parsed.errors.length) {
         console.warn("Erreurs PapaParse :", parsed.errors);
       }
