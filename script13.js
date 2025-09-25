@@ -1,22 +1,43 @@
-// script.js adapté pour TSV
+// script-corrige.js — prêt à coller
 document.addEventListener("DOMContentLoaded", () => {
   const grid = document.querySelector(".timeline-grid");
+  if (!grid) {
+    console.error("Élément .timeline-grid introuvable — vérifier le HTML.");
+    return;
+  }
 
-  // Crée un seul tooltip global
+  // tooltip unique
   const tooltip = document.createElement("div");
   tooltip.className = "tooltip";
   document.body.appendChild(tooltip);
 
-  // utilitaires
+  // helpers
   const clean = s => (s === undefined || s === null) ? "" : String(s).trim();
 
-  // ---- Helpers pour gérer les dates ----
+  // transforme une chaîne en valeur numérique pour trier
   function parseDateValue(val) {
-    if (!val) return null;
-    if (val.includes("M")) {
-      return parseFloat(val.replace("M", "")) * 1000000;
+    if (!val) return Infinity;
+    let s = String(val).trim().replace(/\s+/g, "").replace(",", ".");
+    const isMillion = /M$/i.test(s);
+    if (isMillion) s = s.replace(/M$/i, "");
+    const num = Number(s);
+    if (!Number.isNaN(num)) {
+      return isMillion ? num * 1e6 : num;
     }
-    return parseFloat(val);
+    // Essaie d'extraire un nombre si possible
+    const m = s.match(/-?\d+(\.\d+)?/);
+    if (m) return Number(m[0]);
+    return Infinity; // non numérique → à la fin
+  }
+
+  // rend une valeur safe pour les noms de lignes/colonnes CSS
+  function cssSafe(s) {
+    if (s === undefined || s === null) return "";
+    return String(s)
+      .trim()
+      .replace(/\s+/g, "")        // enlève espaces
+      .replace(/,/g, "_")        // remplace virgules
+      .replace(/[^A-Za-z0-9_\-]/g, "_"); // remplace tout caractère non autorisé
   }
 
   function buildGridColumns(data, customWidths = {}) {
@@ -26,34 +47,39 @@ document.addEventListener("DOMContentLoaded", () => {
       if (item.end) dates.add(clean(item.end));
     });
 
-    // Tri chronologique
     const sorted = [...dates].sort((a, b) => parseDateValue(a) - parseDateValue(b));
 
-    // Construction CSS
     const cols = sorted.map(date => {
       const width = customWidths[date] || 35;
-      return `[col-${date}-start] ${width}px [col-${date}-tick] ${width}px [col-${date}-end] 0`;
+      const id = cssSafe(date);
+      return `[col-${id}-start] ${width}px [col-${id}-tick] ${width}px [col-${id}-end] 0`;
     });
 
     return cols.join(" ");
   }
 
-  // ---- Chargement du TSV et construction de la grille ----
+  // --- fetch TSV (remplacer le nom si besoin) ---
   fetch("data13.tsv")
     .then(r => {
       if (!r.ok) throw new Error("Échec du chargement du TSV: " + r.status);
       return r.text();
     })
     .then(text => {
+      // parse TSV avec PapaParse
       const parsed = Papa.parse(text, {
         header: true,
-        delimiter: "\t" // ✅ TSV = tabulation
+        delimiter: "\t",
+        skipEmptyLines: true
       });
-      const data = parsed.data; // ✅ on prend bien .data
 
-      console.log("TSV parsed, lignes:", data.length);
+      if (parsed.errors && parsed.errors.length) {
+        console.warn("Erreurs PapaParse :", parsed.errors);
+      }
 
-      // === construit grid-template-columns dynamiquement ===
+      const data = parsed.data || [];
+      console.log("TSV parsé — lignes :", data.length);
+
+      // === largeurs personnalisées (garder ou modifier) ===
       const customWidths = {
         "-11700": 53,
         "-17000": 55,
@@ -246,10 +272,12 @@ document.addEventListener("DOMContentLoaded", () => {
         "2026": 130,
         "2027": 190
       };
+
+      // construit grid-template-columns en utilisant cssSafe()
       const gridColumns = buildGridColumns(data, customWidths);
       grid.style.gridTemplateColumns = gridColumns;
 
-      // === création des éléments ===
+      // création des éléments
       data.forEach(raw => {
         const item = {
           type: clean(raw.type).toLowerCase(),
@@ -263,13 +291,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!item.type && !item.class && !item.start && !item.end) return;
 
-        // ----- Dates -----
+        // ----- Dates (ticks) -----
         if (item.type === "date") {
           const div = document.createElement("div");
           div.className = "tick";
           div.setAttribute("date-label", item.title || item.start);
           div.dataset.date = item.start;
-          div.style.gridColumn = `col-${item.start}-start / col-${item.start}-end`;
+          const id = cssSafe(item.start);
+          div.style.gridColumn = `col-${id}-start / col-${id}-end`;
           grid.appendChild(div);
           return;
         }
@@ -281,7 +310,9 @@ document.addEventListener("DOMContentLoaded", () => {
           if (item.tooltip) div.dataset.tooltip = item.tooltip;
           if (item.start) div.dataset.start = item.start;
           if (item.end) div.dataset.end = item.end;
-          div.style.gridColumn = `col-${item.start}-tick / col-${item.end}-tick`;
+          const startId = cssSafe(item.start);
+          const endId = cssSafe(item.end);
+          div.style.gridColumn = `col-${startId}-tick / col-${endId}-tick`;
           if (item.row) div.style.gridRow = item.row;
           div.innerHTML = `<span class="period-label">${item.title}</span>`;
           grid.appendChild(div);
@@ -294,7 +325,8 @@ document.addEventListener("DOMContentLoaded", () => {
           div.className = `event ${item.class || ""}`.trim();
           div.dataset.date = item.start;
           if (item.tooltip) div.dataset.tooltip = item.tooltip;
-          div.style.gridColumn = `col-${item.start}-start / col-${item.start}-end`;
+          const id = cssSafe(item.start);
+          div.style.gridColumn = `col-${id}-start / col-${id}-end`;
           if (item.row) div.style.gridRow = item.row;
           div.innerHTML = item.title;
           grid.appendChild(div);
@@ -307,53 +339,62 @@ document.addEventListener("DOMContentLoaded", () => {
           div.className = item.class || "";
           if (item.start) div.dataset.start = item.start;
           if (item.end) div.dataset.end = item.end;
-          div.style.gridColumn = `col-${item.start}-tick / col-${item.end}-tick`;
+          const startId = cssSafe(item.start);
+          const endId = cssSafe(item.end);
+          div.style.gridColumn = `col-${startId}-tick / col-${endId}-tick`;
           if (item.row) div.style.gridRow = item.row;
           grid.appendChild(div);
           return;
         }
-      });
+      }); // fin data.forEach
 
       // --- Tooltips ---
       const targets = document.querySelectorAll('.period[data-tooltip], .event[data-tooltip]');
       targets.forEach(el => {
-        el.addEventListener("mouseenter", e => {
-          tooltip.innerHTML = el.getAttribute("data-tooltip")?.replace(/=>/g, "⟶");
+        el.addEventListener("mouseenter", () => {
+          tooltip.innerHTML = el.getAttribute("data-tooltip")?.replace(/=>/g, "⟶") || "";
           tooltip.classList.add("visible");
         });
+
         el.addEventListener("mousemove", e => {
           const rect = el.getBoundingClientRect();
           const pageY = window.scrollY + rect.top;
-
           tooltip.style.left = `${e.pageX}px`;
 
           if (el.classList.contains("below")) {
+            // cas manuel : on force en dessous
             tooltip.classList.add("below");
             tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
           } else {
+            // cas normal : au-dessus
             tooltip.classList.remove("below");
             tooltip.style.top = `${pageY - 10}px`;
-            if (tooltip.offsetTop < window.scrollY) {
+
+            // sécurité : si ça dépasse en haut → on bascule dessous
+            if (tooltip.getBoundingClientRect().top < 0) {
               tooltip.classList.add("below");
               tooltip.style.top = `${window.scrollY + rect.bottom + 10}px`;
             }
           }
         });
+
         el.addEventListener("mouseleave", () => {
-          tooltip.classList.remove("visible");
+          tooltip.classList.remove("visible", "below");
+          tooltip.style.left = "";
+          tooltip.style.top = "";
         });
       });
 
-      // --- Highlight ticks ---
+      // --- highlights ---
       setupTickHighlights();
 
-      console.log("Construction de la frise terminée.");
+      console.log("Construction terminée.");
     })
     .catch(err => {
-      console.error("Erreur dans le chargement du TSV ou la construction :", err);
+      console.error("Erreur dans le chargement ou parsing :", err);
     });
 
-  // --------- Fonction d'activation des highlights ----------
+  // -------- highlights function ----------
   function setupTickHighlights() {
     function highlightTickByDate(date, active) {
       if (!date) return;
@@ -382,4 +423,5 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-});
+
+}); // DOMContentLoaded
