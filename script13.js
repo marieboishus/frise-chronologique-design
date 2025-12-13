@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const parsed = Papa.parse(text, {
         header: true,
         delimiter: "\t",
-        skipEmptyLines: true
+      //  skipEmptyLines: true
       });
 
       
@@ -187,7 +187,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "1910": 55,
         "1911": 55,
         "1912": 85,
-        "1913": 20,
         "1914": 20,
         "1915": 55,
         "1916": 60,
@@ -228,7 +227,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "1956": 60,
         "1957": 50,
         "1958": 60,
-        "1959": 10,
+        "1959": 40,
         "1960": 65,
         "1962": 50,
         "1965": 45,
@@ -265,7 +264,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "2011": 50,
         "2015": 50,
         "2016": 30,
-        "2017": 25,
+        "2017": 50,
         "2019": 55,
         "2021": 10,
         "2024": 50,
