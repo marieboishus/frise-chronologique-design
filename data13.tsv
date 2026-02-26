@@ -1,5 +1,6 @@
 title	type	start	end	row	tooltip	class
 -2,6M	date	-26M				
+-400 000	date	-400000				
 -21000	date	-21000				
 -17000	date	-17000				
 -14000	date	-14000				
@@ -144,6 +145,7 @@ title	type	start	end	row	tooltip	class
 1540	date	1540				
 1547	date	1547				
 1550	date	1550				
+1558	date	1558				
 1559	date	1559				
 1560	date	1560				
 1574	date	1574				
@@ -159,19 +161,26 @@ title	type	start	end	row	tooltip	class
 1653	date	1653				
 1660	date	1660				
 1662	date	1662				
+1665	date	1665				
 1673	date	1673				
 1682	date	1682				
+1683	date	1683				
 1700	date	1700				
 1710	date	1710				
 1715	date	1715				
 1722	date	1722				
 1725	date	1725				
+1727	date	1727				
+1744	date	1744				
 1747	date	1747				
 1750	date	1750				
 1751	date	1751				
 1756	date	1756				
+1765	date	1765				
+1766	date	1766				
 1774	date	1774				
 1777	date	1777				
+1784	date	1784				
 1785	date	1785				
 1789	date	1789				
 1792	date	1792				
@@ -197,6 +206,7 @@ title	type	start	end	row	tooltip	class
 1827	date	1827				
 1830	date	1830				
 1834	date	1834				
+1835	date	1835				
 1837	date	1837				
 1839	date	1839				
 1841	date	1841				
@@ -222,6 +232,7 @@ title	type	start	end	row	tooltip	class
 1872	date	1872				
 1873	date	1873				
 1875	date	1875				
+1878	date	1878				
 1879	date	1879				
 1880	date	1880				
 1881	date	1881				
@@ -356,6 +367,7 @@ Antiquité	period	-3300	476	rowP2	-3300 => 476	epoque2 full carre
 Moyen-Âge	period	476	1492	rowP2	476 => 1492	epoque1 full carre
 Temps Modernes	period	1492	1789	rowP2	1492 => 1789	epoque2 full carre
 Période contemporaine	period	1789	2025	rowP2	1789 => 2025	epoque1 full carre
+	period	1800	1900	rowP2	19e siècle</br>Horreur du vide, stratégie d'accumulation dans les expositions des Beaux-Arts	
 Âge de pierre	period	-26M	-3300	rowP5 / span 3	-2,6M => -3000	age1 full carre
 Âge de bronze	period	-3300	-1000	rowP5 / span 3	-3000 => -1000	age2 full carre
 Âge de fer	period	-1000	481	rowP5 / span 3	-1000 => ?	age1 ouvert full carre
@@ -415,6 +427,7 @@ Salon des refusés	period	1863	1886	row2	1863 => 1886</br><strong>Viollet le Duc
 Académie royale de peinture et de sculpture	event	1648		row1 / span 2	Création de l'académie</br>Défendre les intérêts des artistes face au pouvoir royal, former les copistes	bulle academie
 <strong>Édouard Manet</strong></br></strong><em>Le déjeûner sur l'herbe</em>	event	1863		row4 / span 2	Une femme non-déesse est 'mise à poil'	bulle trois
 La Fronde	period	1648	1653	rowP5	1648 => 1653	crise full carre
+Administration Colbert	period	1665	1683	rowP5	1665 => 1683</br>Colbert est un des principaux ministres de Louis XIV.</br>1665 Colbert devient contrôleur général des finances</br>1669 Colbert cumule avec le rôle de secrétaire d'État de la maison du roi et secrétaire d'État de la Marine.</br>Jusqu'à sa mort en 1683.</br>Paris : mise en place de <mark class="technique">lanternes à chandelles</mark> pour l'éclairage public, en hiver, contre une taxe.	crise full carre
 Régence	period	1715	1722	rowP5	1715 => 1722</br>Roi trop jeune, régence exercée par le duc d'Orléans. Hausse du progressisme et baisse de la crédibilité de l'État	crise full carre
 Crise	period	1837	1839	rowhist1 / span 2	1837 => 1839</br>Angleterre, Canada, États-Unis</br>Crise de la production agricole et crise financière	crise full carre
 Crise	period	1846	1847	rowhist1 / span 2	1846 => 1847</br>Crise économique en Europe due à la crise industrielle et aux mauvaises récoltes de céréales	crise full carre
@@ -562,7 +575,7 @@ Gothique flamboyant	period	1350	1500	row14	1350 => 1500</br>Ornement à outrance
 Gothique international	period	1380	1420	row14 / span 2	1380 => 1420</br>Flandre, Italie</br>Tons vifs, précision des étoffes / drapés</br><img src='https://www.rivagedeboheme.fr/medias/images/colart-de-laon-priere-dans-le-jardin-avec-le-donateur-louis-ier-d-orleans-1408.jpg?fx=c_120_120' width='160'>	gothique rec13
 Rupture	event	1100		row5		
 						
-Socialisme utopiste	period	1800	1850	row19	1800 => 1850</br><strong>Fourier, Proudon</strong></br>Philosophie esthétique de la machine	utopiste
+Socialisme critico-utopiste	period	1800	1850	row19	1800 => 1850</br><strong>Charles Fourier, Robert Owen, Proudon</strong></br>Philosophie esthétique de la machine	utopiste
 <strong>Saint-Simon</strong>	event	1848		row19	Penseur de la société industrielle française	transp bulle
 Âge d'or des Shakers	period	1820	1860	row20	1820 => 1860</br>Angleterre puis États-Unis</br>Les shakers : 1747 => 1996	shaker
 						
@@ -663,7 +676,7 @@ Premier emploi du terme 'expressionnisme'	event	1908		row8	Par le critique d'art
 Der Blaue Reiter	event	1911		row8	Formation du groupe (le cavalier bleu)	transp bulle
 Nouvelle objectivité	period	1918	1933	row9 / span 2	1918 => 1933</br>Allemagne</br>Succède à l'expressionnisme	nouvelleobj
 <strong>Walter Gropius</strong>	period	1919	1926	row7	1919 => 1926</br>Style international, rationnalisme, fonctionnalisme, standardisation, synthèse de tous les arts	bauhau rec13
-Bauhaus	period	1926	1928	row7	1919 => 1933</br><strong>Vassily Kandinsky, Gunta Stölzl, Vassily Kandinsky, Paul Klee, Oskar Schlemmer, László Moholy-Nagy, Marcel Breuer</strong></br>Inspiration guilde moyen âgeuse + œuvre d'art totale</br><img src='https://www.du-grand-art.fr/wp-content/uploads/2020/01/oeuvre-bauhaus-celebre-marianne-brandt-150x150.jpg' width='160'></br><strong>Marianne Brandt</strong>	bauha rec13
+Bauhaus	period	1926	1928	row7	1919 => 1933</br>Textile : <strong>Gunta Stölzl, Anni Albers, Lily Reich</strong></br>Peinture : <strong>Vassily Kandinsky, Paul Klee</strong></br>Décoration, scénographie : <strong>Oskar Schlemmer</strong></br>Métal : <strong>László Moholy-Nagy</strong></br>Charpente : <strong>Marcel Breuer</strong></br>Inspiration guilde moyen âgeuse + œuvre d'art totale</br><img src='https://www.du-grand-art.fr/wp-content/uploads/2020/01/oeuvre-bauhaus-celebre-marianne-brandt-150x150.jpg' width='160'></br><strong>Marianne Brandt</strong>	bauha rec13
 <strong>Hannes Meyer</strong>	period	1928	1930	row7	1928 => 1930</br>Marxiste, viré pour cette raison, son influence a longtemps été niée	bauhau rec13
 <strong>Ludwig Mies Van der Rohe</strong>	period	1930	1933	row7	1930 => 1933</br>Style prussien et style moderne, part aux États-Unis et pose les bases des gratte-ciels</br><img src='https://images2.dwell.com/photos/6166648977860894720/6566485707718406144/original.jpg?auto=format&q=35&w=160' width='160'></br><em>Farnsworth House</em>	bauhau rec13
 	period	1919	1933	row7 / span 2		bauhaus full
@@ -681,10 +694,13 @@ Design global	event	1907		row6	Début du mode de conception totale en design ind
 <strong>Adolf Loos</strong> <em>La suppression des meubles</em>	event	1924		row5		transp full
 <strong>Le Corbusier</strong> <em>Le lait de chaux : la loi du Ripolin</em>	event	1925		row5	Dans <em>L'art décoratif aujourd'hui</em>	transp bulle full
 Cuisine de Francfort, <strong>Margarete Schûtte-Lihotzky</strong>	event	1926		row5	<img src='https://www.grapheine.com/wp-content/uploads/2016/07/Francfort-cuisine-134x134.jpg' width='160'>	transp full bulle
+Modern architecture : international exhibition	event	1932		row5	Du 10 février au 23 Mars</br>Au MOMA New York, Museum Of Modern Art</br>Curated by <strong>Philip Johnson and Henry-Russell Hitchcock</strong></br>Émergence du style international : style architectural, géométrie simplifiée, manque d'ornementation. Selon Johnson : "probably the first fundamentally original and widely distributed style since the Gothic."</br>Catalogue avec les principes du canon de l'architecture moderne	bulle transp full
 <strong>Philip Johnson</strong> <mark class="expo">Machine Art</mark>	event	1934		row5	(1906-2005), architecte, figure du style international</br>MoMA, New York</br><strong>Alfred Barr</strong>, directeur du musée</br>Exposition d'objets, ustensiles industriels, scientifiques, utilitaires, domestiques, beauté des fonctionnements, précision de l'usinage, monomatériaux, peu de plastique.</br>S'oppose au streamline considéré comme une esthétique vide et qui oublie les fonctionnements.</br><img src='https://tse2.mm.bing.net/th/id/OIP.bB9FTN7k5EFcLWbNXj2UfQAAAA?pid=Api' width='160'>	bulle transp full
 <strong>Lewis Mumford</strong></br><em>Technics and civilization</em>	event	1934		row7 / span 2	Historien fonctionnaliste assumé	transp bulle trois
 <strong>Nikolaus Bernhard Léon Pevsner</strong> <em>Pioneers of Modern Movement</em>	event	1936		row7 / span 2	Un père de l'histoire du design</br>Il étudie la mécanisation dans l'architecture, il est très centré fonctionnalisme	transp bulle trois
 <strong>Lewis Mumford</strong></br><em>The culture of the cities</em>	event	1938		row6		transp full
+Bureau Central de Construction	event	1939		row6	Créé par <strong>Georges Blanchon</strong> avec <strong>Charlotte Perriand, Jean Prouvé</strong> et <strong>Pierre Jeanneret</strong>	bulle transp full
+<strong>Jean Prouvé</strong></br><em>ossature démontable</em>	event	1939		row5	Il dépose un brevet pour une construction à ossature démontable, pour les unités de combat, sa première construction à portique.</br><img src='https://i.pinimg.com/originals/36/79/33/36793392a1e16c21461a1ae1e1743e83.jpg' width='160'>	bulle full transp
 <strong>Sigfried Giedion</strong></br><em>Space, time and Architecture</em>	event	1941		row6 / span 2	Architecte théoricien, historien, fonctionnaliste assumé	transp bulle trois
 <strong>Sigfried Giedion</strong></br><em>Mechanization takes command</em>	event	1948		row5	<em>Mechanization takes command : Contribution à l'histoire anonyme</em> (mysogine)</br><img src='https://images.thegreatestbooks.org/czunai394t9rex3qb8ypw46sekal' width='160'>	transp bulle full
 Futurisme	period	1909	1920	row5	1909 => 1920</br>Aime la vitesse, les machines, la civilisation urbaine	futurisme rec13
@@ -726,7 +742,7 @@ Dadaïsme, dada	period	1916	1925	row14 / span 2	1916 => 1925</br>Suisse => inter
 Surréalisme	period	1924	1969	row14	1924 => 1969</br>Dali</br>Proche du dadaïsme mais avec d'autres valeurs	surrealisme
 Fluxus	period	1960	1980	row15 / span 2	1960 => 1980</br>George Maciunas, Robert Filiou</br>Rôle de l'artiste, place de l'art dans la société	fluxus rec13
 <strong>René Magritte</strong> <em>La trahison des images</em>	event	1929		row14	<img src='https://szeifertjudit.com/wp-content/uploads/2015/12/magritte-pipe.jpg?w=150&h=112' width='160'>	transp full bulle
-'N'allez pas à l'exposition coloniale'	event	1931		row14	Manifeste surréaliste</br>'le tour du monde en 1 jour'	bulle transp full
+"N'allez pas à l'exposition coloniale"	event	1931		row14	Manifeste surréaliste</br>"le tour du monde en 1 jour"	bulle transp full
 <strong>André Breton</strong> meurt	event	1969		row15	Fin du mouvement surréaliste	bulle
 						
 Union des Artistes Modernes	period	1929	1954	row13 / span 2	1929 => 1954</br>Association d'artistes, architectes, décorateurs et peintres français qui font scission avec l'académisme et rejoingnent les rangs des modernes	uam
@@ -777,7 +793,9 @@ Design fiction	period	2005	2025	row8	2005 => à nos jours	designfiction rec13
 Zoépolis	period	2021	2025	row6	2021 => à nos jours	zoepolis
 						
 Apparition de l’homme	event	-26M		rowhist1		
-Fin de la dernière période glacière	event	-11700		rowhist1		
+<mark class="technique">Domestication du feu</mark>	event	-400000		rowhist1	Se généralise dans tous les groupes humains (outils en silex brûlés, traces de charbon de bois, traces de sol brûlé)	bulle
+<mark class="technique">Lampes à huile</mark>	event	-17000		rowhist1	Premières lampes à huile</br>Graisse animale ou résine + tresse végétale dans la pierre</br>Progressive amélioration du contenant : pierre => argile => métal	bulle
+Fin de la dernière période glacière	event	-11700		rowhist1	Les continents ne sont plus reliés par de la glace et se séparent, les populations évoluent donc séparément selon les continents.	bulle
 <mark class="technique">Agriculture et élevage</mark>	event	-6400		rowhist1		
 <mark class="technique">Métallurgie du bronze</mark>	event	-3300		rowhist1		
 <mark class="technique">Invention de l’écriture</mark>	event	-3300		rowhist2	<img src='https://www.histoire-pour-tous.fr/images/articles/dossiers/image-illustration-debut.gif' width='160'>	bulle
@@ -794,15 +812,22 @@ Domination de la royauté	event	1400		rowhist2	Domination juridique et politique
 <mark class="technique">Grandes découvertes</mark>	event	1492		rowhist2		
 'Découverte' de l'Amérique	event	1492		rowhist1		
 Enclosures	event	1500		rowhist1	Le mouvement des enclosures prend de l'ampleur à partir de ce siècle	transp bulle
-<strong>Thomas More</strong></br><em>Utopia</em>	event	1516		row12	Première utilisation de ce terme	bulle full
+<strong>Thomas More</strong></br><em>Utopia</em>	event	1516		row12	Première utilisation de ce terme</br>Livre écrit en latin</br>Dans le contexte des grandes découvertes, ils découvrent une île appelée utopie, où vit une société idéale. Société pacifique, égalitaire, très rurale, sans monnaie, propriété collective des moyens de production, absence d'échanges marchands, mépris des richesses, grande culture et éducation, chefs élu démocratiquement pour 1 an, peu de lois (très compréhensives), liberté dans la pratique des religions mais christianisme idéalisé. Mais modèle patriarcal, société repliée sur elle-même, démographie strictement encadrée, esclavage, jeu de hasard et adultère punits.</br>La nouveauté c'est qu'il décrit ces idées comme si elles avaient déjà été mises en place et fait leurs preuves.</br>Considéré par les marxistes comme un précurseur du communisme / vu par l'église catholique comme un saint, défense des idéaux chrétiens et critique des thèses de Martin Luther.	bulle full
 Réforme, Martin Luther	event	1517		row1		full
 Protestantisme	event	1529		row1	En Europe, à Genève et en Allemagne</br>La Réforme protestante contre le commerce des indulgences : les prêtres et curés en échange d'argent ou de pélerinages, promettent le salut aux chrétiens. Cela leur permet de financer la construction de la basilique Saint-Pierre de Rome.</br>Contre l'autorité du pape et des prêtres, il délivre les chrétiens de l'inquiétude d'après la mort.</br>En plus la Bible était en latin, seuls les prêtres la connaissent, ils s'interposent donc entre Dieu et les fidèles.</br>Les huguenots sont les protestants de France et de Navarre</br>L'Église catholique lance une contre-Réforme qui s'appuie notamment sur l'art baroque.</br><img src='https://www.centreaccueilrome.com/wp-content/uploads/2012/10/Petersdom_von_Engelsburg_gesehen-150x150.jpg' width='160'>	bulle
-La Cour se sédentarise à Versailles	event	1682		rowhist1 / span 2		
+Lumière en ville	event	1558		rowhist1	Paris</br>Le parlement ordonne que soit installé un "fallot ardent" à chaque coin de rue de Paris.	bulle
+La Cour se sédentarise à Versailles	event	1682		rowhist1		full
 <strong>Leibniz</strong></br><em>Essais de Théodicée</em>	event	1710		row12 / span 2	Nous vivons dans 'le meilleur des mondes possibles', même si on prend en compte les risques d'accident  inhérents à la technique	bulle
 La cour à Paris	event	1710		rowhist1		
 La Cour à Versailles	event	1722		rowhist1		
+Enclosure act	event	1727		rowhist1	Angleterre</br>Les enclosures sont un préalable d'une révolution agricole</br>L'agriculture se faisait jusqu'alors dans le cadre d'un système de coopération et de communauté d'administration des terres appartenant à un seigneur local. Dans le but de s'enrichir grâce à l'agriculture, les "landlords" décident alors de se réserver l'usage de leur terre et les enclosent. Le parlement l'autorise avec cet act.	bulle
+<mark class="technique">lanterne à réverbère</mark>	event	1744		row9	Inventé par <strong>Dominique-François Bourgeois</strong> pour la ville	bulle full
+<mark class="technique">Moteur à vapeur</mark> <strong>Watt</strong>	event	1765		row9	1763 => 1788</br>Perfectionnement de la machine à vapeur par <strong>James Watt</strong>, la nouveauté c'est qu'il utilise un condenseur séparé</br><img src='https://tse3.mm.bing.net/th/id/OIP.wsWitway2FSER5GQ-GDvSQAAAA?pid=Api' width='160'></br><strong>Paul Crutzen</strong> et <strong>Eugene Stoermer</strong>, les inventeurs du terme "anthropocène" on retenu la date de cette invention, comme le début de la Révolution industrielle et de cette nouvelle aire géologique anthropocène	bulle full
+Lumière en ville	event	1766		row9	Paris</br>Généralisation de la lanterne à réverbère (huile de tripes).</br>Il y a alors la profession des allumeurs de réverbères.	bulle full
 <strong>Abraham Darby III</strong> Pont d'acier	event	1777		row12	À Coalbdale, Shropshire (Angleterre)</br><img src='https://upload.wikimedia.org/wikipedia/commons/7/78/The_Iron_Bridge_%288542%29.jpg' width='160'>	bulle full
+<mark class="technique">lampe à huile</mark> <strong>Quintet</strong>	event	1784		row9	1780 <strong>Joseph Louis Proust</strong>, chimiste français, invente le <mark class="technique">réservoir latéral pour la lampe à huile</mark></br>1782 <strong>Ami Argand</strong>, physicien chimiste suisse, invente la <mark class="technique">mèche cylindrique</mark> + la <mark class="technique">cheminée de tôle puis de verre</mark>.</br>1784 <strong>Antoine Quintet</strong> réunit les 3 inventions, la lampe prend son nom.	bulle full
 Révolution française	event	1789		rowhist2	À cause de problèmes climatiques, il y a un grand manque de nourriture depuis 1788, qui participe à pousser les gens dans la rue</br>Fin de la monarchie absolue mais la monarchie en elle-même continue, le roi reste d'ailleurs populaire (on le disait restaurateur des libertés)</br>C'est en 1991 qu'il part à l'étranger chercher des forces pour reprendre la monarchie absolue, mais il se fait pincer, est coincé aux tuileries jusqu'à ce que la foule vienne faire tomber le roi 	bulle
+Révolution agricole	event	1800		row2	Angleterre</br>On considère souvent que la révolution agricole a permis la Révolution industrielle grâce aux profits nouveaux de l'agriculture.</br>Sélection des bêtes pour la productivité. En 1800 le poids moyen du boeuf de boucherie est de 800 livres contre 370 en 1700.</br>Révolution fourragère : on passe d'un cycle de cultures (asolement) sur 3 ans à un autre en 4 ans. Les rendements sont d'environ 50 quintaux en 1800 contre moins de 30 en 1700.	bulle full
 Victoire française à Ulm et Austerlitz	event	1805		row3 / span 2		
 Décrêt de Berlin, blocus contre le Royaume-Uni	event	1806		row3 / span 2	Napoléon Ier commence le blocus continental pour empêcher le Royaume-Uni de commercer avec le reste de l'Europe	bulle trois
 Échec de la campagne de Russie	event	1812		row3 / span 2		trois
@@ -812,8 +837,10 @@ Mobilier Bivouac, Napoléon	event	1815		row12	<img src='https://i.pinimg.com/ori
 Autre invasion de la France	event	1815		rowhist1		
 Mesures douanières	event	1816		rowhist1	Pour protéger les industriels de la concurrence	bulle
 2ème Révolution française	event	1830		rowhist1	Fin de la seconde restauration et début de la monarchie de juillet	bulle
+<mark class="technique">Ampoule électrique</mark>	event	1835		row12	Inventée par <strong>James Browman Lindsay</strong>, sûrement incandescente (= à filament) mais pas efficace.	bulle full
 <mark class="technique">Daguerréotype</mark>	event	1839		row12	Balbuciements de la photo	bulle
 <strong>Catharine Ester Beecher</strong> <em>On the construction of houses</em>	event	1841		row12 / span 2	États-Unis	bulle trois
+Land Drainage Act	event	1847		row2	L'Angleterre s'engage dans des travaux de drainage des terres de grande envergure.</br>Ça participe de la révolution agricole anglaise.	bulle
 <mark class="technique">Première photo en couleur</mark>	event	1848		row12	<strong>Edmond Bécquerel</strong></br>Au musée d'Histoire Naturelle de Paris	bulle full
 <strong>Thomas Carlyle</strong></br><em>Past and Present</em>	event	1848		row10	Il réagit aux expositions industrielles, contre le matérialisme et préfère le gothique</br>Il accuse la mécanisation	bulle full
 Révolution	event	1848		rowhist1		
@@ -821,6 +848,8 @@ Abolition de l'esclavage	event	1848		row2		full
 <strong>John Ruskin</strong></br><em>Les sept lampes de l'architecture</em>	event	1849		row10 / span 2	Réagit aux expositions industrielles, il est contre le matérialisme et préfère le gothique. Aliénation de l'ouvrier par la machine, et tout ça pour des produits manufacturés laids et de mauvaise qualité.</br>Il théorise le concept de vérité artistique	bulle
 <strong>John Ruskin</strong> <em>La nature du gothique</em>	event	1851		row10	Dans ce chapitre, il critique l'industrie et lui préfère le gothique : la division du travail est en fait division des hommes	bulle full
 Début de la guerre de Crimée	event	1853		row2	Russie contre empire ottoman, empire français, Royaume-Uni, royaume de Sardaigne	bulle full
+Lumière en ville	event	1853		row10	XIXe siècle</br>Et surtout 1853 => 1869</br>Installation d'un éclairage au gaz à Paris. Le barron Haussmann installe des candelabres en fonte.	bulle
+<mark class="technique">lampe à pétrole</mark>	event	1853		row11	Carburant fluide, meilleure capillarité que l'huile (aujourd'hui il reste quelques lampes à huile de paraffine)	bulle
 Traité de Paris, fin de la guerre de Crimée	event	1956		row2		full
 Campagne d'Italie	event	1859		row2	Seconde guerre d'indépendance italienne : empire d'Autriche contre empire français et royaume de Sardaigne	bulle full
 Début Guerre de Sécession	event	1861		row2	Guerre civile des États-Unis, des États du nord contre d'autres du sud	bulle full
@@ -828,6 +857,8 @@ Débat autour de l'abolition de l'esclavage	event	1861		rowhist2
 <em>Le Capital 1</em>	event	1867		row10	<strong>Karl Marx</strong></br><em>Le Capital 1, Critique de l'économie politique</em></br>Développement de la production capitaliste	bulle
 Victoire de l'Allemagne, chute du 2nd empire	event	1870		rowhist2	Guerre franco-allemande</br>Lors de la capitulation de Sedan, l'Empereur est fait prisonnier</br>La déchéance de Napoléon III est votée par la Chambre	bulle
 Commune de Paris	event	1871		rowhist2		
+Lumière en ville électricité	event	1878		row10	Avenue de l'Opéra est la 1ère voie publique éclairée à l'électrique.</br>Lampes à arc électrique.	bulle full
+<mark class="technique">ampoule électrique</mark> <strong>Edison</strong>	event	1879		row10	<strong>Thomas Edison</strong> dépose un brevet pour son ampoule électrique. La nouveauté est qu'il y a un procédé de fabrication industrielle.</br>À partir de là, l'ampoule à incandescence (donc avec filament) sera améliorée jusqu'en 1959.	bulle full
 Fin de la censure	event	1881		rowhist2	Loi sur la liberté de la presse	bulle
 <em>Le Capital 2</em>	event	1885		row10	<strong>Karl Marw, Friedrich Engels</strong></br><em>Le Capital 2, Critique de l'économie politique</em>	bulle
 <strong>Étienne-Jules Marey</strong> <mark class="technique">chronophotographie</mark>	event	1890		row12	Pratique pour l'étude des mouvements	bulle full
@@ -836,8 +867,11 @@ Les premières photos dans l'art	event	1890		row10		full
 <em>Le Capital 3</em>	event	1894		row10	<strong>Karl Marx, Friedrich Engels</strong></br><em>Le Capital 3, Critique de l'économie politique</em>	bulle
 <mark class="technique">1er film</mark>	event	1895		row1	<strong>Les frères lumière</strong></br><em>La sortie des usines</em></br>Lyon	bulle
 Fin de l'Académie royale de peinture et de sculpture	event	1897		rowhist2 / span 2		
+Évolution des luminaires	event	1900		row9	À partir de 1900, avec l'arrivée de l'électricité dans les ampoules, on ne conçoit plus des luminaires pour protéger une flamme, les formes peuvent donc se renouveler.	bulle full
+Ampoule centenaire	event	1901		row9	Californie</br>Inventée par <strong>Adolphe Chaillet</strong></br>Allumage de l'ampoule centenaire.</br>Ampoule de Livermore (Californie) dans une caserne.</br>Elle n'a presque jamais été éteinte à ce jour (2026).</br>Elle est fabriquée industriellement depuis 1890.	bulle
+Monsanto	event	1901		rowhist1	Entreprise américaine fondée en 1901.	bulle
 Ouverture du Prix de Rome aux femmes	event	1903		rowhist2	Les artistes femmes peuvent enfin prétendre au Prix de Rome	bulle
-<em>Le Capital 4</em>	event	1904		row10 / span 2	<strong>Karl Marx, Karl Kautsky</strong></br><em>Le Capital 4, Théorie de la plus-value	bulle
+<em>Le Capital 4</em>	event	1904		row9	<strong>Karl Marx, Karl Kautsky</strong></br><em>Le Capital 4, Théorie de la plus-value	bulle
 Séparation de l'Église et de l'État	event	1905		rowhist1		
 Fin de la censure théâtrale	event	1906		rowhist1		
 <strong>Minkowski</strong> <em>Space and time</em>	event	1908		row19		
@@ -868,6 +902,7 @@ Premiers congés payés	event	1936		rowhist1
 <mark class="expo">Exposition universelle</mark></br>Paris	event	1937		row9	Plus de femmes sont exposées	bulle full
 <strong>Asplund</strong> Affranchissement de la couleur	event	1938		row8	Suédois</br>1er à intégrer, dans une composition monuentale, l'affranchissement de la couleur consommée par les peintres	bulle full
 <mark class="expo">Exposition universelle</mark> New York	event	1939		row9	Fluidité formelle et métaphorique du design</br><em>Futurama</em>, General Motors, <strong>Norman Bel Geddes</strong</br>Pavillon Ford, <strong>Walter Teague</strong></br>Piste de lancement de fusée, <strong>Raymond Loewy</strong></br>chrystler <em>Democracity</em>, <strong>Dreyfuss</strong>	bulle full
+Fin des lampes à incandescence	event	1939		row8	 	full
 <strong>Henri Focillon</strong></br><em>Vie des formes</em>	event	1943		row9		full
 Droit de vote des femmes en France	event	1944		rowhist1		
 Début de la guerre froide	event	1947		rowhist1		
@@ -875,27 +910,29 @@ Début de la guerre froide	event	1947		rowhist1
 Conférence Internationale de design d'Aspen	event	1951		row17 / span 2	Colorado</br>Fondée par l'entrepreneur <strong>Walter Paepcke</strong>	bulle trois
 <strong>Pevsner</strong> découvre le design à Aspen	event	1953		row17 / span 2	Dans le Colorado</br>À l'occasion d'un colloque	bulle trois
 <em>Manifesto per il disegno industriale</em>	event	1952		row9	1er manifeste du design italien, dans domus 296</br>Exposition 'arte e l'estetica industriale' à la foire Campanionaria de Milan	bulle full
+Guerre du Vietnam	period	1955	1975	rowhist1	1955 => 1975	vietnam
 Milan Associazione per il Disegno Industriale	event	1956		row9 / span 2		trois
 <strong>A. P. Elkin</strong> <em>La technique occidentale et les aborigènes australiens</em>	event	1952		row5 / span 2		full
 <strong>George Friedmann</strong></br><em>UNESCO Bulletin international des sciences sociales</em>	event	1952		row19 / span 2	Les 'conséquences sociales du progrès technique'	bulle full
-Traité de Rome	event	1957		rowhist1		
-<em>Spoutnik 1</em>	event	1957		rowhist2	Premier engin placé en orbite autour de la Terre, marquant le début de l'ère spatiale</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sputnik_asm.jpg/250px-Sputnik_asm.jpg' width='160'></br>Une réplique exposée à Washington de Spoutnik 1</br>Envoyé par l'URSS, et courronné de succès	bulle
+Traité de Rome	event	1957		rowhist2		
+<em>Spoutnik 1</em>	event	1957		row4	Premier engin placé en orbite autour de la Terre, marquant le début de l'ère spatiale</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sputnik_asm.jpg/250px-Sputnik_asm.jpg' width='160'></br>Une réplique exposée à Washington de Spoutnik 1</br>Envoyé par l'URSS, et courronné de succès	bulle
 <strong>Roland Barthes</strong></br><em>Mythologies</em>	event	1957		row9		full
 <strong>Gilbert Simondon</strong></br><em>Du mode d'existence des objets techniques</em>	event	1958		row18 / span 2		trois
 <strong>Pierre Francastel</strong></br><em>Art et technique</em>	event	1958		row9		full
 <strong>Banham</strong> <em>Théorie et design à l'ère industrielle</em>	event	1960		row9		full
 <mark class="technique">Période où les voitures s'imposent en ville</mark>	event	1960		rowhist2		
 <strong>Vance Packard</strong></br><em>L'art du gaspillage</em>	event	1962		row1	Sociologue américain</br>Alerte sur l'obsolescence programmée	bulle full
-Indépendance de l'Algérie	event	1962		rowhist1		
-<strong>Stewart Brand</strong></br><em>Whole Earth Catalog</em>	event	1968		row1 / span 2	USA</br>Catalogue de contre-culture	bulle
-Mai 1968	event	1968		rowhist1		
-<mark class="technique">Premiers pas sur la lune</mark>	event	1969		rowhist1		
+Indépendance de l'Algérie	event	1962		rowhist2		
+<strong>Stewart Brand</strong></br><em>Whole Earth Catalog</em>	event	1968		row9 / span 2	USA</br>Catalogue de contre-culture	bulle trois
+Mai 1968	event	1968		rowhist2		
+<mark class="technique">Premiers pas sur la lune</mark>	event	1969		row5		full
 <strong>Verner Panton</strong> <mark class="expo">'Qu'est-ce que le design'</mark>	event	1969		row1 / span 2	Expo inaugurale au CCI Centre de Création Industrielle, texte de <strong>Verner Panton</strong>	bulle
 <strong>Jean Baudrillard</strong></br><em>La société de consommation</em>	event	1970		row1 / span 2		
 <strong>Victor Papanek </strong><em>design pour un monde réel</em>	event	1971		row1 / span 2		
+<em>Documerica</em>	event	1971		row9	Projet photographique initié par l'Environmental Protection Agency</br>Le projet réunit 100 photographes qui parcourent les États-Unis pour documenter l'état de l'environnement, témoignant des dégradations écologiques et leurs effets sociaux.	bulle
 <strong>Denis et Donella Meadows </strong><em>The limits to growth</em>	event	1972		rowhist2	Comandité par le club de Rome	bulle
-<strong>Reyner Banham</strong></br><em>The architecture of the Well-Tempered Environment</em>	event	1973		row1 / span 2	<img src='https://covers.openlibrary.org/b/id/6956190-M.jpg' width='160'>	trois bulle
-Premier choc pétrolier	event	1973		rowhist1		
+<strong>Reyner Banham</strong></br><em>The architecture of the Well-Tempered Environment</em>	event	1973		row10 / span 2	<img src='https://covers.openlibrary.org/b/id/6956190-M.jpg' width='160'>	trois bulle full
+Premier choc pétrolier	event	1973		rowhist2		
 <strong>Roland Moreno</strong></br><mark class="technique">Carte à puce</mark>	event	1974		row1	<mark class="technique">bancaire ?</mark>	bulle full
 <strong>Roger Tallon</strong></br><mark class="technique">TGV</mark>	event	1974		row3		full
 Années internationale de la femme (ONU)	event	1975		row2	Les premières expos de femmes depuis la seconde guerre mondiale	bulle full
@@ -903,6 +940,7 @@ Second choc pétrolier	event	1976		rowhist1
 <mark class="technique">Sony, Walkman</mark>	event	1979		row1	<img src='https://i.dailymail.co.uk/i/pix/2016/02/22/01/316F51D200000578-0-image-a-17_1456104265321.jpg' width='160'>	bulle
 <strong>Bourdieu</strong></br><em>La distinction</em>	event	1979		row3	<img src='https://tse1.mm.bing.net/th/id/OIP.M3xlE2Ag2kWYTwu8XBaRhwAAAA?cb=ucfimg2&pid=Api&ucfimg=1' width='160'>	full bulle
 <mark class="technique">Premier réseau intranet</mark>	event	1980		row2	<mark class="technique">Militaire</mark>	bulle full
+Lumière en ville	event	1980		row9	Éclairage urbain à la <mark class="technique">lampe à décharge à vapeur de mercure ou sodium</mark>	bulle
 <strong>Peter Weibel</strong></br><em>Biotechnologie et art</em>	event	1981		row3		full
 <mark class="technique">IBM PC</mark>	event	1981		row1	<mark class="technique">Premier ordinateur personnel</mark></br><img src='https://www.telegraph.co.uk/content/dam/technology/2016/04/28/IBM_1_PC__1981__PH_2533187k_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.jpg?imwidth=160' width='160'>	bulle
 ENSCI	event	1982		row2	Fondation de l'école	bulle
@@ -922,6 +960,7 @@ Loi Aubry	event	1998		rowhist1	Réduction du temps de travail à 35h	bulle
 <mark class="expo">Biennale de design Saint-Étienne</mark>	event	1998		row1	La première	bulle full
 Design Thinking	event	1998		row3	Méthodologie de conception créative	bulle
 <strong>Pierre Damien Huyghe</strong>	event	2000		row2	Le design est autorisé à figurer</br>dans les énoncés des filières universitaires	bulle full
+<em>Sumak Kawsay</br>Pachamama</em>	event	2000		rowhist1	Dans les années 2000</br>En Bolivie Equateur</br>Ils ont révisé leurs constitutions pour inclure deux mots venant du langage Quechua :</br><em>Sumak kawsay</em> : bien-être</br><em>Pachamama</em> : lié à la cosmogonie Andéenne, décrit une divinité humaine prenant corps dans la planète Terre.</br>L'inclusion de ces termes marque un tournant dans la reconnaissance des points de vue épistémologiques et ontologiques non occidentaux en Amérique du Sud.	bulle
 Attentats du 11 septembre	event	2001		rowhist1	Manhattan, New York</br><img src='https://media.cnewyork.net/resize/uploads/2020/05/twin-towers-world-trade-center-150x100.jpg?format=auto' width='160'>	bulle
 <strong>Nicolas Bourriaud</strong></br><em>Esthétique relationnelle</em>	event	2001		row2	<img src='https://archive.org/services/img/esthetiquerelati0000bour' width='160'>	full bulle
 Passage à l'euro	event	2002		rowhist1	Première monnaie unique en Europe	bulle
@@ -938,11 +977,13 @@ ANDEA devient ANdÉA	event	2012		row2 / span 2	le terme 'Directeurs' disparaît 
 ARD devient PROJEKT	event	2014		row2 / span 2	Le groupe des Ateliers de la Recherche en Design devient le laboratoire PROJEKT	bulle trois
 Accords de Paris sur le climat	event	2015		rowhist1		
 Fresque du climat	event	2015		rowhist2	L'atelier la fresque du climat est créé en 2015 par Cédric Ringenbach, ancien directeur de The Shift Project, à l’occasion d’un cours fondé sur les travaux du GIEC.</br>Animé par la communauté de fresqueurs et fresqueuses, l'atelier mise sur l'intelligence collective et permet de comprendre les causes et conséquences des changements climatiques en 3h. L'outil repose sur un jeu de 42 cartes</br>Fondation de l'association du même nom en 2018.</br><img src='https://static.wixstatic.com/media/bedbab_42904b1b9ef1454b89414fd62447f5ea~mv2.jpg/v1/fill/w_182,h_182,q_90,enc_avif,quality_auto/bedbab_42904b1b9ef1454b89414fd62447f5ea~mv2.jpg' width='160'>	bulle
+<em>Kawsak Sacha</em>	event	2015		row1	En Équateur, pendant la COP21, les Sarayaku ont présenté un document la reconnaissance nationale et internationale du territoire qu'ils partagent avec une foule d'autres êtres comme une nouvelle catégorie légale d'aire protégée sous le nom générique "Kawsak Sacha" ("forêt vivante" en quechua).</br>Les sarayaku sont une communauté amérindienne de l'Amazonie équatorienne menacée de spoliation territoriale par des prospections pétrolières.</br>Kawsak Sacha : la forêt est entièrement composée d'êtres vivants (plante, esprits protecteurs de la forêt, qui sont tous des personnes, <em>runa</em>) et des relations de communication que ces êtres entretiennent.	bulle
 Trump	event	2016		rowhist1		
 metoo	event	2017		rowhist1		
 rivière Whanganui	event	2017		rowhist2	Nouvelle Zélande</br>Des droits légaux ont été accordés à la rivière Whanganui.</br>Cette action sans précédent reconnaît le point de vue des tribus Maori, qui ont combattu depuis plus d'un siècle pour donner la reconnaissance à la voie navigable qu'ils reconnaissent comme leur ancêtre personnel.</br><img src='https://www.virtualoceania.net/newzealand/photos/rivers/whanganui/nz0498-t.jpg' width='160'>	bulle
 Identité légale des glaciers Suisses	event	2017		rowhist1	<strong>Liza Mazzone<strong>, une membre du parlement Suisse, a proposé de donner une identité légale aux glaciers suisses, qui ont actuellement le statut d'"objets sans propriétaires". De cette manière, les droits d'exister pour les glaciers pourraient être rendus défendables devant un tribunal. Malheureusement, le conseil fédéral Suisse a considéré les glaciers comme "suffisamment protégés" par les lois existantes, et jugé la proposition comme incompatible avec le système législatif suisse.</br><img src='https://www.theenergymix.com/wp-content/uploads/2015/10/Aletsch_Glacier.jpg' width='160'>	bulle
 <em>Plaza Dignitad</em>	event	2018		rowhist1	Au Chili, en automne 2018 a eu lieu une protestation sans précédents par des groupes de personnes marginalisées, manifestant pour leurs droits. Parmi eux, des femmes, des migrants, des dissidents et des retraités ; un groupe de militants a également parlé pour le monde naturel. Un an plus tard, un groupe de citoyens, démocratiquement élus, dirigés par <strong>Elisa Loncon</strong>, une érudite et activiste Mapuche, a délivré une PROPOSITION POUR RÉÉCRIRE LA CONSTITUTION, incluant un statut juridique pour la nature. La proposition a été rejetée mais la place où les protestations ont été rassemblées a été officieusement renommée "Plaza Dignitad" en honeur de la lutte partagée entre les humains et la nature	bulle
+Lumière en ville	event	2018		row10 / span 2	10% de l'éclairage urbain est aux LEDs (Diodes ElectroLuminescentes)</br>=> Consomme moins</br>=> Plus longue vie</br>L'ADEME dit que l'éclairage est 37% de la facture électrique d'une collectivité territoriale.</br>Depuis on a amélioré les LEDs avec des dispositifs <mark class="technique">LED ambrées</mark> contre la pollution lumineuse, qui diffusent sur un spectre restreint pour limiter les nuisances pour les animaux.	bulle
 <em>Arbres remarquables</em>	event	2019		rowhist1	Le groupe français <em>Arbres Remarquables</em> a présenté un plaidoyer pour les droits des arbres devant l'Assemblée Nationale.</br>Cela relance la conscience des failles légales. En France, les arbres sont traités comme des propriétés et peuvent être coupés par leur propriétaire sans plus d'égards pour leur valeur environnementale, sociétale, symbolique et écologique.	bulle
 Covid Confinement	event	2020		rowhist1		
 Brexit	event	2020		rowhist2		
