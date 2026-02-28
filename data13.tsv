@@ -389,8 +389,8 @@ Cent-jours	event	1815		rowP5		full
 Napoléon Ier	period	1804	1814	rowP4	1804 => 1814	empire full carre
 2e République	period	1848	1852	rowP5	1848 => 1852	rep1 full carre
 Napoléon III	period	1848	1851	rowP4	1848 => 1851	rep1 full carre
-Second Empire	period	1852	1870	rowP5	1852 => 1870	empire full carre
-Napoléon III	period	1852	1870	rowP4	1852 => 1870	empire full carre
+Second Empire, Napoléon III	period	1852	1870	rowP5	1852 => 1870	empire full carre
+Georges Eugène Haussmann Préfet de la Seine	period	1853	1870	rowP4	1852 => 1870	crise full carre
 3e République	period	1870	1940	rowP5	1870 => 1940	rep1 full carre
 Adolphe Thiers	period	1871	1873	rowP4	1871 => 1873	rep2 full carre
 Patrice de Mac Mahon	period	1873	1879	rowP4	1873 => 1879	rep1 full carre
@@ -623,7 +623,7 @@ Hyperréalisme	period	1960	2025	row19	1960 => à nos jours	hyperrealisme
 Art Conceptuel	period	1960	2025	row18	1960 => ?	conceptuel ouvert
 Op Art	period	1960	2025	row17	1960 => ?	opart ouvert
 Art Vidéo	period	1960	2025	row11	1960 => ?	video ouvert
-Art brut	period	1945	1953	row22	1945 => ?</br>Jean Dubuffet emploie pour la première fois l'expression pour qualifier les productions venant de personnes n'ayant pas de culture artistique mais on s'intéresse déjà à l'art des fous depuis 1900	brut ouvert below
+Art brut	period	1945	1953	row22	1945 => ?</br>Jean Dubuffet emploie pour la première fois l'expression pour qualifier les productions venant de personnes n'ayant pas de culture artistique mais on s'intéresse déjà à l'art des fous depuis 1900</br><strong>Charlotte Perriand</strong> et <strong>Pierre Jeanneret</strong> emploie cette expression pour qualifier les cailloux, bouts de bois etc... qu'ils ramassent sur leur temps libre, qu'ils gardent et auquel ils attribuent le statut d'œuvre d'art : création naturelle dépourvue de démarche artistique.	brut ouvert below
 						
 New Brutalism	period	1957	1980	row12	<strong>New brutalism</strong></br>1957 => années 1970</br>Répétition de motifs comme les fenêtres, pas d'ornements, béton brut	brutalism
 <strong>Alison et Peter Smithson</strong> fondent le new brutalism	event	1957		row12 / span 2		trois transp
@@ -723,9 +723,9 @@ Streamline	period	1929	1954	row11	1929 => 1954</br><strong>Raymond Loewy, Norman
 <strong>Raymond Loewy</strong> Crée son entreprise	event	1930		row11	États-Unis</br>Entreprise de design industriel	transp bulle full
 <strong>Raymond Loewy</strong> Locomotive PRR S-1	event	1939		row11	<img src='https://i.pinimg.com/originals/b6/b5/be/b6b5be4dd0c6ff78aed6a86052cd40ae.jpg' width='160'>	transp full bulle
 <strong>Raymond Loewy</strong></br><em>La laideur se vend mal</em>	event	1952		row11		rec13 transp full
-CIAM	period	1928	1959	row10	1928 => 1959</br>28 architectes membres, <strong>Le Corbusier, Sigfried Giedion, Ernst May</strong></br>Congrès International d'Architecture Moderne	ciam
+CIAM	period	1928	1959	row10	1928 => 1959</br>28 architectes membres, <strong>Le Corbusier, Sigfried Giedion, Ernst May, Walter Gropius, Gerrit Rietveld, Ludwig Mies van der Rohe, José Lluis Sert</strong></br>Congrès International d'Architecture Moderne</br>Objectif : apporter une réponse au développement hasardeux des villes</br>Ils se réunissent en Congrès annuel, chacun traitant d'un thème précis : « Etude du lotissement rationnel », « Etude de l'habitat humain », « Etude du problème logis et loisirs ».	ciam
 Team X (ten)	period	1960	1968	row10	1960 => ?</br>Nouveaux congrès d'architecture Moderne détachés de la charte d'Athène	teamten ouvert
-Charte d'Athène	event	1933		row10	Décidée suite à un congrès : les grands principes de l'architecture moderne	bulle transp full
+Charte d'Athène	event	1933		row10	Décidée suite à un congrès : les grands principes de l'architecture moderne</br>Quatre préceptes majeurs peuvent être dégagés et forment le style dit « International » :</br>- maximum de rendement,</br>- modularité,</br>- concept de zone</br>- préfabrication des éléments	bulle transp full
 						
 Art abstrait	period	1910	1945	row20 / span 3	1910 => 1945	abstrait full
 <strong>Vassily Kandinsky</strong> 1er tableau abstrait	event	1910		row20	Sans titre, aquarelle</br><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg/1200px-Untitled_%28First_Abstract_Watercolor%29_by_Wassily_Kandinsky.jpg' width='160'>	bulle full below
@@ -848,12 +848,12 @@ Abolition de l'esclavage	event	1848		row2		full
 <strong>John Ruskin</strong></br><em>Les sept lampes de l'architecture</em>	event	1849		row10 / span 2	Réagit aux expositions industrielles, il est contre le matérialisme et préfère le gothique. Aliénation de l'ouvrier par la machine, et tout ça pour des produits manufacturés laids et de mauvaise qualité.</br>Il théorise le concept de vérité artistique	bulle
 <strong>John Ruskin</strong> <em>La nature du gothique</em>	event	1851		row10	Dans ce chapitre, il critique l'industrie et lui préfère le gothique : la division du travail est en fait division des hommes	bulle full
 Début de la guerre de Crimée	event	1853		row2	Russie contre empire ottoman, empire français, Royaume-Uni, royaume de Sardaigne	bulle full
-Lumière en ville	event	1853		row10	XIXe siècle</br>Et surtout 1853 => 1869</br>Installation d'un éclairage au gaz à Paris. Le barron Haussmann installe des candelabres en fonte.	bulle
+Lumière en ville	event	1853		rowP4	XIXe siècle</br>Et surtout 1853 => 1869</br>Installation d'un éclairage au gaz à Paris. Le barron Haussmann installe des candelabres en fonte.	bulle transp
 <mark class="technique">lampe à pétrole</mark>	event	1853		row11	Carburant fluide, meilleure capillarité que l'huile (aujourd'hui il reste quelques lampes à huile de paraffine)	bulle
 Traité de Paris, fin de la guerre de Crimée	event	1956		row2		full
 Campagne d'Italie	event	1859		row2	Seconde guerre d'indépendance italienne : empire d'Autriche contre empire français et royaume de Sardaigne	bulle full
 Début Guerre de Sécession	event	1861		row2	Guerre civile des États-Unis, des États du nord contre d'autres du sud	bulle full
-Débat autour de l'abolition de l'esclavage	event	1861		rowhist2		
+Débat autour de l'abolition de l'esclavage	event	1861		row3		full
 <em>Le Capital 1</em>	event	1867		row10	<strong>Karl Marx</strong></br><em>Le Capital 1, Critique de l'économie politique</em></br>Développement de la production capitaliste	bulle
 Victoire de l'Allemagne, chute du 2nd empire	event	1870		rowhist2	Guerre franco-allemande</br>Lors de la capitulation de Sedan, l'Empereur est fait prisonnier</br>La déchéance de Napoléon III est votée par la Chambre	bulle
 Commune de Paris	event	1871		rowhist2		
@@ -893,9 +893,11 @@ Société des Nations	event	1920		rowhist1	SDN</br>Désarmement, règlement des 
 <mark class="expo">Exposition universelle</mark>	event	1929		row1		full
 Krach boursier New York	event	1929		rowhist1	Suivi d'une crise économique mondiale	bulle
 <strong>Albert Renger-Patzsh</strong>	event	1931		row16	Photos de paysages, photo industrielle, rend beau l'industriel</br><img src='https://artblart.com/wp-content/uploads/2018/01/renger-patzsch-zeche-heinrich-robert.jpg?w=110&h=150' width='160'>	bulle
+AEAR	event	1932		rowhist1	L'Association des Ecrivains et des Artistes Révolutionnaires</br>Créée en 1932 sous l'impulsion de Paul Vaillant-Couturier, rédacteur en chef de l'Humanité.</br>Intellectuels et artistes « pour la lutte aux côtés du prolétariat contre le fascisme et l'impérialisme », proches du parti communiste et représentatifs de « la littérature et de l'art non-conformiste » comme <strong>Signac, Gide, Eluard, Hélion, Jourdan, Giono, Malraux</strong> et <strong>Charlotte Perriand</strong>	bulle
 Régime nazi	event	1933		rowhist1		
 Jeux Olympiques de Berlin	event	1936		rowhist2		
-Premiers congés payés	event	1936		rowhist1		
+Premiers congés payés	event	1936		rowhist1	Mars : Réunification de la CGT et de la CGTU au congrès de Toulouse. Ses effectifs passent de 750 000 à 4 millions d’adhérents dans l’année, notamment à la suite des grèves de mai-juin.</br>Juin : Accords de Matignon : la CGT et le gouvernements imposent les revendications ouvrières au patronat.</br>reconnaissance de la liberté syndicale, élections des délégués du personnel, signatures de conventions collectives, semaine de travail de 40h, 2 semaines de congés payés annuellement, augmentation générale des salaires (7 à 15 % de hausse), SNCF…	bulle
+Front populaire / gouv Léon Blum	event	1936		rowP5	Victoire électorale du Front Populaire aux législatives, augmentation également du nombre de députés du PCF et des socialistes SFIO</br>Gouvernement socialiste Léon Blum. Pour la première fois en France, trois femmes sont au gouvernement comme sous-secrétaires d’État (Irène Joliot-Curie, Cécile Brunschvicg, Suzanne Lacore)</br>Décret de dissolution des ligues (mis en place contre les ligues violentes de l'extrême droite)</br>Lutte pour l'indépendance de l'Algérie, en 1937 Messali Hadj sera emprisonné et son parti "l'étoile nord-africaine" sera dissout par le front populaire.	bulle transp
 <strong>Sir Herbert Read</strong></br><em>Art and Society</em>	event	1937		row8	Histoire de l'art	bulle full
 <mark class="expo">Les femmes artistes d'Europe exposent au Jeu de Paume</mark>	event	1937		row16 / span 2	Paris	bulle trois
 <mark class="expo">'Art dégénéré'</mark></br>Munich	event	1937		row21	700 œuvres décrochées des musées allemands et montrées comme des symptômes d'un art malade, par les nazis	bulle full below
